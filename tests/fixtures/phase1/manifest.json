@@ -1,0 +1,17 @@
+{
+  "runs": [
+    "separated_0_lloyd.json",
+    "separated_0_e_means.json",
+    "separated_1_lloyd.json",
+    "separated_1_e_means.json",
+    "separated_2_lloyd.json",
+    "separated_2_e_means.json",
+    "overlapping_0_lloyd.json",
+    "overlapping_0_e_means.json",
+    "overlapping_1_lloyd.json",
+    "overlapping_1_e_means.json",
+    "overlapping_2_lloyd.json",
+    "overlapping_2_e_means.json"
+  ],
+  "purpose": "Immutable numeric regression oracle; timing, machine metadata and experiment logs excluded."
+}

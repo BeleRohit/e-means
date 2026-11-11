@@ -1,0 +1,20 @@
+{
+  "name": "ann_benchmarks_glove100_prefix",
+  "source_url": "https://ann-benchmarks.com/glove-100-angular.hdf5",
+  "source_index": "https://github.com/erikbern/ann-benchmarks#data-sets",
+  "embedding_project": "https://nlp.stanford.edu/projects/glove/",
+  "source_length_bytes": 485413888,
+  "source_etag": "\"9ef1a69a639809d4ae43efd5e6707fa1-58\"",
+  "source_layout": "HDF5 contiguous little-endian float32, inspected with h5py 3.16.0",
+  "source_train_shape": [1183514, 100],
+  "source_test_shape": [10000, 100],
+  "ranges": {
+    "train": {"offset": 6240, "rows": 16384, "dimensions": 100, "bytes": 6553600, "sha256": "ccdc3a7b8f457e7db11049baf36a3dd426851fa80fc252a7320e92a378ed67c1"},
+    "test": {"offset": 473411840, "rows": 2048, "dimensions": 100, "bytes": 819200, "sha256": "94f16a69408b237a3e65728413a1686a920c532c7631b4656688e78f7df59a95"}
+  },
+  "array_sha256": "a85b3b6fa7a7616130acc82d3a4ab7709bd086765d4df91f7970093875f1e404",
+  "selection": "first 16384 original train vectors and first 2048 original held-out test vectors; no renormalization or fitted preprocessing",
+  "pin_scope": "SHA256 pins both selected raw byte ranges and complete prepared arrays. The remaining 478 MB source file is NOT SHA256 verified. ETag is provenance, not a cryptographic hash.",
+  "metric": "squared Euclidean MSE for clustering; no claim to reproduce ANN-Benchmarks angular retrieval metrics",
+  "credit": "Jeffrey Pennington, Richard Socher and Christopher D. Manning, GloVe: Global Vectors for Word Representation (EMNLP 2014); ANN-Benchmarks HDF5 repackaging"
+}

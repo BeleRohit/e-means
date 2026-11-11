@@ -1,0 +1,44 @@
+{
+  "paper": {
+    "arxiv_id": "2611.09501v1",
+    "url": "https://arxiv.org/pdf/2611.09501v1",
+    "pdf_sha256": "94bc2768882d3100f2a20b4b9e46d626c54bafda6cf712120abb25846be0a411",
+    "title": "e-means: outperforming k-means (in one-tenth the epochs)",
+    "authors": [
+      "Swann Bessa",
+      "Pierre-Emmanuel Mazaré",
+      "Gergely Szilvasy",
+      "Hugo Touvron",
+      "David Picard",
+      "Matthijs Douze",
+      "Hervé Jégou"
+    ],
+    "primary_specification": [
+      "Section 3",
+      "Algorithm 1",
+      "Equations 1–8",
+      "Table 2",
+      "Appendix H.1"
+    ],
+    "acquired_date_local": "2026-11-11"
+  },
+  "reference": {
+    "repository": "https://github.com/facebookresearch/faiss",
+    "commit": "2b648f0605f2ef3d14c4705350f8a0b214463878",
+    "path": "contrib/e_means",
+    "source_sha256": {
+      "base.py": "bcffd7829ebfc25e1354308770b49e6f99d8566ba5e474a41a22e9ec414b17cd",
+      "e_means.py": "b1710504fdbef21efdd33d8489a56f8e7fc6056182afbed3f355985302c2e77c"
+    },
+    "usage": "inspection and optional offline test oracle; not vendored or used by core library"
+  },
+  "phase2_reference_audit": {
+    "commit": "2b648f0605f2ef3d14c4705350f8a0b214463878",
+    "additional_sources": {
+      "contrib/e_means/e_means_torch.py": "cddc5ed1f1121c96406055fe6f50e93c049d0e09be27dc07dbe03e5c8e7ef4d3",
+      "benchs/e_means/paper_bench.py": "a7eadcf097a829157a6005f55ce7d029a6fd7671553642db336d549b8e81cbfe"
+    },
+    "slow_ema_finalizer_found": false,
+    "validation": "constant recurrence and splits checked via authors primitives; full slow policy independently tested, not asserted to have an authors end-to-end oracle"
+  }
+}

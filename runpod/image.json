@@ -1,0 +1,12 @@
+{
+  "image": "pytorch/pytorch@sha256:c8268a92a69bd500f8be0e665b2630ee006dadaf7bfbc24249141b15ff622755",
+  "resolved_tag": "2.5.1-cuda12.4-cudnn9-runtime",
+  "registry": "registry-1.docker.io",
+  "resolved_on": "2026-11-11",
+  "platform": "linux/amd64",
+  "expected_python_minor": "3.11",
+  "expected_torch": "2.5.1",
+  "expected_cuda_runtime": "12.4",
+  "local_status": "registry digest resolved; container and NVIDIA execution not verified locally",
+  "hardware_scope": "single Ampere/Hopper NVIDIA GPU compatible with this CUDA image; do not assume support for newer architectures"
+}

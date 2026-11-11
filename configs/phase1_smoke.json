@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "seeds": [0, 1, 2],
+  "datasets": [
+    {"name": "separated", "n_train": 1200, "n_test": 400, "n_features": 16, "n_clusters": 8, "center_scale": 4.0, "noise_scale": 1.0},
+    {"name": "overlapping", "n_train": 1200, "n_test": 400, "n_features": 16, "n_clusters": 8, "center_scale": 0.6, "noise_scale": 1.0}
+  ],
+  "lloyd": {"max_iter": 25, "tol": 0.0},
+  "e_means": {"epochs": 3, "batch_size": 64, "alpha0": 0.2, "drop_last": false},
+  "common": {"dtype": "float64", "assignment_chunk_size": 256, "centroid_chunk_size": 64}
+}

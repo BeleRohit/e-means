@@ -1,0 +1,21 @@
+# Overlay for the immutable official PyTorch image in image.json (Linux x86_64,
+# Python 3.11, torch 2.5.1 / CUDA 12.4). Torch/base transitive packages are frozen
+# by that image digest. Install this overlay with --no-deps; pip check follows.
+numpy==1.26.4
+pytest==8.3.5
+faiss-cpu==1.10.0
+matplotlib==3.10.1
+contourpy==1.3.1
+cycler==0.12.1
+fonttools==4.56.0
+kiwisolver==1.4.8
+pillow==11.1.0
+pyparsing==3.2.1
+python-dateutil==2.9.0.post0
+six==1.17.0
+packaging==24.2
+iniconfig==2.0.0
+pluggy==1.5.0
+setuptools==75.8.2
+wheel==0.45.1
+pip==25.0.1

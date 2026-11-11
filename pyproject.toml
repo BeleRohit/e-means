@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "e-means-research"
+version = "0.1.0"
+description = "Independent, paper-mapped NumPy e-means and Lloyd clustering"
+readme = {text = "Independent NumPy/PyTorch Lloyd and e-means research implementation. Paper: https://arxiv.org/abs/2611.09501. CUDA tooling is prepared; NVIDIA validation is required before GPU claims.", content-type = "text/plain"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<10"]
+reference = ["faiss-cpu>=1.12"]
+torch = ["torch>=2.2"]
+experiments = ["matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["reference: optional tests against pinned authors' source", "cuda: requires actual NVIDIA CUDA execution"]
