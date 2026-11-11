@@ -13,6 +13,7 @@ data/*.zip
 # Keep research notes locally; publish code and essential reproducibility inputs.
 *.md
 *.MD
+!/README.md
 notebooks/
 docs/*
 !docs/sources.json
