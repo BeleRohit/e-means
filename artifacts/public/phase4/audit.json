@@ -1,0 +1,6 @@
+{
+  "profile_records": 9,
+  "quality_records": 312,
+  "native_paired_records": 6,
+  "trace_verification": "original tar.gz and every raw member hashed; trace digests substituted only for archive-resident files during unchanged summarizer audit"
+}

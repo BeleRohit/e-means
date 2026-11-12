@@ -1,0 +1,21 @@
+{
+  "artifact_sha256": "7036507df37c9b23e7749d268558c83e9f6abe3c3e1c3ecb86bf8b1c66248287",
+  "common_fp64_evaluation_seconds": 0.0021411150228232145,
+  "data_and_init_sha256": "6357fca35828fe28bdba0bf90a44f2f17d5c8b5d0012c2cce4056fe83f76ad40",
+  "method": "numpy_primitives",
+  "repeat": 1,
+  "seed": 2,
+  "settings": {
+    "alpha": 0.2,
+    "batch": 64,
+    "epochs": 3,
+    "seed": 2
+  },
+  "solver_wall_seconds": 0.018306381069123745,
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "cpu_measured",
+  "test_mse": 27.953128336216693,
+  "total_wall_seconds": 0.02044749609194696,
+  "train_mse": 27.902796361340847,
+  "workload": "glove100_smoke"
+}

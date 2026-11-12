@@ -1,0 +1,146 @@
+{
+  "baseline_config_sha256": "5948ac9f3c391fdce28bf49577483ce7247b6acc1fdec01e004e3ed6e934616b",
+  "calibrations": {
+    "gaussian1024_seed0_float32": "a564ce2c3e2011334f9079e2d273eb84b5fd2b56fb4f36035f08c3c9226e8f81",
+    "gaussian256_seed0_float32": "993859038c328546ad8ae3fa25ed4fe01de00455ac5638727db36cb604e90101",
+    "glove100_seed0_float32": "955f89baebcf14a38ccd4d2c359315c1aa5b5895b75310ff5df316157b8ca6ee"
+  },
+  "completed_utc": "2026-11-12T06:15:37.755459+00:00",
+  "config": {
+    "baseline_config": "configs/gpu_research.json",
+    "calibration_iterations": 25,
+    "dtypes": [
+      "float32"
+    ],
+    "emeans_budgets": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "lloyd_budgets": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      25
+    ],
+    "profile_budget": 5,
+    "profile_lloyd_budget": 25,
+    "repeats": 2,
+    "schema_version": 4,
+    "seeds": [
+      0
+    ],
+    "sensitivity_budget": 3,
+    "target_factors": [
+      1.001,
+      0.99
+    ],
+    "warmups": 1,
+    "workloads": [
+      "gaussian256",
+      "gaussian1024",
+      "glove100"
+    ]
+  },
+  "config_sha256": "d5e10df2f12dfcdd3845879d0d0e9cc4b31fbe253fa2999df82d74c1d790aa20",
+  "created_utc": "2026-11-12T05:52:21.173816+00:00",
+  "distance_units": "all-centroid point/centroid pairs, training versus metric/readout work separated",
+  "gpu_verified": true,
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "inputs": [
+    {
+      "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc",
+      "dtype": "float32",
+      "seed": 0,
+      "test_shape": [
+        2048,
+        256
+      ],
+      "train_shape": [
+        8192,
+        256
+      ],
+      "workload": "gaussian256"
+    },
+    {
+      "data_and_init_sha256": "e1a1c41eee7c21322b11d9ea730ecb21822363cf62f09b3997628278d8edd20d",
+      "dtype": "float32",
+      "seed": 0,
+      "test_shape": [
+        1024,
+        1024
+      ],
+      "train_shape": [
+        4096,
+        1024
+      ],
+      "workload": "gaussian1024"
+    },
+    {
+      "data_and_init_sha256": "9a48a7863f787f4e891a1db28511bb889fc901d2592b9da6228fa245f6c5cf7a",
+      "dtype": "float32",
+      "seed": 0,
+      "test_shape": [
+        2048,
+        100
+      ],
+      "train_shape": [
+        16384,
+        100
+      ],
+      "workload": "glove100"
+    }
+  ],
+  "matched_quality": "fresh independently finalized budget grid; train/test/joint targets; test MSE never selects recipe",
+  "mode": "profile",
+  "planned_jobs_sha256": "c66f4b44a23d575163c9c03c74be65af91321774b3f8e4430c6c2563ab466554",
+  "planned_measurements": 9,
+  "profiling": "separate replay, exact arrays checked; no profiler in primary timings",
+  "record_sha256": {
+    "gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.json": "0ac551ab1d28fa63338fc83f1b457f157644c45d291ee0a851f3d029f11bde80",
+    "gaussian1024_0_float32_lloyd_fixed_25_every_epoch_0.json": "9610986d6de8e7bc4c0d1558330cbc1be89cc097e8989e76aa4f1d2db3c32eda",
+    "gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.json": "25d47918def0603f39d539ca0344b762a6347552bcb9db85847f65baf5f66717",
+    "gaussian256_0_float32_emeans_fixed_5_every_epoch_0.json": "f5fe2f05537f0b1be26fe820e000f76f350921a02fa11788d1b49c243652fd30",
+    "gaussian256_0_float32_lloyd_fixed_25_every_epoch_0.json": "0cc0384de1eee890f5cc310fda5be5b70a8d298a2d3e5b3934dfb0c297613ee7",
+    "gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.json": "4970535035f60090d01ab37431f43ab91c194d23b84349643f6e1c670bd12108",
+    "glove100_0_float32_emeans_fixed_5_every_epoch_0.json": "1511cecb0b3bdcad668612b2533d3193531b59e97bcb9f8a806489be65cce44d",
+    "glove100_0_float32_lloyd_fixed_25_every_epoch_0.json": "4c3d20ca7a2b8e27549c192b094765ac82899b74bb19a9b12d9d91eee9bf4abd",
+    "glove100_0_float32_slow_ema_fixed_5_every_epoch_0.json": "8107ef10b4f9b4b60d964894ff73cd4b7db679ace431376da06b0a9d12fa69b5"
+  },
+  "runs": [
+    "gaussian256_0_float32_lloyd_fixed_25_every_epoch_0.json",
+    "gaussian256_0_float32_emeans_fixed_5_every_epoch_0.json",
+    "gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.json",
+    "gaussian1024_0_float32_lloyd_fixed_25_every_epoch_0.json",
+    "gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.json",
+    "gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.json",
+    "glove100_0_float32_lloyd_fixed_25_every_epoch_0.json",
+    "glove100_0_float32_emeans_fixed_5_every_epoch_0.json",
+    "glove100_0_float32_slow_ema_fixed_5_every_epoch_0.json"
+  ],
+  "schema_version": 4,
+  "source_archive_sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "complete"
+}

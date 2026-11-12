@@ -1,0 +1,39 @@
+{
+  "baseline_config": "configs/gpu_research.json",
+  "calibration_iterations": 25,
+  "dtypes": [
+    "float32"
+  ],
+  "emeans_budgets": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "lloyd_budgets": [
+    1,
+    2,
+    3,
+    4,
+    8,
+    25
+  ],
+  "profile_budget": 5,
+  "profile_lloyd_budget": 25,
+  "repeats": 2,
+  "schema_version": 4,
+  "seeds": [
+    0
+  ],
+  "sensitivity_budget": 3,
+  "target_factors": [
+    1.001,
+    0.99
+  ],
+  "warmups": 1,
+  "workloads": [
+    "gaussian256",
+    "gaussian1024",
+    "glove100"
+  ]
+}

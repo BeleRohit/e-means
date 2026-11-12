@@ -1,0 +1,21 @@
+{
+  "artifact_sha256": "a52f8de066de592b358ef88da562f1ad7c30dc4b3444ef1fb468a52897c3ed71",
+  "common_fp64_evaluation_seconds": 0.002157163922674954,
+  "data_and_init_sha256": "b06b3e64dae4242d2f6b849589b82d36087fbe4f036aa39a0b79fdd8761230f1",
+  "method": "authors_faiss_cpu",
+  "repeat": 1,
+  "seed": 0,
+  "settings": {
+    "alpha": 0.2,
+    "batch": 64,
+    "epochs": 3,
+    "seed": 0
+  },
+  "solver_wall_seconds": 0.005722964066080749,
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "cpu_measured",
+  "test_mse": 28.625208188490237,
+  "total_wall_seconds": 0.007880127988755703,
+  "train_mse": 28.820064854672992,
+  "workload": "glove100_smoke"
+}

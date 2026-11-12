@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "b7cfbd1d45df77de36f76778f1f1a293b3e1947b8ade4ca5091a0fa8856d7865",
+  "config": {
+    "assignment_chunk_size": 1024,
+    "centroid_chunk_size": 64,
+    "dtype": "float32",
+    "max_iter": 25,
+    "n_clusters": 64,
+    "seed": 0,
+    "tol": 0.0
+  },
+  "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc",
+  "source_sha256": "42baee29f1e331c4f2ea9acc69ef44cae97479ccfdd80a5d28c146f870589ec5",
+  "status": "gpu_measured",
+  "target_relative_slack": 0.001,
+  "target_rule": "terminal Lloyd calibration MSE * (1 + predeclared relative slack)",
+  "test_target": 296.20686795069275,
+  "train_target": 293.22234226582566
+}

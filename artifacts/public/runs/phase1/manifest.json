@@ -1,0 +1,79 @@
+{
+  "completed_utc": "2026-11-11T14:09:04.324658+00:00",
+  "config": {
+    "common": {
+      "assignment_chunk_size": 256,
+      "centroid_chunk_size": 64,
+      "dtype": "float64"
+    },
+    "datasets": [
+      {
+        "center_scale": 4.0,
+        "n_clusters": 8,
+        "n_features": 16,
+        "n_test": 400,
+        "n_train": 1200,
+        "name": "separated",
+        "noise_scale": 1.0
+      },
+      {
+        "center_scale": 0.6,
+        "n_clusters": 8,
+        "n_features": 16,
+        "n_test": 400,
+        "n_train": 1200,
+        "name": "overlapping",
+        "noise_scale": 1.0
+      }
+    ],
+    "e_means": {
+      "alpha0": 0.2,
+      "batch_size": 64,
+      "drop_last": false,
+      "epochs": 3
+    },
+    "lloyd": {
+      "max_iter": 25,
+      "tol": 0.0
+    },
+    "schema_version": 1,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "config_sha256": "0a57eb9775bfb55953a3117cfb134b796c61d6d8660bf72faa0307b0832223d5",
+  "logical_cpus": 8,
+  "machine": "arm64",
+  "memory_method": "fresh worker ru_maxrss; whole-process high water; bytes",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "runs": [
+    "separated_0_lloyd.json",
+    "separated_0_e_means.json",
+    "separated_1_lloyd.json",
+    "separated_1_e_means.json",
+    "separated_2_lloyd.json",
+    "separated_2_e_means.json",
+    "overlapping_0_lloyd.json",
+    "overlapping_0_e_means.json",
+    "overlapping_1_lloyd.json",
+    "overlapping_1_e_means.json",
+    "overlapping_2_lloyd.json",
+    "overlapping_2_e_means.json"
+  ],
+  "schema_version": 1,
+  "source_sha256": "5272b26ac263aa5b2964389861ff8aad26f1beab519d6f8a85b6ac8610e65d83",
+  "started_utc": "2026-11-11T14:09:02.341189+00:00",
+  "status": "complete",
+  "thread_settings": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "timing_method": "perf_counter; training excludes fixed-center epoch evaluation; fit wall includes validation and evaluation"
+}

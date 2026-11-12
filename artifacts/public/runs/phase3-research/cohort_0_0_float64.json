@@ -1,0 +1,13 @@
+{
+  "runs": [
+    "gaussian256_seed0_float64_lloyd_repeat0.json",
+    "gaussian256_seed0_float64_emeans_repeat0.json",
+    "gaussian256_seed0_float64_slow_ema_repeat0.json",
+    "gaussian256_seed0_float64_emeans_repeat1.json",
+    "gaussian256_seed0_float64_slow_ema_repeat1.json",
+    "gaussian256_seed0_float64_lloyd_repeat1.json",
+    "gaussian256_seed0_float64_slow_ema_repeat2.json",
+    "gaussian256_seed0_float64_lloyd_repeat2.json",
+    "gaussian256_seed0_float64_emeans_repeat2.json"
+  ]
+}

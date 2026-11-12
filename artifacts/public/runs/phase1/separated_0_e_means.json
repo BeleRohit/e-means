@@ -1,0 +1,91 @@
+{
+  "algorithm": "e_means",
+  "baseline_process_high_water_rss_bytes": 37994496,
+  "config": {
+    "alpha0": 0.2,
+    "alpha_min_factor": 0.1,
+    "assignment_chunk_size": 256,
+    "batch_size": 64,
+    "centroid_chunk_size": 64,
+    "drop_last": false,
+    "dtype": "float64",
+    "epochs": 3,
+    "finalize": "last_epoch_mean",
+    "initial_mass": 1e-10,
+    "n_clusters": 8,
+    "revival_interval": 5,
+    "revival_threshold": 0.1,
+    "seed": 0,
+    "split_epsilon": 0.0078125
+  },
+  "data_and_init_sha256": "83e4239d6dbda3ccb6f121f435c210a6ea2e25772f5e4e083fed1bbcc834b796",
+  "dataset": {
+    "center_scale": 4.0,
+    "n_clusters": 8,
+    "n_features": 16,
+    "n_test": 400,
+    "n_train": 1200,
+    "name": "separated",
+    "noise_scale": 1.0
+  },
+  "evaluation_seconds": 0.0038821229245513678,
+  "final_test_mse": 56.33282901895362,
+  "final_train_mse": 54.69800616440756,
+  "finalization_seconds": 1.3874960131943226e-05,
+  "fit_wall_seconds": 0.013228458992671221,
+  "history": [
+    {
+      "epoch": 0,
+      "evaluation_seconds": 0.0009474999969825149,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 112.73489207759789,
+      "train_mse": 113.19653496714832,
+      "training_seconds": 0.0,
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "evaluation_seconds": 0.001800415979232639,
+      "moving_mse": 60.36191453664174,
+      "revivals": 0,
+      "test_mse": 56.49512561667572,
+      "train_mse": 54.88011489308638,
+      "training_seconds": 0.0024021660210564733,
+      "updates": 19
+    },
+    {
+      "epoch": 2,
+      "evaluation_seconds": 0.0028599569341167808,
+      "moving_mse": 55.09560577923655,
+      "revivals": 0,
+      "test_mse": 56.36399035868051,
+      "train_mse": 54.72582569832533,
+      "training_seconds": 0.004671166010666639,
+      "updates": 38
+    },
+    {
+      "epoch": 3,
+      "evaluation_seconds": 0.0038821229245513678,
+      "moving_mse": 54.89908083100146,
+      "revivals": 0,
+      "test_mse": 56.35190398331379,
+      "train_mse": 54.71287628736735,
+      "training_seconds": 0.008109832997433841,
+      "updates": 57
+    }
+  ],
+  "peak_process_rss_bytes": 38289408,
+  "recipe": {
+    "alpha0": 0.2,
+    "alpha_source": "explicit",
+    "batch_size": 64,
+    "batch_source": "explicit",
+    "drop_last": false,
+    "steps_per_epoch": 19,
+    "total_steps": 57
+  },
+  "seed": 0,
+  "source_sha256": "5272b26ac263aa5b2964389861ff8aad26f1beab519d6f8a85b6ac8610e65d83",
+  "training_seconds": 0.008109832997433841
+}

@@ -1,0 +1,19 @@
+{
+  "array_sha256": "4494fd7fb911b5c16e4a9f8dd8080eafb5d38f97d1b647f17a4e520972d42dd2",
+  "doi": "10.24432/C5MG6K",
+  "features": 16,
+  "member_sha256": {
+    "pendigits.tes": "8bd03229c5c5291fefe43e45465dd948d2645bf23328b9d993e0b777666b2015",
+    "pendigits.tra": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3"
+  },
+  "name": "pendigits",
+  "preprocessing": "discard last class-label column; divide all features by 100",
+  "rows": [
+    7494,
+    3498
+  ],
+  "scale": 100,
+  "sha256": "1e02bea023613c2b11c9492f6f34caf975420455934f3527d270cee9a1f03b64",
+  "split": "original UCI .tra/.tes; never reshuffled across splits",
+  "url": "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip"
+}

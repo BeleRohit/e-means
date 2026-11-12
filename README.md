@@ -1,164 +1,122 @@
-# e-means research implementation
+# e-means: an independent research reproduction
 
-Independent NumPy and PyTorch implementation of [e-means: outperforming k-means (in one-tenth the epochs)](https://arxiv.org/abs/2611.09501v1), Bessa et al. (2026). The paper is the specification; the [authors' implementation](https://github.com/facebookresearch/faiss/tree/2b648f0605f2ef3d14c4705350f8a0b214463878/contrib/e_means) resolves bookkeeping ambiguities and supplies an optional test oracle. No authors' source is vendored or used by the library. Paper and reference provenance is recorded in [docs/sources.json](docs/sources.json).
+NumPy and PyTorch implementations of Lloyd’s K-Means and **e-means**, with numerical oracles, CPU/CUDA parity checks, reproducible experiments and an audited NVIDIA A40 performance study.
 
-**Current milestone:** validated NumPy/PyTorch CPU algorithms plus CUDA validation/benchmark preparation. Only CPU execution has been verified locally. CUDA tests, pinned workloads, event/synchronized timing, allocator measurements and Runpod scripts are ready for the NVIDIA execution gate. No GPU measurement, custom kernel or distributed clustering result is claimed. This is a tested research implementation, not a paper-scale performance reproduction.
+Based on Bessa et al., [*e-means: outperforming k-means (in one-tenth the epochs)*](https://arxiv.org/abs/2611.09501v1) (2026), with the [pinned authors’ Faiss implementation](https://github.com/facebookresearch/faiss/tree/2b648f0605f2ef3d14c4705350f8a0b214463878/contrib/e_means) used for comparison. The library is independently written; authors’ code is fetched explicitly for optional tests and is not a runtime dependency.
 
-Local verification: **146 tests passed, 32 CUDA cases skipped** on a CPU-only macOS environment. The real-data CPU study completed 120 fits; paired FP64 NumPy/PyTorch centers and labels matched exactly in those tested runs. These finite CPU observations do not establish CUDA parity or the paper's large-scale performance claims. Generated datasets/results and local research notes are excluded from this Git repository; small numeric regression fixtures are retained under `tests/fixtures/phase1/`.
+**Finalized research snapshot · Phases 1–4 complete · No further experiments planned.** The full suite passed **199 tests with zero skips on an NVIDIA A40**. Final local verification: **166 passed, 33 NVIDIA-only skips**. The larger 936-fit study and Phase 5 optimization were not executed. Cloud Pods and temporary volumes were deleted.
+
+## Motivation and scope
+
+An optimizer can need fewer data passes while still taking longer on a GPU. This project separates mathematical correctness, statistical convergence and backend performance through independently checked updates, shared inputs, matched-quality targets and measured profiling.
+
+The implementation covers sum/count EMA updates, cosine annealing, dead-cluster revival, published automatic batch/step laws, last-epoch mean finalization and an explicitly documented slow-EMA interpretation. Both NumPy and PyTorch support FP32/FP64. PyTorch runs on CPU or CUDA and uses chunked direct-distance assignment to bound scratch memory. Correctness takes priority over kernel throughput.
+
+This is a **research reproduction and engineering study**, not novel algorithmic research or a production clustering service. We do **not** claim reproduction of the paper’s reported 10–45× GPU speedups.
+
+## Independently measured findings
+
+Phase 4 A40 FP32 pilot: one independent seed, two timing repeats, identical data and initial centroids. Seconds below are means for the first declared fresh-fit horizon meeting **both train and test MSE ≤ 1.001 × an independent Lloyd calibration**, with final-only observation.
+
+| Workload | Lloyd | e-means, fixed | e-means, automatic |
+|---|---:|---:|---:|
+| Gaussian 256D | 0.402 s | 0.440 s | 0.797 s |
+| Gaussian 1024D | 0.656 s | 0.792 s | 2.668 s |
+| GloVe 100D subset | 1.581 s | 0.818 s | 0.471 s |
+
+Automatic e-means reached the GloVe threshold 3.36× sooner using the ratio of mean times, but remained slower on both Gaussian workloads. Fewer epochs did not guarantee lower wall time. This is equal-threshold attainment on a finite budget grid, not identical terminal MSE or continuous early stopping.
+
+![Matched train/test quality latency on A40](docs/figures/matched_mse.png)
+
+- Phase 2: **120 real-data CPU fits**, five seeds, two repeats; all 60 paired FP64 NumPy/PyTorch center and label results matched exactly.
+- Phase 3: **186 actual A40 fits**, including FP32/FP64; lower final e-means MSE on the larger development workloads, with workload-dependent runtime.
+- Phase 4: **9 GPU profiles, 312 primary quality fits**, scaling-law sensitivity, six native GPU comparison pairs and 24 isolated Faiss CPU fits. All primary fits completed; 104/648 target observations were censored.
+- Assignment/dispatch dominated the instrumented profiles. The authors’ native assignment path was substantially faster under aligned controls; backend diagnostics are not algorithmic speedup claims. Faiss comparisons were **CPU-only**.
+
+The [final reproduction report](REPRODUCTION_REPORT.md) includes full methods, uncertainty, CPU/GPU tables, hardware, bottlenecks, source differences and limitations. [Public evidence](artifacts/README.md) includes raw numeric records/arrays, historical independent source snapshots, configurations, validation XML, plots and SHA256 manifests. Full profiler traces remain preserved in local checksummed exports; no public download URL is claimed.
 
 ## Install and test
 
-Python 3.10+; NumPy is the only runtime dependency.
+Python 3.10+; NumPy is the only required runtime dependency. Historical measurements use the pinned environments recorded in the report, rather than every version allowed by package metadata.
 
 ```bash
 git clone https://github.com/BeleRohit/e-means.git
 cd e-means
 python3 -m venv .venv
-.venv/bin/python -m pip install -e '.[test]'
+.venv/bin/python -m pip install -e '.[test,torch,experiments]'
 .venv/bin/python -m pytest -q
 ```
 
-Optional authors' comparisons (network access is needed only for installation and fetching):
+CPU-only machines skip CUDA tests. Optional reference checks need Faiss and four pinned source files:
 
 ```bash
 .venv/bin/python -m pip install -e '.[reference]'
-.venv/bin/python scripts/fetch_reference.py /tmp/emeans-reference-2b648f
+.venv/bin/python scripts/fetch_reference.py /tmp/emeans-reference-2b648f --native-torch
 EMEANS_REFERENCE_DIR=/tmp/emeans-reference-2b648f .venv/bin/python -m pytest -q
 ```
 
-Reference files are pinned and SHA256 checked. These tests use the authors' caller-driven API with matched initialization, batch order, and settings. They do not assert equality between different RNG streams or paper/refitted scaling laws. Without the reference directory, seven optional cases skip explicitly. Oracle tests execute in clean subprocesses to avoid loading Faiss and PyTorch's bundled OpenMP runtimes together on macOS.
+Reference downloads are explicit and SHA256 checked. Without optional dependencies/reference files, additional tests skip; a local pass is not a new CUDA certificate.
 
-## Use
+## Minimal example
 
 ```python
 import numpy as np
 from e_means import EMeans, EMeansConfig, LloydKMeans, LloydConfig
 
 x = np.random.default_rng(7).normal(size=(1000, 32))
-init = x[:8].copy()
-lloyd = LloydKMeans(LloydConfig(n_clusters=8, max_iter=25))
-ema = EMeans(EMeansConfig(n_clusters=8, epochs=3, seed=7))
-lloyd.fit(x, init_centroids=init)
-ema.fit(x, init_centroids=init)
-print(lloyd.mse_, ema.mse_)
-labels = ema.predict(x)
+initial = x[:8].copy()
+lloyd = LloydKMeans(LloydConfig(n_clusters=8, max_iter=25)).fit(
+    x, init_centroids=initial)
+emeans = EMeans(EMeansConfig(n_clusters=8, epochs=3, seed=7)).fit(
+    x, init_centroids=initial)
+print(lloyd.mse_, emeans.mse_)  # Squared Euclidean error per vector
 ```
 
-`batch_size=None` and `alpha0=None` resolve the **published Table 2** laws. Set either explicitly to override it. The laws were fitted to large, high-dimensional embedding data; tiny synthetic examples are numerical checks, not evidence of optimal automatic tuning.
+Use `TorchLloydKMeans` or `TorchEMeans` with the same configurations and `device="cpu"`/`"cuda"`. `finalize="slow_ema"` selects the documented shadow estimator. See [API conventions](docs/API.md) and the [walkthrough notebook](notebooks/walkthrough.ipynb). Outputs, moving-state history and returned finalizers are deliberately distinguished.
 
-`fit(X, init_centroids=..., eval_X=...)` returns the estimator. Fits are deterministic for fixed data, seed and NumPy execution environment; fitting again starts a fresh run. Inputs are not mutated. Arrays must be finite, real, nonempty matrices, and `1 <= k <= n`. Unrepresentable distance arithmetic raises `FloatingPointError`.
+## Reproduce and audit
 
-- `cluster_centers_`, `labels_`: final centers and fresh nearest-center labels for **all** input rows.
-- `mse_`: mean squared Euclidean norm per vector (Eq. 1); `inertia_`: summed squared distances.
-- `history_`: epoch zero plus fixed-center train/test MSE after each epoch, cumulative training/evaluation seconds, update/split counts, and separately named moving-pass MSE for e-means. The last history row precedes finalization; `mse_` is the final result.
-- `recipe_`: resolved e-means settings; `ema_centers_` and `ema_state_`: pre-finalization positions and EMA sums/counts.
-- `last_epoch_labels_`, `last_epoch_sums_`, `last_epoch_counts_`: assignments/statistics produced while centers moved during the final training pass.
-
-The default `drop_last=True` follows §3.1's `M=T floor(n/B)`; shuffled remainder rows are omitted from each training epoch. Their last-pass labels are `-1`. With `drop_last=False`, all rows train, and `M=T ceil(n/B)` follows the modern reference. Last-epoch means use visited rows only. Both final evaluation and prediction always include all rows.
-
-The implementation deliberately uses published paper values where the modern reference differs: initial mass `1e-10`, split perturbation `2**-7` (BF16 epsilon), and the rounded Table 2 scaling coefficients. The reference uses initial mass `2**-16`, split perturbation `1e-4`, refitted coefficients, and different batch/low-dimensional defaults. Controlled comparisons align these settings and batch order. The cosine schedule follows Eq. 5 literally with zero-based `t/M`, so its last executed step stays above the theoretical floor.
-
-`dtype="float64"` prioritizes correctness. `float32` is supported and tested, with its usual accumulation limits. Direct squared differences avoid the cancellation in `||x||² + ||c||² - 2x·c`. Assignment tiles bound distance scratch to `O(assignment_chunk_size * centroid_chunk_size)`; the implementation still performs `O(nkd)` work. It is a baseline for future backends, not a high-throughput kernel.
-
-## Experiments
+Offline publication integrity check; this does not train a model or access the cloud:
 
 ```bash
-.venv/bin/python scripts/benchmark.py --config configs/phase1_smoke.json --output results/local/my_run
+python3 scripts/verify_publication.py
 ```
 
-Each algorithm/seed/dataset runs in a fresh process with one-thread environment settings. JSON records include configuration, seed, dataset/initialization hashes, source digest, Python/NumPy/platform metadata, convergence histories, final train/test MSE, timings and RSS. NPZ artifacts preserve final centroids, labels, initialization and e-means moving labels. Existing output directories are rejected. The JSON manifest stays `running` if execution fails and becomes `complete` only after all workers succeed.
+Historical experiment commands, dataset acquisition and exact measurement scopes are in [reproduction notes](REPRODUCTION_NOTES.md), [the final report](REPRODUCTION_REPORT.md) and [Runpod instructions](docs/RUNPOD.md). Downloaded data is excluded from Git; fetchers verify pinned bytes/arrays and retain original splits. The raw evidence archive is separate from the publication package.
 
-`training_seconds` excludes fixed-center epoch evaluation; `fit_wall_seconds` includes validation, initialization, evaluation and final assignments. RSS is the whole worker process high-water mark, including interpreter, data and imports. Do not interpret it as isolated optimizer allocations. `resource` memory measurement supports macOS/Linux; the NumPy library itself is portable.
-
-## Layout and next phases
-
-`src/e_means/` separates configurations, exact assignment, schedules, EMA state, estimators and GPU experiment bookkeeping. `tests/` contains independent numerical oracles, pinned-reference checks, CPU parity tests and guarded CUDA cases. `scripts/` provides data preparation, experiment, validation and summary entry points. `configs/` retains reproducible experiment settings; `runpod/` contains the pinned environment and execution scripts. Experiment outputs are generated locally under ignored `results/` paths.
-
-Next: execute the guarded CUDA correctness matrix on actual NVIDIA hardware, inspect the GPU smoke results, then run the larger predeclared workloads. Custom kernels, distributed clustering and performance optimization remain deferred.
-
-## PyTorch backend and slow EMA
+To create a local, verified publication bundle without uploading anything:
 
 ```bash
-.venv/bin/python -m pip install -e '.[test,torch,experiments]'
+python3 scripts/archive_project.py --output archives/e-means-reproduction.tar.gz
 ```
 
-```python
-import torch
-from e_means import TorchEMeans, TorchLloydKMeans, EMeansConfig, LloydConfig
+## Repository guide
 
-x = torch.randn(1000, 32, dtype=torch.float64)
-lloyd = TorchLloydKMeans(LloydConfig(8), device="cpu").fit(x)
-model = TorchEMeans(EMeansConfig(8, finalize="slow_ema", slow_ema_factor=0.25)).fit(x)
-print(model.mse_, model.cluster_centers_.device)
-# On a CUDA-equipped host, explicitly select device="cuda" or pass a CUDA tensor.
-```
+| Path | Purpose |
+|---|---|
+| `src/e_means/` | Independent estimators, schedules, state, assignments and measurement tools |
+| `tests/` | Scalar/numerical oracles, regression fixtures, CPU/CUDA and reference checks |
+| `configs/` | Saved CPU/GPU protocols, including the explicitly unexecuted 936-fit plan |
+| `scripts/`, `runpod/` | Acquisition, validation, measurement, audit and pinned environment tools |
+| `notebooks/` | Unexecuted educational walkthrough; not benchmark evidence |
+| `artifacts/public/`, `docs/figures/` | Curated measured results and plots suitable for publication |
+| `PAPER_MAPPING.md`, `REPRODUCTION_NOTES.md` | Equation mapping, ambiguities and implementation differences |
+| `EXPERIMENT_LOG.md`, `PHASE4_REPORT.md` | Dated historical research record and detailed A40 pilot |
+| `PUBLICATION.md`, `NOTICE.md` | Publication checklist, project descriptions and attribution/licensing scope |
 
-Constructors share NumPy configurations and methods, adding only optional `device`. With no device, tensors retain their device and non-tensors use CPU. Config `dtype` determines arithmetic precision. Fitted arrays and predictions are tensors; loss and history scalars remain Python values. Inputs are detached, never mutated, and no autograd graph is retained. Both assignment dimensions are tiled; scratch stays O(row_chunk * centroid_chunk). CUDA operations include explicit metric/timing synchronizations; compatibility is not a measured speed claim.
+No API keys, SSH credentials, virtual environments, downloaded corpora or account/controller files belong in the public package. No repository visibility change or upload is performed by the archive tools. Historical source snapshots remain authoritative for measured runs; finalization changes documentation and packaging, not validated algorithms.
 
-The Phase 1 NumPy RNG streams control initial row selection, batch order, and donor sampling for both backends. Tensor updates, distance calculations, reductions, and splits run in PyTorch. Revival transfers k masses to the host to preserve controlled random choices. This is intentional for parity; a future device-native RNG would need separate reproducibility semantics. CUDA `index_add_` reductions may have device-specific roundoff or nondeterminism; CPU equality tests do not establish CUDA determinism.
-
-Select `finalize="slow_ema"` on either backend. It maintains independent count/sum EMAs throughout training, consuming the **main** model's assignments and donor/target choices. It never affects assignment. The constant step is `slow_ema_factor * alpha_min_factor * alpha0`; omitted factor means 1, an explicit research default. Alternatively set `slow_half_life=h` in **logical batch updates**, giving `alpha_slow = 1-exp(-log(2)/h)`. These options are mutually exclusive. Invalid speeds are rejected rather than clipped. Each shadow donor splits its own center and mass. `slow_state_` and `slow_centers_` expose the shadow state, or are None for other finalizers.
-
-The paper specifies the constant count/sum recurrence, but not every half-life/split bookkeeping detail. The pinned authors' package has no slow-EMA finalizer. Independent scalar tests and comparisons against authors' EMA/split primitives validate the explicit interpretation above; end-to-end equality to an unavailable authors' slow-EMA routine is not claimed. Last-epoch means minimize SSE for the recorded moving assignments, which does not guarantee lower freshly reassigned MSE than the final main EMA. Multiplicative revival cannot separate an all-zero donor.
-
-## Real-data CPU experiments
-
-```bash
-.venv/bin/python scripts/fetch_cpu_data.py --output data
-.venv/bin/python scripts/research_cpu.py --config configs/phase2_cpu.json --output results/local/phase2_run
-MPLCONFIGDIR=.mplconfig .venv/bin/python scripts/summarize_cpu.py results/local/phase2_run
-```
-
-The two public UCI digits datasets use original train/test splits. Archive and processed-array hashes are pinned; class labels are discarded. Range scaling uses fixed published ranges, with no test-set fitted preprocessing. Downloading is explicit; tests and workers remain offline. [scripts/fetch_cpu_data.py](scripts/fetch_cpu_data.py) records the source URLs, DOI, archive hashes and scaling rules, and generates local provenance JSON alongside the prepared data.
-
-The configuration runs NumPy/PyTorch × Lloyd/main e-means/slow e-means with five independent seeds and two fresh-process repeated fits per seed. Each pair shares exact data/initialization. Records preserve all settings, seed/repeat IDs, epoch histories, losses, timing, process RSS and checksummed NPZ arrays. A config snapshot and checksummed source archive permit reproduction without relying on a git checkout. Mid-run source changes cause failure. Historical Phase 1 artifacts are retained as regression oracles.
-
-`summary.json` averages repetitions **within each seed**, then reports mean and sample standard deviation (`ddof=1`) across distinct seeds. It verifies complete method/seed/repeat coverage, shared data hashes, artifact integrity and deterministic repeated outcomes. It also reports within-seed timing variation. Final train/test MSE is recomputed in FP64 against returned centers for a common evaluator. Curves show the main state before finalization; final-readout points are separate. PNG/SVG curves include ±1 sample-SD bands, which are not confidence intervals.
-
-Fit timings include conversion, initialization and epoch evaluation but exclude process startup/imports, dataset loading and output serialization. Loop and finalization times are separate. RSS is the whole process high-water mark through fit, including imports/data; PyTorch runtime overhead makes it unsuitable as an algorithm-only memory comparison. These CPU datasets are smaller than the paper's fitted embedding regime; no published quality/speed claim is inferred.
-
-## CUDA and Runpod execution gate
-
-The pinned image is recorded in [runpod/image.json](runpod/image.json); the exact dependency overlay is [runpod/requirements.lock](runpod/requirements.lock). That Linux CUDA environment has not been executed locally. Provision a single compatible NVIDIA Ampere/Hopper GPU and a persistent network volume mounted at `/workspace` before following the commands below. No cloud resource is created by these repository scripts.
-
-Local preparation requires no GPU:
-
-```bash
-.venv/bin/python scripts/fetch_gpu_embeddings.py
-.venv/bin/python scripts/benchmark_cuda.py --config configs/gpu_smoke.json --output results/local/gpu_plan --prepare-only
-```
-
-Synthetic workloads span 128/256/1024 dimensions; the real GloVe-100 subset has range/array SHA256 pins and original held-out splits. Prepared manifests contain **zero** GPU measurements. On actual NVIDIA hardware, `scripts/validate_cuda.py` must pass the full suite without skips before `scripts/benchmark_cuda.py` accepts its matching report. The harness saves calibration targets, warmups/repeats, per-epoch metrics, separate monitored/returned time-to-target observations, synchronized/event latency, allocated/reserved peaks and throughput. CPU-only execution fails closed. No Triton optimization or distributed mode is used.
-
-Real-embedding source ranges, array hashes and attribution are retained in [data/glove100_source.json](data/glove100_source.json). Only the selected ranges and arrays are SHA256-pinned; the unselected remainder of the parent corpus was not hashed. Prefix selection can introduce bias, and squared Euclidean clustering MSE is distinct from the source site's angular retrieval metric.
-
-Build a transfer archive locally:
-
-```bash
-.venv/bin/python runpod/package.py /tmp/e-means-gpu-source.tar.gz
-```
-
-Use the exact image named in `runpod/image.json` for the Pod, transfer/extract the archive under `/workspace`, then run inside that container:
-
-```bash
-cd /workspace/e-means
-bash runpod/bootstrap.sh
-mkdir -p /workspace/e-means-results
-nohup bash runpod/run.sh /workspace/e-means-results/gpu-smoke-001 configs/gpu_smoke.json > /workspace/e-means-results/gpu-smoke-001-launcher.log 2>&1 &
-```
-
-The orchestrator fetches the pinned reference, executes the complete zero-skip NVIDIA suite, and benchmarks only after a source/environment/device-matched validation report succeeds. It saves failure logs as well as successful results, and exports a checksummed archive next to the run directory. Use new output paths. Inspect the smoke run before invoking `configs/gpu_research.json`, which plans 162 measured fits plus calibration and warmups. None of those GPU fits has been executed by this project yet.
-
-Synchronized resident-fit wall time includes host control, epoch metrics and final test evaluation; H2D transfer is separately timed. CUDA-event intervals may contain host submission gaps and are not pure kernel time. Allocator peaks include resident inputs and evaluation, with allocated/reserved baselines recorded separately. Targets come from an independent Lloyd calibration with a predeclared `.001` relative slack. Time-to-target uses completed observations without interpolation; misses remain censored. Early main-EMA hits are reported separately from the selected finalizer's returned result. Repeated measurements are averaged within seed before reporting mean/sample SD across seeds.
-
-## Citation
+## Citation and attribution
 
 ```bibtex
 @misc{bessa2026emeans,
   title={e-means: outperforming k-means (in one-tenth the epochs)},
-  author={Bessa, Swann and Mazaré, Pierre-Emmanuel and Szilvasy, Gergely and Touvron, Hugo and Picard, David and Douze, Matthijs and Jégou, Hervé},
+  author={Bessa, Swann and Mazaré, Pierre-Emmanuel and Szilvasy, Gergely and
+          Touvron, Hugo and Picard, David and Douze, Matthijs and Jégou, Hervé},
   year={2026},
   eprint={2611.09501},
   archivePrefix={arXiv}
 }
 ```
+
+Credit the original paper for the algorithm; describe this repository as an independent reproduction. See [NOTICE.md](NOTICE.md) for reference/data attribution and the project’s currently unselected code license.

@@ -1,0 +1,49 @@
+{
+  "scope": "local preserved archives; no public hosting URL configured",
+  "archives": [
+    {
+      "path": "results/phase4/runpod/a40-20261112-001/e-means-phase4-source-20261112.tar.gz",
+      "bytes": 6932298,
+      "sha256": "53db3eaeb217252d0cff5b04ac7fe9c6031af7be3eb976736a8d7cb722619f04",
+      "sidecar_verified": true
+    },
+    {
+      "path": "results/phase4/runpod/a40-20261112-001/phase4-official-faiss-cpu-001.tar.gz",
+      "bytes": 185227,
+      "sha256": "db8dcd7c7759a373c6f8617d5e6136e8834938e00310ddc5f302ceec8b0614e2",
+      "sidecar_verified": true,
+      "streaming_members_verified": 65
+    },
+    {
+      "path": "results/phase4/runpod/a40-20261112-001/phase4-pilot-001.tar.gz",
+      "bytes": 337023913,
+      "sha256": "21347841206c6f55fd6ffae767457b09ef23c0a3141c98a40fb20b37704c6c6d",
+      "sidecar_verified": true,
+      "streaming_members_verified": 721
+    },
+    {
+      "path": "results/runpod/a40-20261111/a40-research-001.tar.gz",
+      "bytes": 24215999,
+      "sha256": "1ed75b01f1e086671e353a84c5cefad9f8afae7f16222fb29674169ee7b4f3c6",
+      "sidecar_verified": true
+    },
+    {
+      "path": "results/runpod/a40-20261111/a40-smoke-001.tar.gz",
+      "bytes": 2641,
+      "sha256": "6d3f942dda13d85bb5c48861f60d66b9b3df1c25ee7365939831538d495f5cca",
+      "sidecar_verified": true
+    },
+    {
+      "path": "results/runpod/a40-20261111/a40-smoke-002.tar.gz",
+      "bytes": 749037,
+      "sha256": "c40bb0d1cf444866c14f9419e2c4f3f4c8467cdc05653d6474fed4cef16617b1",
+      "sidecar_verified": true
+    },
+    {
+      "path": "results/runpod/a40-20261111/setup-audit.tar.gz",
+      "bytes": 2780,
+      "sha256": "c95637ec712de713e840c14a605ebdde41f92633737bc80a36e5eb648e12aacb",
+      "sidecar_verified": true
+    }
+  ]
+}

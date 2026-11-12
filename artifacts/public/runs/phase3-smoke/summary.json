@@ -1,0 +1,1136 @@
+{
+  "aggregation": "repeat means within each seed, then mean/sample SD across seeds",
+  "status": "gpu_measured",
+  "summary": [
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.2705392456054687,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 526848.0,
+        "std": null
+      },
+      "method": "emeans",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 858624.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.27061909495387226,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 147.7523409128189,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 141.39843919873238,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 8455.778391861708,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 5684.380265784932,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.12804294586181642,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 473600.0,
+        "std": null
+      },
+      "method": "lloyd",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 805376.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.12813201046083122,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.1280404109857045,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.1280404109857045,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 131.4636778831482,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.11064399749739096,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 126.06238381564617,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.11064399749739096,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 40903.87131691423,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 11989.071299344529,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.36010539245605466,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 535552.0,
+        "std": null
+      },
+      "method": "slow_ema",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 867328.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.36020276247290894,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 147.66405320167542,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 141.63729134202003,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 6154.9923353704235,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 4277.1420956266875,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.273282958984375,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 846336.0,
+        "std": null
+      },
+      "method": "emeans",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1509888.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.2734079494839534,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 147.75233885121025,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 141.398439272343,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 8507.357819881547,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 5631.213322085844,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.12384766387939453,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 745984.0,
+        "std": null
+      },
+      "method": "lloyd",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1409536.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.12393351452192292,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.12384945148369297,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.12384945148369297,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 131.4636752295091,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.10677476902492344,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 126.06238352572235,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.10677476902492344,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 42549.22205217955,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 12407.610559885705,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.3246354217529297,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 863232.0,
+        "std": null
+      },
+      "method": "slow_ema",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1526784.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.3247113099787384,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 147.6640508123278,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 141.63729247238183,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": null,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 0,
+        "reached_seeds": 0,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 6806.639413652938,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 4731.212473502481,
+        "std": null
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.27383456420898433,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 416256.0,
+        "std": null
+      },
+      "method": "emeans",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 675840.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.27392941748257726,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.2738147284835577,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.2738147284835577,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 27.88549991697073,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.09941968152998015,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 27.628633623942733,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.17950764548731968,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 8066.653737998468,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 5609.7071729386935,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.11980889511108397,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 372224.0,
+        "std": null
+      },
+      "method": "lloyd",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 631808.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.11993848549900576,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.11979290348244831,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.11979290348244831,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 28.522832490503788,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.10410041449358687,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 28.46542941313237,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.10410041449358687,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 43717.24060669704,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 12861.308805537323,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.28380397033691407,
+        "std": null
+      },
+      "dtype": "float32",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 423936.0,
+        "std": null
+      },
+      "method": "slow_ema",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 683520.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.28389881149632856,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.2837933519622311,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.2837933519622311,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 27.885888669639826,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.10235289897536859,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 27.92686762753874,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.18642038950929418,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 7509.651564983245,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 5431.520052010725,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.23231571197509765,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 665088.0,
+        "std": null
+      },
+      "method": "emeans",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1183744.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.23238905851030722,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.23230547102866694,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.23230547102866694,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 27.88549961986221,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.09034916252130643,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 27.62863379843574,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.15469909453531727,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 9681.999540339602,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 6611.315869024654,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.09876100540161133,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 585216.0,
+        "std": null
+      },
+      "method": "lloyd",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1103872.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.09885137708624825,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.09877118305303156,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.09877118305303156,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 28.52283207849203,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.08613621053518727,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 28.465429517002654,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.08613621053518727,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 52886.29860017327,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 15576.978963826747,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "cuda_event_elapsed_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.25381473541259764,
+        "std": null
+      },
+      "dtype": "float64",
+      "incremental_peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 678912.0,
+        "std": null
+      },
+      "method": "slow_ema",
+      "peak_allocated_bytes": {
+        "independent_seeds": 1,
+        "mean": 1197568.0,
+        "std": null
+      },
+      "peak_reserved_bytes": {
+        "independent_seeds": 1,
+        "mean": 2097152.0,
+        "std": null
+      },
+      "resident_fit_wall_seconds": {
+        "independent_seeds": 1,
+        "mean": 0.25389873899985105,
+        "std": null
+      },
+      "returned_test_time_to_target": {
+        "conditional_mean_seconds": 0.2538171005435288,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "returned_train_time_to_target": {
+        "conditional_mean_seconds": 0.2538171005435288,
+        "hit_stages": {
+          "final_readout": 2,
+          "main_state": 0
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "test_mse": {
+        "independent_seeds": 1,
+        "mean": 27.885889141130725,
+        "std": null
+      },
+      "test_time_to_target": {
+        "conditional_mean_seconds": 0.09254968707682565,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "train_mse": {
+        "independent_seeds": 1,
+        "mean": 27.926867643381836,
+        "std": null
+      },
+      "train_time_to_target": {
+        "conditional_mean_seconds": 0.1610015340265818,
+        "hit_stages": {
+          "final_readout": 0,
+          "main_state": 2
+        },
+        "interpretation": "conditional mean among reached repetitions only; not an unconditional speedup estimate",
+        "reached_runs": 2,
+        "reached_seeds": 1,
+        "total_runs": 2
+      },
+      "training_vectors_per_loop_second": {
+        "independent_seeds": 1,
+        "mean": 8778.51096597966,
+        "std": null
+      },
+      "training_vectors_per_resident_fit_second": {
+        "independent_seeds": 1,
+        "mean": 6067.74936560278,
+        "std": null
+      },
+      "workload": "glove100_smoke"
+    }
+  ],
+  "target_observations": "censored misses retained; threshold hit occurs only at completed measured evaluations",
+  "verified_runs": 24
+}

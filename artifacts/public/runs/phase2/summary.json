@@ -1,0 +1,3086 @@
+{
+  "aggregation": "repeat average per seed, mean/sample std ddof=1 across seeds; no confidence interval",
+  "convergence": [
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 2.082168718494934,
+        "std": 0.01929050250880475
+      },
+      "train_mse": {
+        "mean": 1.873128100667984,
+        "std": 0.013681592315802994
+      },
+      "training_seconds": {
+        "mean": 0.02525273329811171,
+        "std": 0.0005478092112109394
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 2.0614088748493433,
+        "std": 0.015163743731064347
+      },
+      "train_mse": {
+        "mean": 1.8489736166312372,
+        "std": 0.01330831805634866
+      },
+      "training_seconds": {
+        "mean": 0.04996093349764123,
+        "std": 0.0005350603132960904
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 2.0415638616347613,
+        "std": 0.01955313720321022
+      },
+      "train_mse": {
+        "mean": 1.833655756692068,
+        "std": 0.013278238105093569
+      },
+      "training_seconds": {
+        "mean": 0.07432393340277485,
+        "std": 0.0005072289779521503
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 2.035537662345226,
+        "std": 0.020154084755033323
+      },
+      "train_mse": {
+        "mean": 1.8268291742149905,
+        "std": 0.012844090617970254
+      },
+      "training_seconds": {
+        "mean": 0.09876672079553828,
+        "std": 0.0006435037236770853
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 2.034846899110476,
+        "std": 0.020548159605657642
+      },
+      "train_mse": {
+        "mean": 1.825367653928139,
+        "std": 0.012743204226333531
+      },
+      "training_seconds": {
+        "mean": 0.12325899989227765,
+        "std": 0.0005216687201561614
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.2671554526283653,
+        "std": 0.042257347309579744
+      },
+      "train_mse": {
+        "mean": 2.099911928672397,
+        "std": 0.046308881543480424
+      },
+      "training_seconds": {
+        "mean": 0.022794358205283062,
+        "std": 0.00045280291113379393
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.1633430415136936,
+        "std": 0.035700377451629385
+      },
+      "train_mse": {
+        "mean": 1.9733923957640875,
+        "std": 0.03922926889391345
+      },
+      "training_seconds": {
+        "mean": 0.045368841296294704,
+        "std": 0.00046986647025811407
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.120046322458489,
+        "std": 0.01643717915461791
+      },
+      "train_mse": {
+        "mean": 1.9170350705148702,
+        "std": 0.028352766360080658
+      },
+      "training_seconds": {
+        "mean": 0.06800604530726559,
+        "std": 0.0006833877142233505
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.1012855729852973,
+        "std": 0.01155785331758568
+      },
+      "train_mse": {
+        "mean": 1.886559888033767,
+        "std": 0.018558567442670267
+      },
+      "training_seconds": {
+        "mean": 0.09352184520103038,
+        "std": 0.00738854701152689
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0940365253879025,
+        "std": 0.011455507965862458
+      },
+      "train_mse": {
+        "mean": 1.8726670478829817,
+        "std": 0.015566762901432017
+      },
+      "training_seconds": {
+        "mean": 0.11677344119525515,
+        "std": 0.008062323825422615
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 6,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.089615867875611,
+        "std": 0.010832659692382434
+      },
+      "train_mse": {
+        "mean": 1.8652616644310416,
+        "std": 0.01432679146896872
+      },
+      "training_seconds": {
+        "mean": 0.13995237438939512,
+        "std": 0.008842060327674994
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 7,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0866988052439015,
+        "std": 0.010190957058632882
+      },
+      "train_mse": {
+        "mean": 1.8605418310019524,
+        "std": 0.013586756355159128
+      },
+      "training_seconds": {
+        "mean": 0.16274674108135515,
+        "std": 0.009652764292769837
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 8,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0846139789261846,
+        "std": 0.010169854584593033
+      },
+      "train_mse": {
+        "mean": 1.856620293365983,
+        "std": 0.012161520434801369
+      },
+      "training_seconds": {
+        "mean": 0.1853174743708223,
+        "std": 0.00968060609227912
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 9,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0819604142662804,
+        "std": 0.009397519115616126
+      },
+      "train_mse": {
+        "mean": 1.8523920447559885,
+        "std": 0.010157198892800156
+      },
+      "training_seconds": {
+        "mean": 0.20779295376269147,
+        "std": 0.00969438854441689
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 10,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.080603344549913,
+        "std": 0.00945057097132986
+      },
+      "train_mse": {
+        "mean": 1.8492297205671775,
+        "std": 0.009254450161714459
+      },
+      "training_seconds": {
+        "mean": 0.23026227465597912,
+        "std": 0.009674454673221108
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 11,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.079503659464146,
+        "std": 0.009812782784096846
+      },
+      "train_mse": {
+        "mean": 1.8466611405605484,
+        "std": 0.008850524099654807
+      },
+      "training_seconds": {
+        "mean": 0.25266078306012785,
+        "std": 0.009749084856731163
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 12,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0784487805386815,
+        "std": 0.010295161864112598
+      },
+      "train_mse": {
+        "mean": 1.8446089394727931,
+        "std": 0.008314302725735849
+      },
+      "training_seconds": {
+        "mean": 0.27555482475436294,
+        "std": 0.009589970559528252
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 13,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.077266276182075,
+        "std": 0.010558641899488585
+      },
+      "train_mse": {
+        "mean": 1.8432474811270207,
+        "std": 0.007797825135842682
+      },
+      "training_seconds": {
+        "mean": 0.2980789329565596,
+        "std": 0.009857124383294618
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 14,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.076368328633449,
+        "std": 0.011231877731765951
+      },
+      "train_mse": {
+        "mean": 1.8422245751187112,
+        "std": 0.007566016524913844
+      },
+      "training_seconds": {
+        "mean": 0.32053649545414375,
+        "std": 0.009885955006096446
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 15,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0757160617940746,
+        "std": 0.011654643134213077
+      },
+      "train_mse": {
+        "mean": 1.841385283553329,
+        "std": 0.007363110246886486
+      },
+      "training_seconds": {
+        "mean": 0.3429093580576591,
+        "std": 0.009913982005657419
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 16,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0756323134670076,
+        "std": 0.011280329895857514
+      },
+      "train_mse": {
+        "mean": 1.8406501844430074,
+        "std": 0.007121665156986511
+      },
+      "training_seconds": {
+        "mean": 0.36532502886257134,
+        "std": 0.009828563412347413
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 17,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0748543022133763,
+        "std": 0.011256486011728479
+      },
+      "train_mse": {
+        "mean": 1.8400678499326701,
+        "std": 0.006917380754116328
+      },
+      "training_seconds": {
+        "mean": 0.3878205868706573,
+        "std": 0.009934879169750832
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 18,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0743645006486267,
+        "std": 0.010767656768649103
+      },
+      "train_mse": {
+        "mean": 1.8394899339233635,
+        "std": 0.006514671362642371
+      },
+      "training_seconds": {
+        "mean": 0.4102051242720336,
+        "std": 0.009898070466392503
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 19,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0739236224146085,
+        "std": 0.010186561236258091
+      },
+      "train_mse": {
+        "mean": 1.8387416931047873,
+        "std": 0.0057855408693628756
+      },
+      "training_seconds": {
+        "mean": 0.4326268615783192,
+        "std": 0.009852366044254938
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 20,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0736733982886464,
+        "std": 0.01007533407406866
+      },
+      "train_mse": {
+        "mean": 1.8383250400940714,
+        "std": 0.005456513111296497
+      },
+      "training_seconds": {
+        "mean": 0.45502936547854916,
+        "std": 0.009782067345385842
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 21,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0733019483213067,
+        "std": 0.010156788736495394
+      },
+      "train_mse": {
+        "mean": 1.837897103535973,
+        "std": 0.005173851834139622
+      },
+      "training_seconds": {
+        "mean": 0.47756716966978274,
+        "std": 0.010106745627308395
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 22,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.072873557788604,
+        "std": 0.009807650938879411
+      },
+      "train_mse": {
+        "mean": 1.837305658337654,
+        "std": 0.004778952717729476
+      },
+      "training_seconds": {
+        "mean": 0.49995534047484397,
+        "std": 0.010064572819368537
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 23,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0728511825287845,
+        "std": 0.009803288041361397
+      },
+      "train_mse": {
+        "mean": 1.8369133874797126,
+        "std": 0.00469261970625211
+      },
+      "training_seconds": {
+        "mean": 0.5178680070734117,
+        "std": 0.001255630803908739
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 24,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.0726101598328803,
+        "std": 0.009907777407089336
+      },
+      "train_mse": {
+        "mean": 1.8365024087687647,
+        "std": 0.004553106823319543
+      },
+      "training_seconds": {
+        "mean": 0.5359713903686497,
+        "std": 0.010216607852568144
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 25,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 2.072304831393459,
+        "std": 0.010209244748960202
+      },
+      "train_mse": {
+        "mean": 1.8362489957959056,
+        "std": 0.004448634624435898
+      },
+      "training_seconds": {
+        "mean": 0.553974802972516,
+        "std": 0.020242155984648316
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 2.082168718494934,
+        "std": 0.01929050250880475
+      },
+      "train_mse": {
+        "mean": 1.873128100667984,
+        "std": 0.013681592315802994
+      },
+      "training_seconds": {
+        "mean": 0.02595064139459282,
+        "std": 0.00025963498104479137
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 2.0614088748493433,
+        "std": 0.015163743731064347
+      },
+      "train_mse": {
+        "mean": 1.8489736166312372,
+        "std": 0.01330831805634866
+      },
+      "training_seconds": {
+        "mean": 0.05669570389436558,
+        "std": 0.011536470930723238
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 2.0415638616347613,
+        "std": 0.01955313720321022
+      },
+      "train_mse": {
+        "mean": 1.833655756692068,
+        "std": 0.013278238105093569
+      },
+      "training_seconds": {
+        "mean": 0.08217259569792076,
+        "std": 0.011746523478886326
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 2.035537662345226,
+        "std": 0.020154084755033323
+      },
+      "train_mse": {
+        "mean": 1.8268291742149905,
+        "std": 0.012844090617970254
+      },
+      "training_seconds": {
+        "mean": 0.1075713373022154,
+        "std": 0.012068626967749352
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 2.034846899110476,
+        "std": 0.020548159605657642
+      },
+      "train_mse": {
+        "mean": 1.825367653928139,
+        "std": 0.012743204226333531
+      },
+      "training_seconds": {
+        "mean": 0.13804706649389117,
+        "std": 0.014465488341430157
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 2.082168718494934,
+        "std": 0.019290502508804583
+      },
+      "train_mse": {
+        "mean": 1.873128100667984,
+        "std": 0.013681592315803046
+      },
+      "training_seconds": {
+        "mean": 0.038511849899077785,
+        "std": 0.000502893737624499
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 2.0614088748493433,
+        "std": 0.015163743731064222
+      },
+      "train_mse": {
+        "mean": 1.8489736166312372,
+        "std": 0.013308318056348677
+      },
+      "training_seconds": {
+        "mean": 0.0756932583055459,
+        "std": 0.0009640658117419764
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 2.0415638616347613,
+        "std": 0.019553137203210114
+      },
+      "train_mse": {
+        "mean": 1.833655756692068,
+        "std": 0.013278238105093558
+      },
+      "training_seconds": {
+        "mean": 0.11305078740115278,
+        "std": 0.0017482452267340346
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 2.035537662345226,
+        "std": 0.020154084755033292
+      },
+      "train_mse": {
+        "mean": 1.8268291742149905,
+        "std": 0.01284409061797011
+      },
+      "training_seconds": {
+        "mean": 0.15053984129335732,
+        "std": 0.002730069108989791
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 2.034846899110476,
+        "std": 0.020548159605657836
+      },
+      "train_mse": {
+        "mean": 1.825367653928139,
+        "std": 0.01274320422633357
+      },
+      "training_seconds": {
+        "mean": 0.1876544997037854,
+        "std": 0.003228520469752517
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.2671554526283653,
+        "std": 0.04225734730957982
+      },
+      "train_mse": {
+        "mean": 2.099911928672397,
+        "std": 0.046308881543480424
+      },
+      "training_seconds": {
+        "mean": 0.026004066795576364,
+        "std": 0.0027050977766480038
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.1633430415136936,
+        "std": 0.035700377451629337
+      },
+      "train_mse": {
+        "mean": 1.9733923957640875,
+        "std": 0.03922926889391347
+      },
+      "training_seconds": {
+        "mean": 0.05102402910706587,
+        "std": 0.002586807179772319
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.120046322458489,
+        "std": 0.01643717915461787
+      },
+      "train_mse": {
+        "mean": 1.9170350705148702,
+        "std": 0.028352766360080692
+      },
+      "training_seconds": {
+        "mean": 0.07572951652691699,
+        "std": 0.0024016168865457457
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.1012855729852973,
+        "std": 0.011557853317585612
+      },
+      "train_mse": {
+        "mean": 1.886559888033767,
+        "std": 0.01855856744267018
+      },
+      "training_seconds": {
+        "mean": 0.10028792063239962,
+        "std": 0.002725424410452299
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0940365253879025,
+        "std": 0.011455507965862458
+      },
+      "train_mse": {
+        "mean": 1.8726670478829814,
+        "std": 0.01556676290143213
+      },
+      "training_seconds": {
+        "mean": 0.1248249163327273,
+        "std": 0.0025222570373668323
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 6,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.089615867875611,
+        "std": 0.010832659692382294
+      },
+      "train_mse": {
+        "mean": 1.8652616644310416,
+        "std": 0.014326791468968723
+      },
+      "training_seconds": {
+        "mean": 0.1499024664342869,
+        "std": 0.003860569725934785
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 7,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.086698805243901,
+        "std": 0.010190957058632745
+      },
+      "train_mse": {
+        "mean": 1.8605418310019524,
+        "std": 0.013586756355159154
+      },
+      "training_seconds": {
+        "mean": 0.1744575040473137,
+        "std": 0.003993733162539076
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 8,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0846139789261846,
+        "std": 0.010169854584593001
+      },
+      "train_mse": {
+        "mean": 1.856620293365983,
+        "std": 0.012161520434801502
+      },
+      "training_seconds": {
+        "mean": 0.19888668725034223,
+        "std": 0.003937167251804759
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 9,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0819604142662804,
+        "std": 0.009397519115615994
+      },
+      "train_mse": {
+        "mean": 1.8523920447559885,
+        "std": 0.01015719889280005
+      },
+      "training_seconds": {
+        "mean": 0.22341616215417162,
+        "std": 0.003941348204952231
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 10,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0806033445499126,
+        "std": 0.009450570971330003
+      },
+      "train_mse": {
+        "mean": 1.8492297205671775,
+        "std": 0.009254450161714623
+      },
+      "training_seconds": {
+        "mean": 0.2477761913498398,
+        "std": 0.003965422627548137
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 11,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.079503659464146,
+        "std": 0.009812782784096846
+      },
+      "train_mse": {
+        "mean": 1.8466611405605484,
+        "std": 0.008850524099654849
+      },
+      "training_seconds": {
+        "mean": 0.2721361995500047,
+        "std": 0.00393943395350645
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 12,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0784487805386815,
+        "std": 0.010295161864112598
+      },
+      "train_mse": {
+        "mean": 1.8446089394727931,
+        "std": 0.008314302725735889
+      },
+      "training_seconds": {
+        "mean": 0.2966072496434208,
+        "std": 0.0037755517927467275
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 13,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.077266276182075,
+        "std": 0.010558641899488623
+      },
+      "train_mse": {
+        "mean": 1.8432474811270207,
+        "std": 0.00779782513584255
+      },
+      "training_seconds": {
+        "mean": 0.3212839246261865,
+        "std": 0.003917713205289364
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 14,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0763683286334484,
+        "std": 0.011231877731765871
+      },
+      "train_mse": {
+        "mean": 1.8422245751187112,
+        "std": 0.007566016524913844
+      },
+      "training_seconds": {
+        "mean": 0.34600602042046374,
+        "std": 0.004365664821467992
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 15,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0757160617940746,
+        "std": 0.011654643134213077
+      },
+      "train_mse": {
+        "mean": 1.841385283553329,
+        "std": 0.0073631102468865416
+      },
+      "training_seconds": {
+        "mean": 0.37055939141428096,
+        "std": 0.00463695082560878
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 16,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0756323134670076,
+        "std": 0.011280329895857645
+      },
+      "train_mse": {
+        "mean": 1.8406501844430074,
+        "std": 0.007121665156986568
+      },
+      "training_seconds": {
+        "mean": 0.39503294542082584,
+        "std": 0.004803806734369231
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 17,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0748543022133763,
+        "std": 0.011256486011728541
+      },
+      "train_mse": {
+        "mean": 1.8400678499326706,
+        "std": 0.006917380754116197
+      },
+      "training_seconds": {
+        "mean": 0.4194579080096446,
+        "std": 0.004952685293569087
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 18,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0743645006486267,
+        "std": 0.010767656768649103
+      },
+      "train_mse": {
+        "mean": 1.8394899339233635,
+        "std": 0.00651467136264224
+      },
+      "training_seconds": {
+        "mean": 0.4443768663099036,
+        "std": 0.005890574515124528
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 19,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0739236224146085,
+        "std": 0.010186561236258091
+      },
+      "train_mse": {
+        "mean": 1.8387416931047877,
+        "std": 0.005785540869362743
+      },
+      "training_seconds": {
+        "mean": 0.4688392038282473,
+        "std": 0.005907674783678128
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 20,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.073673398288646,
+        "std": 0.010075334074068753
+      },
+      "train_mse": {
+        "mean": 1.8383250400940714,
+        "std": 0.005456513111296497
+      },
+      "training_seconds": {
+        "mean": 0.49318115383503025,
+        "std": 0.005941102950078671
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 21,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0733019483213067,
+        "std": 0.010156788736495712
+      },
+      "train_mse": {
+        "mean": 1.837897103535973,
+        "std": 0.005173851834139646
+      },
+      "training_seconds": {
+        "mean": 0.5175511080247815,
+        "std": 0.005894048452038419
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 22,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.072873557788604,
+        "std": 0.009807650938879706
+      },
+      "train_mse": {
+        "mean": 1.837305658337654,
+        "std": 0.004778952717729547
+      },
+      "training_seconds": {
+        "mean": 0.5418852454284206,
+        "std": 0.005949492730659772
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 23,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.072851182528784,
+        "std": 0.009803288041361477
+      },
+      "train_mse": {
+        "mean": 1.8369133874797128,
+        "std": 0.004692619706252086
+      },
+      "training_seconds": {
+        "mean": 0.5614544286159798,
+        "std": 0.014640552382459772
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 24,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.0726101598328803,
+        "std": 0.009907777407089502
+      },
+      "train_mse": {
+        "mean": 1.8365024087687651,
+        "std": 0.004553106823319554
+      },
+      "training_seconds": {
+        "mean": 0.5810901286138688,
+        "std": 0.025181782963454316
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 25,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 2.072304831393459,
+        "std": 0.01020924474896036
+      },
+      "train_mse": {
+        "mean": 1.8362489957959056,
+        "std": 0.004448634624435949
+      },
+      "training_seconds": {
+        "mean": 0.6005518076126464,
+        "std": 0.03587503346465963
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 0,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 3.5779884877573735,
+        "std": 0.1062639527109791
+      },
+      "train_mse": {
+        "mean": 3.4454984632487573,
+        "std": 0.10177995644164474
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 1,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 2.082168718494934,
+        "std": 0.019290502508804583
+      },
+      "train_mse": {
+        "mean": 1.873128100667984,
+        "std": 0.013681592315803046
+      },
+      "training_seconds": {
+        "mean": 0.041304225102066994,
+        "std": 0.0006441505640456119
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 2,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 2.0614088748493433,
+        "std": 0.015163743731064222
+      },
+      "train_mse": {
+        "mean": 1.8489736166312372,
+        "std": 0.013308318056348677
+      },
+      "training_seconds": {
+        "mean": 0.08164995828410611,
+        "std": 0.0014326201807776853
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 3,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 2.0415638616347613,
+        "std": 0.019553137203210114
+      },
+      "train_mse": {
+        "mean": 1.833655756692068,
+        "std": 0.013278238105093558
+      },
+      "training_seconds": {
+        "mean": 0.1221026248880662,
+        "std": 0.0026295612721015326
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 4,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 2.035537662345226,
+        "std": 0.020154084755033292
+      },
+      "train_mse": {
+        "mean": 1.8268291742149905,
+        "std": 0.01284409061797011
+      },
+      "training_seconds": {
+        "mean": 0.16218349588452838,
+        "std": 0.0031719142974147184
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "epoch": 5,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 2.034846899110476,
+        "std": 0.020548159605657836
+      },
+      "train_mse": {
+        "mean": 1.825367653928139,
+        "std": 0.01274320422633357
+      },
+      "training_seconds": {
+        "mean": 0.20261188338627106,
+        "std": 0.003527602018477827
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923282
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.2728014298044315,
+        "std": 0.0026227495878202427
+      },
+      "train_mse": {
+        "mean": 0.2575465658913344,
+        "std": 0.003990554521205979
+      },
+      "training_seconds": {
+        "mean": 0.015235012606717646,
+        "std": 0.00022059412426803375
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.2687548657987177,
+        "std": 0.00653053164119994
+      },
+      "train_mse": {
+        "mean": 0.25509593707817013,
+        "std": 0.001357847059274966
+      },
+      "training_seconds": {
+        "mean": 0.030089666601270437,
+        "std": 0.00022904615578417197
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.26758368175278113,
+        "std": 0.008099532821077133
+      },
+      "train_mse": {
+        "mean": 0.25112083833711357,
+        "std": 0.0020883276971991166
+      },
+      "training_seconds": {
+        "mean": 0.04487279159366153,
+        "std": 0.0002480978787945619
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.2655368498733572,
+        "std": 0.007857461871086666
+      },
+      "train_mse": {
+        "mean": 0.24948447082167577,
+        "std": 0.00208037592360566
+      },
+      "training_seconds": {
+        "mean": 0.059607954096281904,
+        "std": 0.0002862246552535266
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "numpy_emeans",
+      "test_mse": {
+        "mean": 0.2651300745743265,
+        "std": 0.007213268607078075
+      },
+      "train_mse": {
+        "mean": 0.24907421006916058,
+        "std": 0.0020900273545035116
+      },
+      "training_seconds": {
+        "mean": 0.07448136690654791,
+        "std": 0.0002958404348976028
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923282
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.31786720521105394,
+        "std": 0.020260723199547578
+      },
+      "train_mse": {
+        "mean": 0.31835409658300023,
+        "std": 0.01622403461637754
+      },
+      "training_seconds": {
+        "mean": 0.011582183494465426,
+        "std": 4.41762786817009e-05
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.30296379526467443,
+        "std": 0.02157493972859713
+      },
+      "train_mse": {
+        "mean": 0.2977391670534933,
+        "std": 0.018498639247313667
+      },
+      "training_seconds": {
+        "mean": 0.023108642088482158,
+        "std": 8.118591405830524e-05
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2964509589147979,
+        "std": 0.0199619490287893
+      },
+      "train_mse": {
+        "mean": 0.28730371237468694,
+        "std": 0.016751066495436288
+      },
+      "training_seconds": {
+        "mean": 0.03462534219725057,
+        "std": 0.00011618875809400579
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2913279933860591,
+        "std": 0.01726167031609563
+      },
+      "train_mse": {
+        "mean": 0.2793341346431878,
+        "std": 0.013701040163799198
+      },
+      "training_seconds": {
+        "mean": 0.046107317099813375,
+        "std": 0.00012805185681921902
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.287249333590593,
+        "std": 0.013902470996584324
+      },
+      "train_mse": {
+        "mean": 0.27309804593274645,
+        "std": 0.010294113214070446
+      },
+      "training_seconds": {
+        "mean": 0.057627775514265525,
+        "std": 0.0001575615680078799
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 6,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.28395624606503717,
+        "std": 0.010113890701395437
+      },
+      "train_mse": {
+        "mean": 0.26879734142611345,
+        "std": 0.006906757639338401
+      },
+      "training_seconds": {
+        "mean": 0.06915731731569394,
+        "std": 0.00016454288851974543
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 7,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2819156541575299,
+        "std": 0.008189850649139853
+      },
+      "train_mse": {
+        "mean": 0.2659967724393847,
+        "std": 0.005162590801275294
+      },
+      "training_seconds": {
+        "mean": 0.08069619222078472,
+        "std": 0.0002812159526465877
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 8,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.28048720733185833,
+        "std": 0.007497202751446066
+      },
+      "train_mse": {
+        "mean": 0.2638136455647734,
+        "std": 0.004472828919058133
+      },
+      "training_seconds": {
+        "mean": 0.09217340071336366,
+        "std": 0.0002776946155856281
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 9,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2793140182340711,
+        "std": 0.006701449698340819
+      },
+      "train_mse": {
+        "mean": 0.2616184383555074,
+        "std": 0.004318263577510514
+      },
+      "training_seconds": {
+        "mean": 0.10367423790739849,
+        "std": 0.00036179762479764094
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 10,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27794897760622045,
+        "std": 0.006200737082517356
+      },
+      "train_mse": {
+        "mean": 0.259652550242257,
+        "std": 0.004496197470153697
+      },
+      "training_seconds": {
+        "mean": 0.11517544640228153,
+        "std": 0.0003500365587285294
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 11,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2769015245081192,
+        "std": 0.005624962934234488
+      },
+      "train_mse": {
+        "mean": 0.258131276092764,
+        "std": 0.004580715336046068
+      },
+      "training_seconds": {
+        "mean": 0.12664525469299406,
+        "std": 0.0003658836461416518
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 12,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2762763434461879,
+        "std": 0.005228000209441258
+      },
+      "train_mse": {
+        "mean": 0.25737584775703803,
+        "std": 0.004577394151704499
+      },
+      "training_seconds": {
+        "mean": 0.1382262798899319,
+        "std": 0.0003927251580691973
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 13,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27592390914521947,
+        "std": 0.005062340214195401
+      },
+      "train_mse": {
+        "mean": 0.25691746449103064,
+        "std": 0.004583284291643338
+      },
+      "training_seconds": {
+        "mean": 0.1497384921880439,
+        "std": 0.0004123394713124242
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 14,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27569824403054594,
+        "std": 0.005191658816804836
+      },
+      "train_mse": {
+        "mean": 0.2565876094114421,
+        "std": 0.004617400237408215
+      },
+      "training_seconds": {
+        "mean": 0.16124271309818142,
+        "std": 0.0004273711196863363
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 15,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2752776716139816,
+        "std": 0.004997775415912028
+      },
+      "train_mse": {
+        "mean": 0.25626004691583393,
+        "std": 0.004692017466232452
+      },
+      "training_seconds": {
+        "mean": 0.17285627549281343,
+        "std": 0.0004709626449057129
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 16,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27497670672432006,
+        "std": 0.004806991101145577
+      },
+      "train_mse": {
+        "mean": 0.25596705338735537,
+        "std": 0.00481620740944462
+      },
+      "training_seconds": {
+        "mean": 0.18461612148676068,
+        "std": 0.0002521131984656427
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 17,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2746012676858603,
+        "std": 0.004545151036041716
+      },
+      "train_mse": {
+        "mean": 0.255720586285091,
+        "std": 0.004946640535025579
+      },
+      "training_seconds": {
+        "mean": 0.19620573408319614,
+        "std": 0.0002831452526627381
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 18,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27433167967871236,
+        "std": 0.004320778144272465
+      },
+      "train_mse": {
+        "mean": 0.25549809141484203,
+        "std": 0.005049923695384682
+      },
+      "training_seconds": {
+        "mean": 0.20771698038442993,
+        "std": 0.0003174480571284687
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 19,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2740563651566444,
+        "std": 0.004059483601879335
+      },
+      "train_mse": {
+        "mean": 0.2553268908509327,
+        "std": 0.005095534700396708
+      },
+      "training_seconds": {
+        "mean": 0.2191676343907602,
+        "std": 0.0003030434229886208
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 20,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2738389548611176,
+        "std": 0.003879453714083467
+      },
+      "train_mse": {
+        "mean": 0.2552365176194025,
+        "std": 0.005082979005789377
+      },
+      "training_seconds": {
+        "mean": 0.23066637190058828,
+        "std": 0.0002653224828774707
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 21,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27360066773006236,
+        "std": 0.003854998633735707
+      },
+      "train_mse": {
+        "mean": 0.25514730310260714,
+        "std": 0.005048125726784275
+      },
+      "training_seconds": {
+        "mean": 0.2421325636038091,
+        "std": 0.00026254892575389616
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 22,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.273300546286838,
+        "std": 0.003834544339331179
+      },
+      "train_mse": {
+        "mean": 0.2550491407928163,
+        "std": 0.00500624299556786
+      },
+      "training_seconds": {
+        "mean": 0.2536053342977539,
+        "std": 0.00024956950875440465
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 23,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2729726025003505,
+        "std": 0.003854215874831356
+      },
+      "train_mse": {
+        "mean": 0.25494883016646247,
+        "std": 0.004948747147387241
+      },
+      "training_seconds": {
+        "mean": 0.26506611760123633,
+        "std": 0.00023748189730236452
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 24,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.27267100351027657,
+        "std": 0.004021569001671195
+      },
+      "train_mse": {
+        "mean": 0.25478872233004,
+        "std": 0.004849253408287062
+      },
+      "training_seconds": {
+        "mean": 0.27652055090293287,
+        "std": 0.00023070181846252465
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 25,
+      "method": "numpy_lloyd",
+      "test_mse": {
+        "mean": 0.2724046928825093,
+        "std": 0.004186235072185521
+      },
+      "train_mse": {
+        "mean": 0.25466463603050415,
+        "std": 0.004793398164254854
+      },
+      "training_seconds": {
+        "mean": 0.288012176117627,
+        "std": 0.00019339623349304483
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923282
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.2728014298044315,
+        "std": 0.0026227495878202427
+      },
+      "train_mse": {
+        "mean": 0.2575465658913344,
+        "std": 0.003990554521205979
+      },
+      "training_seconds": {
+        "mean": 0.016808770794887094,
+        "std": 0.0006214726639562389
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.2687548657987177,
+        "std": 0.00653053164119994
+      },
+      "train_mse": {
+        "mean": 0.25509593707817013,
+        "std": 0.001357847059274966
+      },
+      "training_seconds": {
+        "mean": 0.03297925859224051,
+        "std": 0.0009579230212560228
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.26758368175278113,
+        "std": 0.008099532821077133
+      },
+      "train_mse": {
+        "mean": 0.25112083833711357,
+        "std": 0.0020883276971991166
+      },
+      "training_seconds": {
+        "mean": 0.04913832090096548,
+        "std": 0.0010355617194843369
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.2655368498733572,
+        "std": 0.007857461871086666
+      },
+      "train_mse": {
+        "mean": 0.24948447082167577,
+        "std": 0.00208037592360566
+      },
+      "training_seconds": {
+        "mean": 0.0650738583994098,
+        "std": 0.0010554662971334076
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "numpy_slow",
+      "test_mse": {
+        "mean": 0.2651300745743265,
+        "std": 0.007213268607078075
+      },
+      "train_mse": {
+        "mean": 0.24907421006916058,
+        "std": 0.0020900273545035116
+      },
+      "training_seconds": {
+        "mean": 0.08114918749779462,
+        "std": 0.0010055387538920213
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923278
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.2728014298044315,
+        "std": 0.0026227495878202276
+      },
+      "train_mse": {
+        "mean": 0.2575465658913344,
+        "std": 0.003990554521205979
+      },
+      "training_seconds": {
+        "mean": 0.02795362510951236,
+        "std": 0.00028050929737904903
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.2687548657987177,
+        "std": 0.006530531641199942
+      },
+      "train_mse": {
+        "mean": 0.25509593707817013,
+        "std": 0.001357847059274966
+      },
+      "training_seconds": {
+        "mean": 0.055045891716144976,
+        "std": 0.0004451571155921416
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.26758368175278113,
+        "std": 0.008099532821077133
+      },
+      "train_mse": {
+        "mean": 0.25112083833711357,
+        "std": 0.002088327697199141
+      },
+      "training_seconds": {
+        "mean": 0.08208682502736338,
+        "std": 0.0002411834542154098
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.2655368498733572,
+        "std": 0.007857461871086682
+      },
+      "train_mse": {
+        "mean": 0.24948447082167577,
+        "std": 0.0020803759236056726
+      },
+      "training_seconds": {
+        "mean": 0.10900683312793262,
+        "std": 0.0004139769566625926
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "torch_emeans",
+      "test_mse": {
+        "mean": 0.2651300745743265,
+        "std": 0.007213268607078091
+      },
+      "train_mse": {
+        "mean": 0.24907421006916058,
+        "std": 0.0020900273545035168
+      },
+      "training_seconds": {
+        "mean": 0.1362540748436004,
+        "std": 0.0005193080522530942
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923278
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.31786720521105394,
+        "std": 0.02026072319954755
+      },
+      "train_mse": {
+        "mean": 0.31835409658300023,
+        "std": 0.01622403461637755
+      },
+      "training_seconds": {
+        "mean": 0.012891858391230925,
+        "std": 9.429488511442904e-05
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.3029637952646745,
+        "std": 0.021574939728597135
+      },
+      "train_mse": {
+        "mean": 0.29773916705349335,
+        "std": 0.018498639247313688
+      },
+      "training_seconds": {
+        "mean": 0.025558724993607028,
+        "std": 0.00025250538405753245
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2964509589147979,
+        "std": 0.01996194902878932
+      },
+      "train_mse": {
+        "mean": 0.28730371237468694,
+        "std": 0.0167510664954363
+      },
+      "training_seconds": {
+        "mean": 0.038173812499735504,
+        "std": 0.0003173088828916422
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2913279933860591,
+        "std": 0.017261670316095615
+      },
+      "train_mse": {
+        "mean": 0.2793341346431878,
+        "std": 0.013701040163799215
+      },
+      "training_seconds": {
+        "mean": 0.050770416512386875,
+        "std": 0.0004205346485271479
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.287249333590593,
+        "std": 0.013902470996584324
+      },
+      "train_mse": {
+        "mean": 0.27309804593274645,
+        "std": 0.010294113214070446
+      },
+      "training_seconds": {
+        "mean": 0.06336182931554504,
+        "std": 0.0005332920971833046
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 6,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.28395624606503717,
+        "std": 0.010113890701395442
+      },
+      "train_mse": {
+        "mean": 0.26879734142611345,
+        "std": 0.006906757639338379
+      },
+      "training_seconds": {
+        "mean": 0.07596442102221772,
+        "std": 0.0006809500970244246
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 7,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.28191565415752984,
+        "std": 0.008189850649139836
+      },
+      "train_mse": {
+        "mean": 0.2659967724393847,
+        "std": 0.005162590801275251
+      },
+      "training_seconds": {
+        "mean": 0.08858100021607243,
+        "std": 0.0007602241235930913
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 8,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.28048720733185833,
+        "std": 0.0074972027514460995
+      },
+      "train_mse": {
+        "mean": 0.2638136455647734,
+        "std": 0.004472828919058133
+      },
+      "training_seconds": {
+        "mean": 0.10120327521581203,
+        "std": 0.0008523256365008242
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 9,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2793140182340711,
+        "std": 0.0067014496983408
+      },
+      "train_mse": {
+        "mean": 0.2616184383555074,
+        "std": 0.0043182635775105335
+      },
+      "training_seconds": {
+        "mean": 0.11376450451207347,
+        "std": 0.0009592907252227032
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 10,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27794897760622045,
+        "std": 0.006200737082517356
+      },
+      "train_mse": {
+        "mean": 0.259652550242257,
+        "std": 0.004496197470153694
+      },
+      "training_seconds": {
+        "mean": 0.1263264420093037,
+        "std": 0.001078837358554007
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 11,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2769015245081192,
+        "std": 0.005624962934234488
+      },
+      "train_mse": {
+        "mean": 0.258131276092764,
+        "std": 0.004580715336046068
+      },
+      "training_seconds": {
+        "mean": 0.13887705882079898,
+        "std": 0.0011844853784465335
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 12,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2762763434461879,
+        "std": 0.005228000209441243
+      },
+      "train_mse": {
+        "mean": 0.25737584775703803,
+        "std": 0.004577394151704504
+      },
+      "training_seconds": {
+        "mean": 0.15144689221051522,
+        "std": 0.001260940735441617
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 13,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27592390914521947,
+        "std": 0.005062340214195415
+      },
+      "train_mse": {
+        "mean": 0.25691746449103064,
+        "std": 0.0045832842916433345
+      },
+      "training_seconds": {
+        "mean": 0.1639830340165645,
+        "std": 0.0013187522272496968
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 14,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27569824403054594,
+        "std": 0.005191658816804836
+      },
+      "train_mse": {
+        "mean": 0.2565876094114421,
+        "std": 0.004617400237408208
+      },
+      "training_seconds": {
+        "mean": 0.17653034221148117,
+        "std": 0.0014240754164097308
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 15,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2752776716139816,
+        "std": 0.004997775415912033
+      },
+      "train_mse": {
+        "mean": 0.25626004691583393,
+        "std": 0.004692017466232444
+      },
+      "training_seconds": {
+        "mean": 0.18905467159347608,
+        "std": 0.0014969218893079676
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 16,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2749767067243202,
+        "std": 0.004806991101145581
+      },
+      "train_mse": {
+        "mean": 0.25596705338735537,
+        "std": 0.004816207409444619
+      },
+      "training_seconds": {
+        "mean": 0.2016480422927998,
+        "std": 0.00164324340382852
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 17,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2746012676858603,
+        "std": 0.004545151036041716
+      },
+      "train_mse": {
+        "mean": 0.25572058628509103,
+        "std": 0.004946640535025559
+      },
+      "training_seconds": {
+        "mean": 0.21428858810104429,
+        "std": 0.0017116831748592346
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 18,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27433167967871236,
+        "std": 0.004320778144272451
+      },
+      "train_mse": {
+        "mean": 0.25549809141484203,
+        "std": 0.005049923695384694
+      },
+      "training_seconds": {
+        "mean": 0.22684354639495724,
+        "std": 0.0017845441956826815
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 19,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2740563651566444,
+        "std": 0.004059483601879335
+      },
+      "train_mse": {
+        "mean": 0.25532689085093263,
+        "std": 0.00509553470039672
+      },
+      "training_seconds": {
+        "mean": 0.23937575068557634,
+        "std": 0.0018448172366868504
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 20,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2738389548611176,
+        "std": 0.0038794537140834566
+      },
+      "train_mse": {
+        "mean": 0.2552365176194025,
+        "std": 0.005082979005789377
+      },
+      "training_seconds": {
+        "mean": 0.25191918818163683,
+        "std": 0.001895612548166524
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 21,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27360066773006236,
+        "std": 0.003854998633735685
+      },
+      "train_mse": {
+        "mean": 0.25514730310260714,
+        "std": 0.005048125726784275
+      },
+      "training_seconds": {
+        "mean": 0.2645280880911741,
+        "std": 0.002024817357883434
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 22,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27330054628683803,
+        "std": 0.0038345443393311947
+      },
+      "train_mse": {
+        "mean": 0.25504914079281643,
+        "std": 0.00500624299556786
+      },
+      "training_seconds": {
+        "mean": 0.2796308214892633,
+        "std": 0.004965663485877743
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 23,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27297260250035055,
+        "std": 0.003854215874831385
+      },
+      "train_mse": {
+        "mean": 0.25494883016646247,
+        "std": 0.004948747147387231
+      },
+      "training_seconds": {
+        "mean": 0.2922487340925727,
+        "std": 0.005073452488378888
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 24,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.27267100351027657,
+        "std": 0.004021569001671174
+      },
+      "train_mse": {
+        "mean": 0.2547887223300401,
+        "std": 0.004849253408287071
+      },
+      "training_seconds": {
+        "mean": 0.3048627214797307,
+        "std": 0.005279494223181812
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 25,
+      "method": "torch_lloyd",
+      "test_mse": {
+        "mean": 0.2724046928825093,
+        "std": 0.004186235072185522
+      },
+      "train_mse": {
+        "mean": 0.25466463603050415,
+        "std": 0.004793398164254863
+      },
+      "training_seconds": {
+        "mean": 0.3173977257742081,
+        "std": 0.005266212346967673
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 0,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.4796728073184677,
+        "std": 0.03811272492923278
+      },
+      "train_mse": {
+        "mean": 0.49148990125433684,
+        "std": 0.029759859863269494
+      },
+      "training_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 1,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.2728014298044315,
+        "std": 0.0026227495878202276
+      },
+      "train_mse": {
+        "mean": 0.2575465658913344,
+        "std": 0.003990554521205979
+      },
+      "training_seconds": {
+        "mean": 0.03852173739578575,
+        "std": 0.010024088529238612
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 2,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.2687548657987177,
+        "std": 0.006530531641199942
+      },
+      "train_mse": {
+        "mean": 0.25509593707817013,
+        "std": 0.001357847059274966
+      },
+      "training_seconds": {
+        "mean": 0.07357058728812263,
+        "std": 0.015334433919626269
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 3,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.26758368175278113,
+        "std": 0.008099532821077133
+      },
+      "train_mse": {
+        "mean": 0.25112083833711357,
+        "std": 0.002088327697199141
+      },
+      "training_seconds": {
+        "mean": 0.10901402907911688,
+        "std": 0.021861924168155106
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 4,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.2655368498733572,
+        "std": 0.007857461871086682
+      },
+      "train_mse": {
+        "mean": 0.24948447082167577,
+        "std": 0.0020803759236056726
+      },
+      "training_seconds": {
+        "mean": 0.14473189147538507,
+        "std": 0.027870104477494627
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "epoch": 5,
+      "method": "torch_slow",
+      "test_mse": {
+        "mean": 0.2651300745743265,
+        "std": 0.007213268607078091
+      },
+      "train_mse": {
+        "mean": 0.24907421006916058,
+        "std": 0.0020900273545035168
+      },
+      "training_seconds": {
+        "mean": 0.18096718737506307,
+        "std": 0.03538792880910359
+      }
+    }
+  ],
+  "schema_version": 2,
+  "source_sha256": "4fed06289da4ffbafd68e0e639dee39f2aab55754f10893d66727fce256a1b3d",
+  "summary": [
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.0349496212464504,
+        "std": 0.020987328294701024
+      },
+      "final_train_mse": {
+        "mean": 1.8246419616194736,
+        "std": 0.012599037369870251
+      },
+      "finalization_seconds": {
+        "mean": 1.1129112681373954e-05,
+        "std": 2.896096695371743e-06
+      },
+      "fit_wall_seconds": {
+        "mean": 0.32484040420968086,
+        "std": 0.0005175433194352067
+      },
+      "mean_within_seed_fit_std": 0.0017892689349385531,
+      "method": "numpy_emeans",
+      "n_revivals": {
+        "mean": 3.2,
+        "std": 0.8366600265340756
+      },
+      "peak_process_rss_bytes": {
+        "mean": 48278732.8,
+        "std": 87197.67365704202
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.12325899989227765,
+        "std": 0.0005216687201561614
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.072304831393459,
+        "std": 0.010209244748960202
+      },
+      "final_train_mse": {
+        "mean": 1.8362489957959056,
+        "std": 0.004448634624435898
+      },
+      "finalization_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "fit_wall_seconds": {
+        "mean": 1.3363816627126652,
+        "std": 0.05226082236664807
+      },
+      "mean_within_seed_fit_std": 0.014643162233707475,
+      "method": "numpy_lloyd",
+      "n_revivals": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "peak_process_rss_bytes": {
+        "mean": 47893708.8,
+        "std": 54524.514442588115
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.553974802972516,
+        "std": 0.020242155984648316
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.0377365478766913,
+        "std": 0.01962531519809076
+      },
+      "final_train_mse": {
+        "mean": 1.8307555407190954,
+        "std": 0.01287914974985413
+      },
+      "finalization_seconds": {
+        "mean": 1.1483393609523774e-05,
+        "std": 2.2413229903640567e-06
+      },
+      "fit_wall_seconds": {
+        "mean": 0.33967826669104395,
+        "std": 0.014794256496494186
+      },
+      "mean_within_seed_fit_std": 0.0147910830111336,
+      "method": "numpy_slow",
+      "n_revivals": {
+        "mean": 3.2,
+        "std": 0.8366600265340756
+      },
+      "peak_process_rss_bytes": {
+        "mean": 48421273.6,
+        "std": 166319.79359294553
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.13804706649389117,
+        "std": 0.014465488341430157
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.0349496212464504,
+        "std": 0.020987328294701024
+      },
+      "final_train_mse": {
+        "mean": 1.8246419616194736,
+        "std": 0.012599037369870251
+      },
+      "finalization_seconds": {
+        "mean": 4.0308397728949785e-05,
+        "std": 1.0976753226897857e-05
+      },
+      "fit_wall_seconds": {
+        "mean": 0.43300914179417305,
+        "std": 0.0056518464313949305
+      },
+      "mean_within_seed_fit_std": 0.00514068977766817,
+      "method": "torch_emeans",
+      "n_revivals": {
+        "mean": 3.2,
+        "std": 0.8366600265340756
+      },
+      "peak_process_rss_bytes": {
+        "mean": 220094464.0,
+        "std": 622511.1526454767
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.1876544997037854,
+        "std": 0.003228520469752517
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.072304831393459,
+        "std": 0.010209244748960202
+      },
+      "final_train_mse": {
+        "mean": 1.8362489957959056,
+        "std": 0.004448634624435898
+      },
+      "finalization_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "fit_wall_seconds": {
+        "mean": 1.5535708084004,
+        "std": 0.09071667050003342
+      },
+      "mean_within_seed_fit_std": 0.019519223062514312,
+      "method": "torch_lloyd",
+      "n_revivals": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "peak_process_rss_bytes": {
+        "mean": 216698060.8,
+        "std": 3801607.0266332366
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.6005518076126464,
+        "std": 0.03587503346465963
+      }
+    },
+    {
+      "dataset": "optdigits",
+      "final_test_mse": {
+        "mean": 2.0377365478766913,
+        "std": 0.01962531519809076
+      },
+      "final_train_mse": {
+        "mean": 1.8307555407190954,
+        "std": 0.01287914974985413
+      },
+      "finalization_seconds": {
+        "mean": 3.584140795283019e-05,
+        "std": 1.5953923429189104e-06
+      },
+      "fit_wall_seconds": {
+        "mean": 0.44712576249148694,
+        "std": 0.005673421842163004
+      },
+      "mean_within_seed_fit_std": 0.005023716657313793,
+      "method": "torch_slow",
+      "n_revivals": {
+        "mean": 3.2,
+        "std": 0.8366600265340756
+      },
+      "peak_process_rss_bytes": {
+        "mean": 220114124.8,
+        "std": 118515.33755257165
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.20261188338627106,
+        "std": 0.003527602018477827
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.26504758754397556,
+        "std": 0.007125659885315504
+      },
+      "final_train_mse": {
+        "mean": 0.24902423240827112,
+        "std": 0.0020970223562711623
+      },
+      "finalization_seconds": {
+        "mean": 8.754286682233214e-06,
+        "std": 2.2002404593639883e-06
+      },
+      "fit_wall_seconds": {
+        "mean": 0.17545551668736153,
+        "std": 0.0003747895773932574
+      },
+      "mean_within_seed_fit_std": 0.0009266751602517662,
+      "method": "numpy_emeans",
+      "n_revivals": {
+        "mean": 2.6,
+        "std": 1.51657508881031
+      },
+      "peak_process_rss_bytes": {
+        "mean": 44746342.4,
+        "std": 122387.49300806844
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.07448136690654791,
+        "std": 0.0002958404348976028
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.2724046928825093,
+        "std": 0.004186235072185521
+      },
+      "final_train_mse": {
+        "mean": 0.25466463603050415,
+        "std": 0.004793398164254854
+      },
+      "finalization_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "fit_wall_seconds": {
+        "mean": 0.6890886583074461,
+        "std": 0.0004028031039867845
+      },
+      "mean_within_seed_fit_std": 0.0016874864442862013,
+      "method": "numpy_lloyd",
+      "n_revivals": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "peak_process_rss_bytes": {
+        "mean": 44615270.4,
+        "std": 110120.71433113754
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.288012176117627,
+        "std": 0.00019339623349304483
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.26526806391404184,
+        "std": 0.006570607766966815
+      },
+      "final_train_mse": {
+        "mean": 0.25127787137273977,
+        "std": 0.002191406474331046
+      },
+      "finalization_seconds": {
+        "mean": 6.870809011161328e-06,
+        "std": 7.815882134930047e-07
+      },
+      "fit_wall_seconds": {
+        "mean": 0.18232741238316522,
+        "std": 0.0020148512055181912
+      },
+      "mean_within_seed_fit_std": 0.001222734701567973,
+      "method": "numpy_slow",
+      "n_revivals": {
+        "mean": 2.6,
+        "std": 1.51657508881031
+      },
+      "peak_process_rss_bytes": {
+        "mean": 44693913.6,
+        "std": 99558.9233208154
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.08114918749779462,
+        "std": 0.0010055387538920213
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.26504758754397556,
+        "std": 0.007125659885315504
+      },
+      "final_train_mse": {
+        "mean": 0.24902423240827112,
+        "std": 0.0020970223562711623
+      },
+      "finalization_seconds": {
+        "mean": 3.369170590303838e-05,
+        "std": 4.591515300325978e-06
+      },
+      "fit_wall_seconds": {
+        "mean": 0.2600322376121767,
+        "std": 0.0007941401574795535
+      },
+      "mean_within_seed_fit_std": 0.001464706640659124,
+      "method": "torch_emeans",
+      "n_revivals": {
+        "mean": 2.6,
+        "std": 1.51657508881031
+      },
+      "peak_process_rss_bytes": {
+        "mean": 216524390.4,
+        "std": 755074.0201363043
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.1362540748436004,
+        "std": 0.0005193080522530942
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.2724046928825093,
+        "std": 0.004186235072185521
+      },
+      "final_train_mse": {
+        "mean": 0.25466463603050415,
+        "std": 0.004793398164254854
+      },
+      "finalization_seconds": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "fit_wall_seconds": {
+        "mean": 0.8140914039046038,
+        "std": 0.020719351520908053
+      },
+      "mean_within_seed_fit_std": 0.01809416120459426,
+      "method": "torch_lloyd",
+      "n_revivals": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "peak_process_rss_bytes": {
+        "mean": 216440832.0,
+        "std": 372218.0137070209
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.3173977257742081,
+        "std": 0.005266212346967673
+      }
+    },
+    {
+      "dataset": "pendigits",
+      "final_test_mse": {
+        "mean": 0.26526806391404184,
+        "std": 0.006570607766966815
+      },
+      "final_train_mse": {
+        "mean": 0.25127787137273977,
+        "std": 0.002191406474331046
+      },
+      "finalization_seconds": {
+        "mean": 4.905439564026892e-05,
+        "std": 3.080075669947314e-05
+      },
+      "fit_wall_seconds": {
+        "mean": 0.3115856292948592,
+        "std": 0.04982919411904428
+      },
+      "mean_within_seed_fit_std": 0.018623784479273563,
+      "method": "torch_slow",
+      "n_revivals": {
+        "mean": 2.6,
+        "std": 1.51657508881031
+      },
+      "peak_process_rss_bytes": {
+        "mean": 217184665.6,
+        "std": 285747.0119332834
+      },
+      "repeats_per_seed": 2,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "training_seconds": {
+        "mean": 0.18096718737506307,
+        "std": 0.03538792880910359
+      }
+    }
+  ],
+  "verified_runs": 120
+}

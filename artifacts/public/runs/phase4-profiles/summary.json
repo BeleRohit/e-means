@@ -1,0 +1,8 @@
+{
+  "aggregates": [],
+  "limitation": "discrete horizon grid; no interpolation, online stopping or retrospective finalization; test targets do not select recipes",
+  "matched_grid": [],
+  "paired_comparisons": [],
+  "status": "gpu_profiled",
+  "verified_runs": 9
+}

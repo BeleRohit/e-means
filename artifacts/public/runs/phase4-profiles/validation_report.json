@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-12T05:52:18.093119+00:00",
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "junit_sha256": "52497ada69965a888fcd4106e42e1459cd1f60ee57d472627f3e318f593b6864",
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "started_utc": "2026-11-12T05:51:29.566986+00:00",
+  "status": "cuda_verified",
+  "suite": {
+    "cuda_cases": 28,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 199
+  }
+}

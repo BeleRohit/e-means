@@ -1,0 +1,269 @@
+{
+  "actual_epochs": 5,
+  "artifact_sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+  "baseline_allocated_bytes": 10551296,
+  "baseline_reserved_bytes": 46137344,
+  "budget": 5,
+  "config": {
+    "alpha0": 0.2,
+    "alpha_min_factor": 0.1,
+    "assignment_chunk_size": 1024,
+    "batch_size": 256,
+    "centroid_chunk_size": 64,
+    "drop_last": false,
+    "dtype": "float32",
+    "epochs": 5,
+    "finalize": "slow_ema",
+    "initial_mass": 1e-10,
+    "n_clusters": 64,
+    "revival_interval": 5,
+    "revival_threshold": 0.1,
+    "seed": 0,
+    "slow_ema_factor": 0.25,
+    "slow_half_life": null,
+    "split_epsilon": 0.0078125
+  },
+  "cuda_event_seconds": 2.455457763671875,
+  "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc",
+  "diagnostic": {
+    "diagnostic_wall_seconds": 2.4930341800209135,
+    "distance_pairs": {
+      "evaluation": 3932160,
+      "final_test": 131072,
+      "publish": 524288,
+      "training": 2621440
+    },
+    "points": [
+      {
+        "all_distance_pairs": 655360,
+        "epoch": 0,
+        "stage": "main_state",
+        "test_mse": 635.1066187918186,
+        "train_mse": 629.8821862451732,
+        "training_distance_pairs": 0,
+        "wall_seconds": 0.09161012805998325
+      },
+      {
+        "all_distance_pairs": 1835008,
+        "epoch": 1,
+        "stage": "main_state",
+        "test_mse": 291.48860788345337,
+        "train_mse": 285.42323910072446,
+        "training_distance_pairs": 524288,
+        "wall_seconds": 0.6017966159852222
+      },
+      {
+        "all_distance_pairs": 3014656,
+        "epoch": 2,
+        "stage": "main_state",
+        "test_mse": 289.89206648617983,
+        "train_mse": 283.7115096542984,
+        "training_distance_pairs": 1048576,
+        "wall_seconds": 1.0548667900729924
+      },
+      {
+        "all_distance_pairs": 4194304,
+        "epoch": 3,
+        "stage": "main_state",
+        "test_mse": 280.7900684028864,
+        "train_mse": 274.4602337349206,
+        "training_distance_pairs": 1572864,
+        "wall_seconds": 1.5112241780152544
+      },
+      {
+        "all_distance_pairs": 5373952,
+        "epoch": 4,
+        "stage": "main_state",
+        "test_mse": 279.61714789271355,
+        "train_mse": 273.18143537826836,
+        "training_distance_pairs": 2097152,
+        "wall_seconds": 1.953212930005975
+      },
+      {
+        "all_distance_pairs": 6553600,
+        "epoch": 5,
+        "stage": "main_state",
+        "test_mse": 279.4831179380417,
+        "train_mse": 273.0445910077542,
+        "training_distance_pairs": 2621440,
+        "wall_seconds": 2.4036104109836742
+      },
+      {
+        "all_distance_pairs": 7208960,
+        "epoch": 5,
+        "stage": "returned",
+        "test_mse": 280.46741165965796,
+        "train_mse": 274.25896834023297,
+        "training_distance_pairs": 2621440,
+        "wall_seconds": 2.4926872389623895
+      }
+    ],
+    "profiling_enabled": false,
+    "purpose": "diagnostic only; primary latency is the separate unprofiled fit",
+    "ranges": {
+      "assignment/evaluation": {
+        "calls": 12,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.5518246253486723
+      },
+      "assignment/final_test": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.01723996503278613
+      },
+      "assignment/publish": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.07081728405319154
+      },
+      "assignment/training": {
+        "calls": 160,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 1.4556038797600195
+      },
+      "evaluation": {
+        "calls": 6,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.5529544837772846
+      },
+      "publish": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.07094510202296078
+      }
+    },
+    "replay_outputs_exact": true,
+    "timing_caveat": "inclusive nested ranges overlap; CUDA stream spans contain submission gaps; do not sum or call kernel time"
+  },
+  "dtype": "float32",
+  "evaluation": "every_epoch",
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "evaluation_seconds": 0.0905790600227192,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 635.1066187918186,
+      "train_mse": 629.8821862451732,
+      "training_seconds": 0,
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "evaluation_seconds": 0.17798101401422173,
+      "moving_mse": 316.1662366259843,
+      "revivals": 22,
+      "test_mse": 291.48860788345337,
+      "train_mse": 285.42323910072446,
+      "training_seconds": 0.37288069899659604,
+      "updates": 32
+    },
+    {
+      "epoch": 2,
+      "evaluation_seconds": 0.26665039092767984,
+      "moving_mse": 288.46381925046444,
+      "revivals": 26,
+      "test_mse": 289.89206648617983,
+      "train_mse": 283.7115096542984,
+      "training_seconds": 0.7326945959357545,
+      "updates": 64
+    },
+    {
+      "epoch": 3,
+      "evaluation_seconds": 0.3524042129283771,
+      "moving_mse": 282.8984761442989,
+      "revivals": 32,
+      "test_mse": 280.7900684028864,
+      "train_mse": 274.4602337349206,
+      "training_seconds": 1.1075162509223446,
+      "updates": 96
+    },
+    {
+      "epoch": 4,
+      "evaluation_seconds": 0.44168186793103814,
+      "moving_mse": 276.6250512767583,
+      "revivals": 32,
+      "test_mse": 279.61714789271355,
+      "train_mse": 273.18143537826836,
+      "training_seconds": 1.4720855458872393,
+      "updates": 128
+    },
+    {
+      "epoch": 5,
+      "evaluation_seconds": 0.528802357846871,
+      "moving_mse": 274.7396650519222,
+      "revivals": 32,
+      "test_mse": 279.4831179380417,
+      "train_mse": 273.0445910077542,
+      "training_seconds": 1.8375104289734736,
+      "updates": 160
+    }
+  ],
+  "integrated_finalizer_wall_seconds": 0.0003716900246217847,
+  "method": "slow_ema",
+  "peak_allocated_bytes": 26153984,
+  "peak_reserved_bytes": 46137344,
+  "recipe": {
+    "alpha0": 0.2,
+    "alpha_source": "explicit",
+    "batch_size": 256,
+    "batch_source": "explicit",
+    "drop_last": false,
+    "slow_alpha": 0.005000000000000001,
+    "steps_per_epoch": 32,
+    "total_steps": 160
+  },
+  "recipe_resolution": {
+    "alpha0": 0.2,
+    "alpha_factor": 1,
+    "alpha_source": "explicit",
+    "batch_factor": 1,
+    "batch_size": 256,
+    "batch_source": "explicit",
+    "drop_last": false,
+    "sensitivity_alpha_clipped": false,
+    "statistical_scope": "small-workload law evaluation, not fit/extrapolation validation",
+    "steps_per_epoch": 32,
+    "total_steps": 160,
+    "variant": "fixed"
+  },
+  "repeat": 1,
+  "seed": 0,
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "gpu_measured",
+  "targets": {
+    "0.99": {
+      "test_mse": 292.9518474237621,
+      "train_mse": 290.00011872444304
+    },
+    "1.001": {
+      "test_mse": 296.20686795069275,
+      "train_mse": 293.22234226582566
+    }
+  },
+  "test_mse": 280.46741165965796,
+  "timing": "unprofiled synchronized resident fit plus returned train/test evaluation; H2D excluded",
+  "train_mse": 274.25896834023297,
+  "variant": "fixed",
+  "wall_seconds": 2.4555293360026553,
+  "workload": "gaussian256"
+}

@@ -1,0 +1,19 @@
+{
+  "array_sha256": "057dc2ce955ef3c68f68c549a073aedacd951da4ec98e6c41b071c49f56d18d8",
+  "doi": "10.24432/C50P49",
+  "features": 64,
+  "member_sha256": {
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd"
+  },
+  "name": "optdigits",
+  "preprocessing": "discard last class-label column; divide all features by 16",
+  "rows": [
+    3823,
+    1797
+  ],
+  "scale": 16,
+  "sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+  "split": "original UCI .tra/.tes; never reshuffled across splits",
+  "url": "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip"
+}

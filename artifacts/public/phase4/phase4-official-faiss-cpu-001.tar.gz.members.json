@@ -1,0 +1,332 @@
+{
+  "archive_sha256": "db8dcd7c7759a373c6f8617d5e6136e8834938e00310ddc5f302ceec8b0614e2",
+  "member_count": 65,
+  "trace_bytes_preserved_in_archive": 0,
+  "members": {
+    "phase4-official-faiss-cpu-001/config.json": {
+      "sha256": "81d982dfed9405dc26de51ddfde0536bfb13d3e56193c45abed900b3ba996281",
+      "size": 990,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/execution_status.json": {
+      "sha256": "5c48f302f00eb74be0fd4cef522d36fe8d677e7e0bb3e148f2d2825527bc365a",
+      "size": 195,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_authors_faiss_cpu_repeat0.json": {
+      "sha256": "3ec9273fbe3e21d1fc071fbefa8a2fa08ad2e71ab16460b0459de55538152d81",
+      "size": 704,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "30b82c8aa2c5642e055b32dbf6fa63fcb3cdd6dc64eec8f94f2109f1bfaf9cd7",
+      "size": 8104,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_authors_faiss_cpu_repeat1.json": {
+      "sha256": "6f843996e459648726539c5a906d2a5f19ca1f818afe2d727eee947dbdc4a4a0",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "30b82c8aa2c5642e055b32dbf6fa63fcb3cdd6dc64eec8f94f2109f1bfaf9cd7",
+      "size": 8104,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_numpy_primitives_repeat0.json": {
+      "sha256": "afa8676d3318f8be917cde8ef7e358b718d4daf2ef2ee8a1982f765ad9dac521",
+      "size": 703,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_numpy_primitives_repeat0.npz": {
+      "sha256": "30b82c8aa2c5642e055b32dbf6fa63fcb3cdd6dc64eec8f94f2109f1bfaf9cd7",
+      "size": 8104,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_numpy_primitives_repeat1.json": {
+      "sha256": "bbae1b385f465bcbc23340a78a3872de8f044520de517e4ca9aae73f928ee950",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_numpy_primitives_repeat1.npz": {
+      "sha256": "30b82c8aa2c5642e055b32dbf6fa63fcb3cdd6dc64eec8f94f2109f1bfaf9cd7",
+      "size": 8104,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_repeat0_parity.json": {
+      "sha256": "6b38392e59010eff7c6a3e72f74f2653b86d29d7366665235cd8262a0e809f81",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed0_repeat1_parity.json": {
+      "sha256": "a2aefbfb735a75841b4913ef4560ddd2b812a208bc8ad00b41ed33c99ccb73f2",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_authors_faiss_cpu_repeat0.json": {
+      "sha256": "0f835455f2cfe27800a903ef9f559755c624a00559619780ec73e132fe431da7",
+      "size": 704,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "de936938b6833e1b64a39ada308c952a4e303133ae322bc9341799e3e0be4660",
+      "size": 8116,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_authors_faiss_cpu_repeat1.json": {
+      "sha256": "231d3cd0a741e16c5e19ed9372617474c9e01f2eb9b70de4f0329fec9095062b",
+      "size": 703,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "de936938b6833e1b64a39ada308c952a4e303133ae322bc9341799e3e0be4660",
+      "size": 8116,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_numpy_primitives_repeat0.json": {
+      "sha256": "14e5e0e428c805e590a70dcbb862635bc5a62a377f396c27e64fe6f9c7720cb2",
+      "size": 703,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_numpy_primitives_repeat0.npz": {
+      "sha256": "de936938b6833e1b64a39ada308c952a4e303133ae322bc9341799e3e0be4660",
+      "size": 8116,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_numpy_primitives_repeat1.json": {
+      "sha256": "8dfe4b1693224b7eb501bcf80608aaa53b4b92ea21ee61f1c04b51eb2bfeb6eb",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_numpy_primitives_repeat1.npz": {
+      "sha256": "de936938b6833e1b64a39ada308c952a4e303133ae322bc9341799e3e0be4660",
+      "size": 8116,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_repeat0_parity.json": {
+      "sha256": "acfa12588567926f6fe440d94ceace61157c4491b4e377859996276cc4afd8ef",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed1_repeat1_parity.json": {
+      "sha256": "2f90b6e1f6f71d1e757a1de025e0851449a0ac4b21d3b89c55c48835df9a9cdc",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_authors_faiss_cpu_repeat0.json": {
+      "sha256": "c49c42d12f92521d71269053606a130718c03114dad4516ee786041b3d4f1f9f",
+      "size": 703,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "8b34270eaf46b816e45e59524295062153b6b97cf43ab6456c8037f81124fb4d",
+      "size": 8108,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_authors_faiss_cpu_repeat1.json": {
+      "sha256": "6876c2bf9bf052cfc108e8b1ec12d16e5a2e21f0f51f2f4a57903a00bb0a4aeb",
+      "size": 704,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "8b34270eaf46b816e45e59524295062153b6b97cf43ab6456c8037f81124fb4d",
+      "size": 8108,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_numpy_primitives_repeat0.json": {
+      "sha256": "062c1c8761491f2a13a47eec263cd5cf062d6a4fe3bd9cc0d82f6471e8e574c5",
+      "size": 703,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_numpy_primitives_repeat0.npz": {
+      "sha256": "8b34270eaf46b816e45e59524295062153b6b97cf43ab6456c8037f81124fb4d",
+      "size": 8108,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_numpy_primitives_repeat1.json": {
+      "sha256": "241c91458cdd4863bc2193a45adc36a53629c87fd70a58fd5db783d694037eaf",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_numpy_primitives_repeat1.npz": {
+      "sha256": "8b34270eaf46b816e45e59524295062153b6b97cf43ab6456c8037f81124fb4d",
+      "size": 8108,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_repeat0_parity.json": {
+      "sha256": "a4e86265d99ab3125848d77d810235d963073dd67f014fd74ab539ac09e6cc03",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/gaussian128_smoke_seed2_repeat1_parity.json": {
+      "sha256": "570d0ff79db772d55d05897a4ba7e0d37058a05211567bb874e0aae88df0da94",
+      "size": 142,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_authors_faiss_cpu_repeat0.json": {
+      "sha256": "b917a2c446d400bd15984912c32635566cd0da0ae6ee31cdd7a00e72287d6b93",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "a52f8de066de592b358ef88da562f1ad7c30dc4b3444ef1fb468a52897c3ed71",
+      "size": 6462,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_authors_faiss_cpu_repeat1.json": {
+      "sha256": "7a88b81068ad20d03db137af1fbed6e66943352fdfd6bee7271409e8561a7590",
+      "size": 701,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "a52f8de066de592b358ef88da562f1ad7c30dc4b3444ef1fb468a52897c3ed71",
+      "size": 6462,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_numpy_primitives_repeat0.json": {
+      "sha256": "0b91c247da1c85e2a573c6565593cb605925ce0dc9778d52800bdb38ba8a7b6a",
+      "size": 698,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_numpy_primitives_repeat0.npz": {
+      "sha256": "a52f8de066de592b358ef88da562f1ad7c30dc4b3444ef1fb468a52897c3ed71",
+      "size": 6462,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_numpy_primitives_repeat1.json": {
+      "sha256": "53f747eecbe8f2cc3a55849600fe5453db54536a97a96c5fde6c359c922026a5",
+      "size": 700,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_numpy_primitives_repeat1.npz": {
+      "sha256": "a52f8de066de592b358ef88da562f1ad7c30dc4b3444ef1fb468a52897c3ed71",
+      "size": 6462,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_repeat0_parity.json": {
+      "sha256": "853e0642c3faa9bf8c5357b7ac4c8a83a2750af7549df4e39a245ed5a686b2db",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed0_repeat1_parity.json": {
+      "sha256": "c0bbc4f99f418a34462cdef90167542125f3efe28f42daee82a6b5dd9b33fb10",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_authors_faiss_cpu_repeat0.json": {
+      "sha256": "da2ce2f3c8d91785c9fda12ed025532470783be9a50e36ad27f1f14a2e50babd",
+      "size": 702,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "80588f335c4abe7df3d4891d2224b17c8a940b69284ce7e98d2ccb6158e0e95f",
+      "size": 6463,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_authors_faiss_cpu_repeat1.json": {
+      "sha256": "abd92229f4fdbdc92174398c0c3e178beca0c5a54e606ec20c0b750eb3b9f30f",
+      "size": 700,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "80588f335c4abe7df3d4891d2224b17c8a940b69284ce7e98d2ccb6158e0e95f",
+      "size": 6463,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_numpy_primitives_repeat0.json": {
+      "sha256": "e5af99a2595cd59c939f5bf3bd386876505aa35792784a6f486bb3cda2b6ece8",
+      "size": 701,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_numpy_primitives_repeat0.npz": {
+      "sha256": "80588f335c4abe7df3d4891d2224b17c8a940b69284ce7e98d2ccb6158e0e95f",
+      "size": 6463,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_numpy_primitives_repeat1.json": {
+      "sha256": "55a6ecc25004d49ff72dadeea6d94cc23ca1f64cfd5358e0503a271bcc09b679",
+      "size": 699,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_numpy_primitives_repeat1.npz": {
+      "sha256": "80588f335c4abe7df3d4891d2224b17c8a940b69284ce7e98d2ccb6158e0e95f",
+      "size": 6463,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_repeat0_parity.json": {
+      "sha256": "bda2eb81c09bad2020ba9ea9e53d83ff32d93af9d02cb4405dc65bdb9e59ff82",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed1_repeat1_parity.json": {
+      "sha256": "85bf80c55088fabdad4d6d9c7b8e9fbcfaf8cdd72b4f4895924aabb6a7abfb64",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_authors_faiss_cpu_repeat0.json": {
+      "sha256": "9667456cd35d569f157080ffd1348d6570e39590069f39ca69991d4f3f4b23b8",
+      "size": 701,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_authors_faiss_cpu_repeat0.npz": {
+      "sha256": "7036507df37c9b23e7749d268558c83e9f6abe3c3e1c3ecb86bf8b1c66248287",
+      "size": 6466,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_authors_faiss_cpu_repeat1.json": {
+      "sha256": "4403e022fd7faa453e7aba01aeb640d5356f323ba68f7b883e14016a6d4ce2b7",
+      "size": 701,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_authors_faiss_cpu_repeat1.npz": {
+      "sha256": "7036507df37c9b23e7749d268558c83e9f6abe3c3e1c3ecb86bf8b1c66248287",
+      "size": 6466,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_numpy_primitives_repeat0.json": {
+      "sha256": "b59490137609a5767247b608ffc1c2af0f55f88040a7d75256497a653f653835",
+      "size": 700,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_numpy_primitives_repeat0.npz": {
+      "sha256": "7036507df37c9b23e7749d268558c83e9f6abe3c3e1c3ecb86bf8b1c66248287",
+      "size": 6466,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_numpy_primitives_repeat1.json": {
+      "sha256": "82706a76046f1f12eb70abe7cc0f03f2b4f615e58a3f12b54dabc39e361d1826",
+      "size": 700,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_numpy_primitives_repeat1.npz": {
+      "sha256": "7036507df37c9b23e7749d268558c83e9f6abe3c3e1c3ecb86bf8b1c66248287",
+      "size": 6466,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_repeat0_parity.json": {
+      "sha256": "bae1ee22571cdb087e1522ada8b777147253ac7bf2e89704ca3a46a83a7647e1",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/glove100_smoke_seed2_repeat1_parity.json": {
+      "sha256": "b809b88ba50e3a2d32f2ea46dd53a0131c33aa3f22e8d678432eb0f24b9ddd21",
+      "size": 139,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/manifest.json": {
+      "sha256": "2f43022ea06a52627dae4b3a274698bb4b5663fa5fa1a4210c340f9fc8994034",
+      "size": 6307,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/source.zip": {
+      "sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+      "size": 136829,
+      "extracted": true
+    },
+    "phase4-official-faiss-cpu-001/summary.json": {
+      "sha256": "c4a985423cdfb8f148dfc749b22123322256d26f93ab8f996dd3e54ccfb6a299",
+      "size": 4651,
+      "extracted": true
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "baseline_config_sha256": "5948ac9f3c391fdce28bf49577483ce7247b6acc1fdec01e004e3ed6e934616b",
+  "completed_utc": "2026-11-12T06:34:34.424705+00:00",
+  "config_sha256": "d5e10df2f12dfcdd3845879d0d0e9cc4b31fbe253fa2999df82d74c1d790aa20",
+  "gpu_verified": true,
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "record_sha256": {
+    "gaussian1024_seed0_repeat0.json": "2b128b9f28a37b80b6e0111a2d81cf82aea1da7866693c364f9a729ca4fc5b13",
+    "gaussian1024_seed0_repeat1.json": "7bb60c76aeec1f73033157ad184c6d826552cce9f3e630382556a41fc482cbbc",
+    "gaussian256_seed0_repeat0.json": "4288b8abd3479f18435e6fabbbf84b17a6e0e53f73ca62104ac13fa4af8584a1",
+    "gaussian256_seed0_repeat1.json": "cf96108c3eb51081d230b40b5ff1fda192f5897ff04f4b7db39f9b77d538435e",
+    "glove100_seed0_repeat0.json": "c7a7de8923ee384e1e81fb898d312d3d4e62b9b3b14039ece4436340915f65f5",
+    "glove100_seed0_repeat1.json": "7df38713c1746e1743384cc247d1f46738a38eb22f138250e5929fb196f07d33"
+  },
+  "reference_commit": "2b648f0605f2ef3d14c4705350f8a0b214463878",
+  "reference_hashes": {
+    "base.py": "bcffd7829ebfc25e1354308770b49e6f99d8566ba5e474a41a22e9ec414b17cd",
+    "e_means_torch.py": "cddc5ed1f1121c96406055fe6f50e93c049d0e09be27dc07dbe03e5c8e7ef4d3",
+    "torch_backend.py": "eb7dc8a41fc098604e86d0dcaa28106df5eed79670d278fe5bfbd573a605355c"
+  },
+  "repeats": 2,
+  "runs": [
+    "gaussian256_seed0_repeat0.json",
+    "gaussian256_seed0_repeat1.json",
+    "gaussian1024_seed0_repeat0.json",
+    "gaussian1024_seed0_repeat1.json",
+    "glove100_seed0_repeat0.json",
+    "glove100_seed0_repeat1.json"
+  ],
+  "settings": {
+    "alpha0": 0.2,
+    "assignment_backend": "native",
+    "assignment_comparison": "same row/centroid chunks; no precomputed norms; norm/dot versus direct differences; precision differences reported",
+    "batch_size": 256,
+    "comparison": "own final-only full fit versus authors caller lifecycle; host bookkeeping differs; not isolated kernel speedup",
+    "dtype": "float32",
+    "epochs": 3,
+    "initial_mass": 1.52587890625e-05,
+    "representation_override": "authors _bind_input_dtype(torch.float32, cast=False); disables default BF16 cast",
+    "revival_threshold": 0,
+    "tails": "keep"
+  },
+  "source_archive_sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "complete"
+}

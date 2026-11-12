@@ -1,0 +1,113 @@
+{
+  "artifact_sha256": "641b02735113621dc810f7ba13e33a5ab9aee5687fd9c75dd132bd270364b8cf",
+  "assignment_wall_seconds": {
+    "authors_native": 0.0031165219843387604,
+    "ours_torch": 0.0817065549781546
+  },
+  "attribution": "norm/dot numerical and host-control differences; no algorithmic or matched-quality speedup inferred",
+  "config": {
+    "alpha0": 0.2,
+    "alpha_min_factor": 0.1,
+    "assignment_chunk_size": 1024,
+    "batch_size": 256,
+    "centroid_chunk_size": 64,
+    "drop_last": false,
+    "dtype": "float32",
+    "epochs": 3,
+    "finalize": "last_epoch_mean",
+    "initial_mass": 1.52587890625e-05,
+    "n_clusters": 64,
+    "revival_interval": 5,
+    "revival_threshold": 0,
+    "seed": 0,
+    "slow_ema_factor": null,
+    "slow_half_life": null,
+    "split_epsilon": 0.0078125
+  },
+  "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc",
+  "exact_assignment_labels": true,
+  "fits": {
+    "authors_native": {
+      "recipe": {
+        "alpha0": 0.2,
+        "alpha0_source": "given",
+        "alpha_min_factor": 0.1,
+        "assignment_backend": "native",
+        "assignment_backend_requested": "native",
+        "assignment_chunk_size": 1024,
+        "backend": "torch",
+        "batch_law": null,
+        "batch_law_reason": null,
+        "batch_law_requested": null,
+        "batch_size": 256,
+        "batch_size_requested": 256,
+        "centroid_chunk_size": 64,
+        "check_unused_every": 5,
+        "device": "cuda:0",
+        "epoch_rows": [
+          8192,
+          8192,
+          8192
+        ],
+        "epoch_steps": [
+          32,
+          32,
+          32
+        ],
+        "init_usage": 1.52587890625e-05,
+        "name": "manual",
+        "nepochs": 3,
+        "representation": "float32",
+        "seed": 0,
+        "split_epsilon": 0.0001,
+        "steps_per_pass": 32,
+        "tail_policy": "keep",
+        "total_steps": 96,
+        "unused_threshold": 0.0
+      },
+      "test_mse": 302.39680690318346,
+      "train_mse": 295.6934373639524,
+      "wall_seconds": 0.20633260102476925
+    },
+    "ours_torch": {
+      "recipe": {
+        "alpha0": 0.2,
+        "alpha_source": "explicit",
+        "batch_size": 256,
+        "batch_source": "explicit",
+        "drop_last": false,
+        "steps_per_epoch": 32,
+        "total_steps": 96
+      },
+      "test_mse": 302.39680690318346,
+      "train_mse": 295.6934373639524,
+      "wall_seconds": 1.2664652339881286
+    }
+  },
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "max_abs_center_difference": 0.0,
+  "max_abs_distance_difference": 0.00067138671875,
+  "repeat": 0,
+  "seed": 0,
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "gpu_measured",
+  "workload": "gaussian256"
+}

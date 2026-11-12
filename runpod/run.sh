@@ -32,7 +32,7 @@ exec > >(tee -a "$emeans_output/run.log") 2>&1
 python -m pip freeze > "$emeans_output/pip-freeze.txt"
 python -m pip check > "$emeans_output/pip-check.txt"
 nvidia-smi -q > "$emeans_output/nvidia-smi.txt"
-python scripts/fetch_reference.py "$EMEANS_REFERENCE_DIR"
+python scripts/fetch_reference.py "$EMEANS_REFERENCE_DIR" --native-torch
 # Complete suite must pass on NVIDIA before either data-dependent calibration
 # or benchmark warmups. Every skipped case causes the gate to remain closed.
 python scripts/validate_cuda.py --output "$emeans_output/validation"

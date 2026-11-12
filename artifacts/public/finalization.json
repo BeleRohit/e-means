@@ -1,0 +1,35 @@
+{
+  "status": "finalized",
+  "date": "2026-11-12",
+  "new_cloud_calls": 0,
+  "new_benchmark_campaigns": 0,
+  "local_tests": {
+    "passed": 166,
+    "skipped_nvidia_only": 33,
+    "failures": 0
+  },
+  "historical_cuda_tests": {
+    "passed": 199,
+    "skipped": 0,
+    "note": "actual A40 evidence bound to historical source snapshot"
+  },
+  "validated_src_modules_unchanged": 12,
+  "phase2_fits_reaudited": 120,
+  "phase2_exact_backend_pairs": 60,
+  "phase3_gpu_fits_reaudited": 186,
+  "phase4_primary_fits_reaudited": 312,
+  "phase4_profiles": 9,
+  "phase4_native_pairs": 6,
+  "phase4_official_cpu_fits": 24,
+  "phase4_policy_exact_pairs": 132,
+  "censored_target_observations": 104,
+  "raw_export_members_reverified": {
+    "main": 721,
+    "official_cpu": 65
+  },
+  "publication_tool_behavior_checks_passed": 6,
+  "secret_scan": "supported patterns found no credential values in public content, nested source ZIPs, reachable Git blobs and local Git configuration; not a universal guarantee",
+  "larger_936_fit_campaign": "not executed",
+  "phase5": "not implemented or scheduled",
+  "licensing": "owner choice pending; no project code license invented"
+}

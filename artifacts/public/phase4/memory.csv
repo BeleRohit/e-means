@@ -1,0 +1,4 @@
+workload,peak_allocated_min_mib,peak_allocated_max_mib,baseline_allocated_min_mib,peak_reserved_max_mib
+gaussian256,24.28173828125,25.701171875,10.0625,44.0
+gaussian1024,48.42236328125,51.1953125,20.125,66.0
+glove100,18.22998046875,19.2451171875,7.0556640625,66.0

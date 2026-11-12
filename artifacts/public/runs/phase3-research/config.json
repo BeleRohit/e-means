@@ -1,0 +1,17 @@
+{
+  "schema_version": 3,
+  "seeds": [0, 1, 2],
+  "dtypes": ["float32", "float64"],
+  "warmups": 1,
+  "repeats": 3,
+  "target_relative_slack": 0.001,
+  "workloads": [
+    {"name": "gaussian256", "kind": "synthetic", "data_seed": 2718, "n_train": 8192, "n_test": 2048, "n_features": 256, "n_clusters": 64, "center_scale": 1.0, "noise_scale": 1.0},
+    {"name": "gaussian1024", "kind": "synthetic", "data_seed": 31415, "n_train": 4096, "n_test": 1024, "n_features": 1024, "n_clusters": 32, "center_scale": 1.0, "noise_scale": 1.0},
+    {"name": "glove100", "kind": "embedding", "path": "data/glove100_subset.npz", "array_sha256": "a85b3b6fa7a7616130acc82d3a4ab7709bd086765d4df91f7970093875f1e404", "n_clusters": 64}
+  ],
+  "lloyd": {"max_iter": 25, "tol": 0.0},
+  "e_means": {"epochs": 5, "batch_size": 256, "alpha0": 0.2, "drop_last": false},
+  "slow_ema": {"slow_ema_factor": 0.25},
+  "common": {"assignment_chunk_size": 1024, "centroid_chunk_size": 64}
+}

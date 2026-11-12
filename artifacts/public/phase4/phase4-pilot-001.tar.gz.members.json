@@ -1,0 +1,3612 @@
+{
+  "archive_sha256": "21347841206c6f55fd6ffae767457b09ef23c0a3141c98a40fb20b37704c6c6d",
+  "member_count": 721,
+  "trace_bytes_preserved_in_archive": 5469751696,
+  "members": {
+    "phase4-pilot-001/execution_status.json": {
+      "sha256": "eaa0f62373542be98c2f1a4d13d5eb4f4877409ef03a4c3058e6e3035a8f009f",
+      "size": 195,
+      "extracted": true
+    },
+    "phase4-pilot-001/matplotlib-cache/fontlist-v390.json": {
+      "sha256": "fa733e4bd28941917bec2e12c28cb02344f8c784506241ef836b4d9aff2fb6c9",
+      "size": 24399,
+      "extracted": true
+    },
+    "phase4-pilot-001/nvidia-smi.txt": {
+      "sha256": "8812212f3291fd2089ecbe92e6e22db261ea4f5e725febb411fde84edadf7af6",
+      "size": 14249,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/baseline_config.json": {
+      "sha256": "5948ac9f3c391fdce28bf49577483ce7247b6acc1fdec01e004e3ed6e934616b",
+      "size": 1191,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/config.json": {
+      "sha256": "d5e10df2f12dfcdd3845879d0d0e9cc4b31fbe253fa2999df82d74c1d790aa20",
+      "size": 522,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian1024_seed0_repeat0.json": {
+      "sha256": "2b128b9f28a37b80b6e0111a2d81cf82aea1da7866693c364f9a729ca4fc5b13",
+      "size": 3338,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian1024_seed0_repeat0.npz": {
+      "sha256": "a252bd474f92f4628a8b64806ffdceac292957c67a3c6218d23aafe20b5be098",
+      "size": 403228,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian1024_seed0_repeat1.json": {
+      "sha256": "7bb60c76aeec1f73033157ad184c6d826552cce9f3e630382556a41fc482cbbc",
+      "size": 3339,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian1024_seed0_repeat1.npz": {
+      "sha256": "a252bd474f92f4628a8b64806ffdceac292957c67a3c6218d23aafe20b5be098",
+      "size": 403228,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian256_seed0_repeat0.json": {
+      "sha256": "4288b8abd3479f18435e6fabbbf84b17a6e0e53f73ca62104ac13fa4af8584a1",
+      "size": 3338,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian256_seed0_repeat0.npz": {
+      "sha256": "641b02735113621dc810f7ba13e33a5ab9aee5687fd9c75dd132bd270364b8cf",
+      "size": 261359,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian256_seed0_repeat1.json": {
+      "sha256": "cf96108c3eb51081d230b40b5ff1fda192f5897ff04f4b7db39f9b77d538435e",
+      "size": 3338,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/gaussian256_seed0_repeat1.npz": {
+      "sha256": "641b02735113621dc810f7ba13e33a5ab9aee5687fd9c75dd132bd270364b8cf",
+      "size": 261359,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/glove100_seed0_repeat0.json": {
+      "sha256": "c7a7de8923ee384e1e81fb898d312d3d4e62b9b3b14039ece4436340915f65f5",
+      "size": 3360,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/glove100_seed0_repeat0.npz": {
+      "sha256": "4d0b03d5bf4ec3c2a153842426b81d6178e6ac43dc6ac6155472ad1f2aa194dc",
+      "size": 217820,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/glove100_seed0_repeat1.json": {
+      "sha256": "7df38713c1746e1743384cc247d1f46738a38eb22f138250e5929fb196f07d33",
+      "size": 3360,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/glove100_seed0_repeat1.npz": {
+      "sha256": "4d0b03d5bf4ec3c2a153842426b81d6178e6ac43dc6ac6155472ad1f2aa194dc",
+      "size": 217820,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/manifest.json": {
+      "sha256": "ba2180f02e993e2408899a4c2bff710786ba61e3b61f5e5780f0db4d3d090922",
+      "size": 2979,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/source.zip": {
+      "sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+      "size": 136829,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/summary.json": {
+      "sha256": "3e668bb455113e50593312f8c5b0fc8792cda985432b3895baf1357c6a352d70",
+      "size": 4917,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/validation_report.json": {
+      "sha256": "c58d09176fbffef454c30d0c016b2eaffa332d601788e29b76d3d654c015d3c7",
+      "size": 1037,
+      "extracted": true
+    },
+    "phase4-pilot-001/official-native/validation_suite.xml": {
+      "sha256": "52497ada69965a888fcd4106e42e1459cd1f60ee57d472627f3e318f593b6864",
+      "size": 23949,
+      "extracted": true
+    },
+    "phase4-pilot-001/pip-check.txt": {
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09",
+      "size": 30,
+      "extracted": true
+    },
+    "phase4-pilot-001/pip-freeze.txt": {
+      "sha256": "798dff79c2bd7c29467fc2c2d709218af3a23bd59ffec7d2a0fa5ed36844a9c6",
+      "size": 7944,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/baseline_config.json": {
+      "sha256": "5948ac9f3c391fdce28bf49577483ce7247b6acc1fdec01e004e3ed6e934616b",
+      "size": 1191,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/config.json": {
+      "sha256": "d5e10df2f12dfcdd3845879d0d0e9cc4b31fbe253fa2999df82d74c1d790aa20",
+      "size": 522,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "0ac551ab1d28fa63338fc83f1b457f157644c45d291ee0a851f3d029f11bde80",
+      "size": 55915,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "77c656d2bcc093c9370e36b9d2a1c0a93cce9961905d4d53f8703b360f133651",
+      "size": 126322,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_emeans_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "c251f24bfb2935cd9f5e69f4e58fd91b6df6b3acc9379fd35211174881c59415",
+      "size": 962821842,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_lloyd_fixed_25_every_epoch_0.json": {
+      "sha256": "9610986d6de8e7bc4c0d1558330cbc1be89cc097e8989e76aa4f1d2db3c32eda",
+      "size": 49732,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_lloyd_fixed_25_every_epoch_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_lloyd_fixed_25_every_epoch_0_trace.json": {
+      "sha256": "e1808650d44c448f103e6326ed7553b9bd1ecb2f63eec6527735c4eca55860ca",
+      "size": 373581839,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "25d47918def0603f39d539ca0344b762a6347552bcb9db85847f65baf5f66717",
+      "size": 55763,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "28d09b79ad5c933d2da87dccb10dd25516070ba5d3019f9928302328e7d66b0d",
+      "size": 126354,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "d06ec31ec178ec9a1452c30ae29211529ff47dbd8a00f622ae14afbd66692795",
+      "size": 978314724,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian1024_seed0_float32_calibration.json": {
+      "sha256": "a564ce2c3e2011334f9079e2d273eb84b5fd2b56fb4f36035f08c3c9226e8f81",
+      "size": 2790,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian1024_seed0_float32_calibration.npz": {
+      "sha256": "ac31f63653dc0ec530b6a8ca2596945732c805b77662382641d5f5668f60aeab",
+      "size": 248228,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "f5fe2f05537f0b1be26fe820e000f76f350921a02fa11788d1b49c243652fd30",
+      "size": 55946,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "5f2227cb7b7d5066ebfeb1292d98c2b6dd113bb74eafc88ccee9e38e118bf326",
+      "size": 71617,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_emeans_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "09665b156ed888c29cbc8a7531c8d64241389b64d30bc9dd754aad8849d90c5e",
+      "size": 532845508,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_lloyd_fixed_25_every_epoch_0.json": {
+      "sha256": "0cc0384de1eee890f5cc310fda5be5b70a8d298a2d3e5b3934dfb0c297613ee7",
+      "size": 50886,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_lloyd_fixed_25_every_epoch_0.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_lloyd_fixed_25_every_epoch_0_trace.json": {
+      "sha256": "19281f584182b8abe74f0411f2452d2e0641262b91ae9eda2f8690a1d76c6808",
+      "size": 263399132,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "4970535035f60090d01ab37431f43ab91c194d23b84349643f6e1c670bd12108",
+      "size": 55846,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+      "size": 71621,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "0e871be3d0a83f8bd6257c0672273940f720995732cb66cd74fd6ad085d3a63d",
+      "size": 565548244,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/gaussian256_seed0_float32_calibration.json": {
+      "sha256": "993859038c328546ad8ae3fa25ed4fe01de00455ac5638727db36cb604e90101",
+      "size": 3238,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/gaussian256_seed0_float32_calibration.npz": {
+      "sha256": "e2679f2301ba0ba2ba92a221231753d4dd8df9a58a461fab98c474e964b20bad",
+      "size": 132446,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "1511cecb0b3bdcad668612b2533d3193531b59e97bcb9f8a806489be65cce44d",
+      "size": 55991,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "4bb42ddf9d7f1ad0a8e3e477f4d43b5af96854535b898d43d4d58b4ea9494aa4",
+      "size": 44544,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_emeans_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "2b5bb2469ad3e0252174bfdb56c31e2b41f548e4b643eb7eedb72090c75988e5",
+      "size": 493277031,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_lloyd_fixed_25_every_epoch_0.json": {
+      "sha256": "4c3d20ca7a2b8e27549c192b094765ac82899b74bb19a9b12d9d91eee9bf4abd",
+      "size": 61291,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_lloyd_fixed_25_every_epoch_0.npz": {
+      "sha256": "45a5dd0a9ad6ff9e3d0e49c7d6152a058c55a4dc326a8cd34dea92a2eafb9a52",
+      "size": 43041,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_lloyd_fixed_25_every_epoch_0_trace.json": {
+      "sha256": "32371cdbacb15cd76a35186ed237ee86d5a0caca085ebd7fecd4b51664bb0b03",
+      "size": 743268583,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "8107ef10b4f9b4b60d964894ff73cd4b7db679ace431376da06b0a9d12fa69b5",
+      "size": 55888,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "76a68873bbcfdc0ebc255c4a573a04f3d538c93138430954775e6df649548aac",
+      "size": 44694,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_0_float32_slow_ema_fixed_5_every_epoch_0_trace.json": {
+      "sha256": "74c2d252779e5bf4668d4b7dd4cba9bd194c4a8ae96343001d18061e739b46c5",
+      "size": 556694793,
+      "extracted": false
+    },
+    "phase4-pilot-001/profiles/glove100_seed0_float32_calibration.json": {
+      "sha256": "955f89baebcf14a38ccd4d2c359315c1aa5b5895b75310ff5df316157b8ca6ee",
+      "size": 7534,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/glove100_seed0_float32_calibration.npz": {
+      "sha256": "cd839d136a09f30d8108ced9b9f4e750243a39e215098268f8604a6fe6491c04",
+      "size": 66886,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/manifest.json": {
+      "sha256": "f891860bea6696a914ff4fcb4dfa5a20e48bdbc262eb89a96b963060171366dd",
+      "size": 5263,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/planned_jobs.json": {
+      "sha256": "c66f4b44a23d575163c9c03c74be65af91321774b3f8e4430c6c2563ab466554",
+      "size": 4003,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/profile_operators.json": {
+      "sha256": "8f0793a2ab91757c39daadd06a4102edd1da3a6fc7d94a3ed05f48973a4b75f9",
+      "size": 426857,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/profiling.csv": {
+      "sha256": "1f3cdbc28b82777eedb25ee50b28c0dcd54880405f7e87157e25c85db952f499",
+      "size": 8919,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/source.zip": {
+      "sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+      "size": 136829,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/summary.json": {
+      "sha256": "6169afa8f1c7b1df31a2a8e7c1f484b7ddee6aab2c7a3a99648c289ac9480319",
+      "size": 265,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/validation_report.json": {
+      "sha256": "c58d09176fbffef454c30d0c016b2eaffa332d601788e29b76d3d654c015d3c7",
+      "size": 1037,
+      "extracted": true
+    },
+    "phase4-pilot-001/profiles/validation_suite.xml": {
+      "sha256": "52497ada69965a888fcd4106e42e1459cd1f60ee57d472627f3e318f593b6864",
+      "size": 23949,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/baseline_config.json": {
+      "sha256": "5948ac9f3c391fdce28bf49577483ce7247b6acc1fdec01e004e3ed6e934616b",
+      "size": 1191,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/config.json": {
+      "sha256": "d5e10df2f12dfcdd3845879d0d0e9cc4b31fbe253fa2999df82d74c1d790aa20",
+      "size": 522,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_double_3_final_only_0.json": {
+      "sha256": "67f7b1f0ffc849fb9f67652daa32bddac017971ebf2dae7307314f8813d8e0db",
+      "size": 6333,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_double_3_final_only_0.npz": {
+      "sha256": "e56a6b4cb3c2e532488fadcbd78d4909e5f6633ba309dc6a41c7e8a3d2f5a306",
+      "size": 126319,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_double_3_final_only_1.json": {
+      "sha256": "54fa7cbe42ef10c7a35e70f471049588415178f03ed2346b7a93d8c602b774c9",
+      "size": 6326,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_double_3_final_only_1.npz": {
+      "sha256": "e56a6b4cb3c2e532488fadcbd78d4909e5f6633ba309dc6a41c7e8a3d2f5a306",
+      "size": 126319,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_half_3_final_only_0.json": {
+      "sha256": "8a435efee42839e09866e8ba65b0edc94cb534a43d299f214995abcbdc2bef28",
+      "size": 6380,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_half_3_final_only_0.npz": {
+      "sha256": "9214f09823df2f56d2be10bad57177ac145bcef67b187f86e9ccd3386261eed9",
+      "size": 126360,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_half_3_final_only_1.json": {
+      "sha256": "b77db9c8865a946eb4dd331e34c134d7cba1a0c8a978833ab30bb134fcb9a550",
+      "size": 6381,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_alpha_half_3_final_only_1.npz": {
+      "sha256": "9214f09823df2f56d2be10bad57177ac145bcef67b187f86e9ccd3386261eed9",
+      "size": 126360,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_every_epoch_0.json": {
+      "sha256": "2de92e48a58d917821609be6e7d022a7ed0ca1c10a2cb5dd0200fb16d96b0a85",
+      "size": 5720,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_every_epoch_0.npz": {
+      "sha256": "cc072bcbfd0f2e1a0f301bba18bc444956aaf1264119a6a92b06d0d39b257252",
+      "size": 126316,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_every_epoch_1.json": {
+      "sha256": "099ffe359aebe4a3b4dec8404a2917d05aa5dc0bc927d4e25d7694a6d4dfedb3",
+      "size": 5719,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_every_epoch_1.npz": {
+      "sha256": "cc072bcbfd0f2e1a0f301bba18bc444956aaf1264119a6a92b06d0d39b257252",
+      "size": 126316,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_final_only_0.json": {
+      "sha256": "909492fce1d6ddc6f520032e301fe6c12858196c3721f90f4fc19bb6a062414f",
+      "size": 5396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_final_only_0.npz": {
+      "sha256": "cc072bcbfd0f2e1a0f301bba18bc444956aaf1264119a6a92b06d0d39b257252",
+      "size": 126316,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_final_only_1.json": {
+      "sha256": "1c9d27c7e325768ff9b9aa166e3e1c2af79c1e868b21af7528222408a82380ea",
+      "size": 5396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_1_final_only_1.npz": {
+      "sha256": "cc072bcbfd0f2e1a0f301bba18bc444956aaf1264119a6a92b06d0d39b257252",
+      "size": 126316,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_every_epoch_0.json": {
+      "sha256": "b48e65c1e8d9b4fd60fa1a9c5ee26196f7817ec04061f2ba1245d023797d3eda",
+      "size": 6276,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_every_epoch_0.npz": {
+      "sha256": "2e9ad3b86194848d9e04db5cf032992284d7781a32588298fc7d47da49a2110c",
+      "size": 126260,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_every_epoch_1.json": {
+      "sha256": "584acd3ed60e36f90d776b3387bb365bb423480fbe2d9cbdee3fb9502267eb6f",
+      "size": 6274,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_every_epoch_1.npz": {
+      "sha256": "2e9ad3b86194848d9e04db5cf032992284d7781a32588298fc7d47da49a2110c",
+      "size": 126260,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_final_only_0.json": {
+      "sha256": "a3b1256632ebb9d89f2fc1b63b0583dc246890615738f8900104deb02a62753f",
+      "size": 5885,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_final_only_0.npz": {
+      "sha256": "2e9ad3b86194848d9e04db5cf032992284d7781a32588298fc7d47da49a2110c",
+      "size": 126260,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_final_only_1.json": {
+      "sha256": "48b41b86f33f1551155eb8d59dac842795cfad06b420f7400337dd4107ec12e6",
+      "size": 5882,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_2_final_only_1.npz": {
+      "sha256": "2e9ad3b86194848d9e04db5cf032992284d7781a32588298fc7d47da49a2110c",
+      "size": 126260,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_every_epoch_0.json": {
+      "sha256": "1f84d264a69a482d11fb523a68f95e8ffd7e4876bc8230cda8217a02fca50673",
+      "size": 6830,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_every_epoch_0.npz": {
+      "sha256": "e5d015e2d56dce673a5a5444e2237fbbcdbb794c41b4da42c91cc3cd72e450b6",
+      "size": 126363,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_every_epoch_1.json": {
+      "sha256": "700e4835bedae579a9f0a5af945547b7726e24ea25afca544a5371503fb9af86",
+      "size": 6838,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_every_epoch_1.npz": {
+      "sha256": "e5d015e2d56dce673a5a5444e2237fbbcdbb794c41b4da42c91cc3cd72e450b6",
+      "size": 126363,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_final_only_0.json": {
+      "sha256": "c9040a43cf262cf8142f6ca3742f0e0f99f56b0aa131277a5fdec06a299287d7",
+      "size": 6369,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_final_only_0.npz": {
+      "sha256": "e5d015e2d56dce673a5a5444e2237fbbcdbb794c41b4da42c91cc3cd72e450b6",
+      "size": 126363,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_final_only_1.json": {
+      "sha256": "ddfdfc6cee6dd34ba08956bee1a32885d2d17952abfee61eaaa030df37ad1f48",
+      "size": 6365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_3_final_only_1.npz": {
+      "sha256": "e5d015e2d56dce673a5a5444e2237fbbcdbb794c41b4da42c91cc3cd72e450b6",
+      "size": 126363,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_every_epoch_0.json": {
+      "sha256": "5dc9e2d43f9cad2e73f49c7ac0a616ae39a373d55c24c10240f53f230d0aafb0",
+      "size": 7948,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_every_epoch_0.npz": {
+      "sha256": "a44a62fe48eb583282ce5fbea0fc63140e8e1933008f6204abbf5c82de9e833c",
+      "size": 126396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_every_epoch_1.json": {
+      "sha256": "a63b33883a4cf21cf4f037a02883de707a48a141a43554958ba3e5b1f74be8b3",
+      "size": 7947,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_every_epoch_1.npz": {
+      "sha256": "a44a62fe48eb583282ce5fbea0fc63140e8e1933008f6204abbf5c82de9e833c",
+      "size": 126396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_final_only_0.json": {
+      "sha256": "d00696cdd60465f8ad74de768b6511c10a55e8c050c6276a9f623ecc0e138c1f",
+      "size": 7346,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_final_only_0.npz": {
+      "sha256": "a44a62fe48eb583282ce5fbea0fc63140e8e1933008f6204abbf5c82de9e833c",
+      "size": 126396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_final_only_1.json": {
+      "sha256": "3171b878be482ef17b72bbbbf113bb5c5eeaa80a8cee8e3964647f8eae261430",
+      "size": 7344,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_automatic_5_final_only_1.npz": {
+      "sha256": "a44a62fe48eb583282ce5fbea0fc63140e8e1933008f6204abbf5c82de9e833c",
+      "size": 126396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_double_3_final_only_0.json": {
+      "sha256": "e3ad84fae9fa7b65478e1c62ba726db2d631628d3a85ad5bfb370f9868cab3bf",
+      "size": 6355,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_double_3_final_only_0.npz": {
+      "sha256": "a9fa4167a9a6cac13e727456fabcb7e3895108390c1ec444c8a9f8d5a5a0eeec",
+      "size": 126364,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_double_3_final_only_1.json": {
+      "sha256": "3594f005998437e56b78e66dc6bf459bbb5eccacec818c21ccb5e83e0a3c99e4",
+      "size": 6367,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_double_3_final_only_1.npz": {
+      "sha256": "a9fa4167a9a6cac13e727456fabcb7e3895108390c1ec444c8a9f8d5a5a0eeec",
+      "size": 126364,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_half_3_final_only_0.json": {
+      "sha256": "352a64b329949657c72e8efb49f5ca81519931420fec54ac93d62fa4a117c116",
+      "size": 6365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_half_3_final_only_0.npz": {
+      "sha256": "53cd3f479291373c8f3bf830bd4fa1f1dd91a491fbfcd4c012bb13a40499b183",
+      "size": 126290,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_half_3_final_only_1.json": {
+      "sha256": "94e1f64a4d19cc60b4ad6cf4c467a7a2bb2f23627d3c939460211b63cbff6f8b",
+      "size": 6362,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_batch_half_3_final_only_1.npz": {
+      "sha256": "53cd3f479291373c8f3bf830bd4fa1f1dd91a491fbfcd4c012bb13a40499b183",
+      "size": 126290,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_every_epoch_0.json": {
+      "sha256": "5d5a88e391473ae8e1c143bf88302012302aba9b83c40f4ed1309c5bf4e4c40a",
+      "size": 5661,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_every_epoch_0.npz": {
+      "sha256": "d8796aed40231df644c076d9ea9aad2ad9af8974ba6dff96762e506b7d6c8515",
+      "size": 126239,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_every_epoch_1.json": {
+      "sha256": "61139d845f17155ef8cb4d6df13a57fa7ddfee5f5e6350d4848e5d627fa8acaa",
+      "size": 5671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_every_epoch_1.npz": {
+      "sha256": "d8796aed40231df644c076d9ea9aad2ad9af8974ba6dff96762e506b7d6c8515",
+      "size": 126239,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_final_only_0.json": {
+      "sha256": "a5691813822e6c81144f3e670c18beca509022f251346ae266a0d994a516515f",
+      "size": 5342,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_final_only_0.npz": {
+      "sha256": "d8796aed40231df644c076d9ea9aad2ad9af8974ba6dff96762e506b7d6c8515",
+      "size": 126239,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_final_only_1.json": {
+      "sha256": "e57a9ade64b159a219654d824c9c32d9fd2aa7789d488f1bb6d352fcb709302e",
+      "size": 5341,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_1_final_only_1.npz": {
+      "sha256": "d8796aed40231df644c076d9ea9aad2ad9af8974ba6dff96762e506b7d6c8515",
+      "size": 126239,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_every_epoch_0.json": {
+      "sha256": "6d5ee24bdcd4de8a92d2e7332375fea51a0b361d8759c7d2614d012b1d19e721",
+      "size": 6223,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_every_epoch_0.npz": {
+      "sha256": "245af5d5be4f5aaca50b7bbfc517064dd3a22ff751b2d695627130faab769055",
+      "size": 126294,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_every_epoch_1.json": {
+      "sha256": "72ce3388356b7903866d0cb1d857ea18a4a5d3cbe0f500d3ddcbd41ef1a45266",
+      "size": 6221,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_every_epoch_1.npz": {
+      "sha256": "245af5d5be4f5aaca50b7bbfc517064dd3a22ff751b2d695627130faab769055",
+      "size": 126294,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_final_only_0.json": {
+      "sha256": "ad57044753e1e41e4ee949b61954890785254a889888ae1878e944311c6fd346",
+      "size": 5826,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_final_only_0.npz": {
+      "sha256": "245af5d5be4f5aaca50b7bbfc517064dd3a22ff751b2d695627130faab769055",
+      "size": 126294,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_final_only_1.json": {
+      "sha256": "c1b3a050b6934c5f4b98018078a3b87784f5f6918924229b74a6b03643cecfb7",
+      "size": 5826,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_2_final_only_1.npz": {
+      "sha256": "245af5d5be4f5aaca50b7bbfc517064dd3a22ff751b2d695627130faab769055",
+      "size": 126294,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_every_epoch_0.json": {
+      "sha256": "d81ddbc2af286b838467ae683af4b8657df3be234b064e78dd407aa7b33d25ad",
+      "size": 6778,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_every_epoch_0.npz": {
+      "sha256": "75f2c31f2db7b6cfa08951ab5aae1cd39aecc3121fe8a9ddfcdd3ef09289afd2",
+      "size": 126339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_every_epoch_1.json": {
+      "sha256": "4756583404b41570d77fde8e635a579b349e4150ed9f226ba4c45d10a31440d6",
+      "size": 6776,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_every_epoch_1.npz": {
+      "sha256": "75f2c31f2db7b6cfa08951ab5aae1cd39aecc3121fe8a9ddfcdd3ef09289afd2",
+      "size": 126339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_final_only_0.json": {
+      "sha256": "5af6afad83060ae5777a629bf82a1cab63ecc548e094ce100b01dbb8eaa5a71c",
+      "size": 6315,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_final_only_0.npz": {
+      "sha256": "75f2c31f2db7b6cfa08951ab5aae1cd39aecc3121fe8a9ddfcdd3ef09289afd2",
+      "size": 126339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_final_only_1.json": {
+      "sha256": "d4ec096f7b35b7a1db47d2e11530f61790a6820cc822e9d4d85f43f0154ad1d4",
+      "size": 6314,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_3_final_only_1.npz": {
+      "sha256": "75f2c31f2db7b6cfa08951ab5aae1cd39aecc3121fe8a9ddfcdd3ef09289afd2",
+      "size": 126339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "6bff5ef8b0768b5daabd8b30f014f70513bf4234d2a7cc10946165769fe3dcec",
+      "size": 7886,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "77c656d2bcc093c9370e36b9d2a1c0a93cce9961905d4d53f8703b360f133651",
+      "size": 126322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_every_epoch_1.json": {
+      "sha256": "dbebb48755b51abf053ce21d5fd13034172ecc4d74f93a7815e4fd8211732d20",
+      "size": 7884,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_every_epoch_1.npz": {
+      "sha256": "77c656d2bcc093c9370e36b9d2a1c0a93cce9961905d4d53f8703b360f133651",
+      "size": 126322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_final_only_0.json": {
+      "sha256": "f0ea687cf45f65704fe6ac5ea7a04ad9d1718866fef5a114f1b6fdbb42355619",
+      "size": 7279,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_final_only_0.npz": {
+      "sha256": "77c656d2bcc093c9370e36b9d2a1c0a93cce9961905d4d53f8703b360f133651",
+      "size": 126322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_final_only_1.json": {
+      "sha256": "819f500b5bcef1f7ec497817b674122eed40ea70dd1a18fd66b58a9b94ceae87",
+      "size": 7273,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_emeans_fixed_5_final_only_1.npz": {
+      "sha256": "77c656d2bcc093c9370e36b9d2a1c0a93cce9961905d4d53f8703b360f133651",
+      "size": 126322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_every_epoch_0.json": {
+      "sha256": "49e55cb5f28a051f083019d223b5f53cae8ef7fac2f650e74d628832c9c86db8",
+      "size": 4776,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_every_epoch_0.npz": {
+      "sha256": "0a7638b730bfaedf9a9566a39ef326bfba36d39107149e7bf6d677492c7cc9b7",
+      "size": 126359,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_every_epoch_1.json": {
+      "sha256": "57d3bb9ccea45fbaeb5212cf7361b5cc35740d2cc3c79cab6d36162ba563fa18",
+      "size": 4782,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_every_epoch_1.npz": {
+      "sha256": "0a7638b730bfaedf9a9566a39ef326bfba36d39107149e7bf6d677492c7cc9b7",
+      "size": 126359,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_final_only_0.json": {
+      "sha256": "a150fae2395bae642d7e1ca2dcd71897b1dbba7b35fb5d77420d32387b36c728",
+      "size": 4465,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_final_only_0.npz": {
+      "sha256": "0a7638b730bfaedf9a9566a39ef326bfba36d39107149e7bf6d677492c7cc9b7",
+      "size": 126359,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_final_only_1.json": {
+      "sha256": "958c12609e90867da757663f12bf92d0e20d3dfff827372f915f1ad120c5a71d",
+      "size": 4459,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_1_final_only_1.npz": {
+      "sha256": "0a7638b730bfaedf9a9566a39ef326bfba36d39107149e7bf6d677492c7cc9b7",
+      "size": 126359,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_every_epoch_0.json": {
+      "sha256": "eb9e4a95e2ab7e3ed298fb293266979847f40371e3bffb7804423e6e6fbd795d",
+      "size": 6411,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_every_epoch_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_every_epoch_1.json": {
+      "sha256": "2c39926e65f76dc0d678a771b4d4419d6e416c35aaa81d1b8a56dbe0c38172d7",
+      "size": 6408,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_every_epoch_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_final_only_0.json": {
+      "sha256": "2fa18a36d315836433466a32719636bb80370145d52d89a57aa3229e7868cf84",
+      "size": 5873,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_final_only_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_final_only_1.json": {
+      "sha256": "d4a5e5107a005302caddac7552ec83bf4a1da72365c75d4dcfd768cbc8494d7e",
+      "size": 5878,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_25_final_only_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_every_epoch_0.json": {
+      "sha256": "f9e43a7f8cdd6ee763d29143eaccda683d3c1b37b8b3ea90e039845840e98791",
+      "size": 5323,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_every_epoch_0.npz": {
+      "sha256": "958d6ae4857c22d1e48bbcb2be5e65acd034de5e1886ef40c0de6908064487c1",
+      "size": 126282,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_every_epoch_1.json": {
+      "sha256": "8af91be127c9aa9d01a9c51cd20fa7db129590b3cf655805a75ab2b21c4771f7",
+      "size": 5322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_every_epoch_1.npz": {
+      "sha256": "958d6ae4857c22d1e48bbcb2be5e65acd034de5e1886ef40c0de6908064487c1",
+      "size": 126282,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_final_only_0.json": {
+      "sha256": "60507e241f9b6bbda865aaa403edde9d9aae3aa851c6c7d2ce87872a44017197",
+      "size": 4931,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_final_only_0.npz": {
+      "sha256": "958d6ae4857c22d1e48bbcb2be5e65acd034de5e1886ef40c0de6908064487c1",
+      "size": 126282,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_final_only_1.json": {
+      "sha256": "1e2afb0f7ea6edd1e50b8e558f3ccbb06ea08c48695378d75bc873fec7ed33ab",
+      "size": 4934,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_2_final_only_1.npz": {
+      "sha256": "958d6ae4857c22d1e48bbcb2be5e65acd034de5e1886ef40c0de6908064487c1",
+      "size": 126282,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_every_epoch_0.json": {
+      "sha256": "2367a03a3191dfcf1a82577fef05f02234e982d9d03b68303f3ee5af3d9fbb36",
+      "size": 5862,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_every_epoch_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_every_epoch_1.json": {
+      "sha256": "fbebe6aa088ad5895f48aa2d9b7d9b7683b83d1826722069b37a4d59b6ce92a8",
+      "size": 5869,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_every_epoch_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_final_only_0.json": {
+      "sha256": "56aac14dcb0c56f745e60711439ea683e46d1ccefa81a2ece5c4337920bc84a7",
+      "size": 5401,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_final_only_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_final_only_1.json": {
+      "sha256": "e8b89a94635fefa7ad58bce45ee686cbe3360a099246c44dfe4b7c501f75c7e3",
+      "size": 5406,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_3_final_only_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_every_epoch_0.json": {
+      "sha256": "fc52e697cd382792be8cf401c4ef44093f3f7c8506c7712f1b398c320be9b8e8",
+      "size": 6406,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_every_epoch_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_every_epoch_1.json": {
+      "sha256": "aa237957b66eec7314e106f317b316d57d577b37cce36140c1d562ba70ab877b",
+      "size": 6408,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_every_epoch_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_final_only_0.json": {
+      "sha256": "c13d69f72573e7e5293ef39847b9b53aa0af0446af31d0bd37f30851b40fda65",
+      "size": 5875,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_final_only_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_final_only_1.json": {
+      "sha256": "5910e35cb3afeb1fb25e83db450e4ead16025bd6409cb6fcc87cf864dbb2726a",
+      "size": 5877,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_4_final_only_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_every_epoch_0.json": {
+      "sha256": "6a16fc4d60e38c9c6448ca2271693db160923a7615f72d03ad347dca6a07599c",
+      "size": 6405,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_every_epoch_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_every_epoch_1.json": {
+      "sha256": "0984494586900890952b001d3578e5543577498b722c139cfae9eaea54d9fa36",
+      "size": 6407,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_every_epoch_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_final_only_0.json": {
+      "sha256": "f1dd108e4ee39148d946a3b1d6470dde7590b75fe904a071323833ba1f2c9dc5",
+      "size": 5875,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_final_only_0.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_final_only_1.json": {
+      "sha256": "0c1f1b4f3ce9945dc7a7d671cdefa70c152cb380cb732c94eef30c8fbdb8cf2f",
+      "size": 5868,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_lloyd_lloyd_8_final_only_1.npz": {
+      "sha256": "35f36c0f8252d227911a8de425fbfb6234328b7a89e9e12a0b2126988e40f4eb",
+      "size": 126295,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_double_3_final_only_0.json": {
+      "sha256": "2e0d0ee0292820890ea05e3aa46312f2860aa259fa758dd435f699ac266868a9",
+      "size": 6355,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_double_3_final_only_0.npz": {
+      "sha256": "7e7ce9a8ed2a20d82fbdc21c9a6fde396ef91c4920d0b68d6a33e7c1f6096ec3",
+      "size": 126408,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_double_3_final_only_1.json": {
+      "sha256": "c349c9f44f1dd197d5b45189d1693e3af63c98c34568d405ded2ba008e762303",
+      "size": 6354,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_double_3_final_only_1.npz": {
+      "sha256": "7e7ce9a8ed2a20d82fbdc21c9a6fde396ef91c4920d0b68d6a33e7c1f6096ec3",
+      "size": 126408,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_half_3_final_only_0.json": {
+      "sha256": "847156d2fe05c0d8da7e290aa502f68f0fb65ea589cefe785d18f366b36bf136",
+      "size": 6414,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_half_3_final_only_0.npz": {
+      "sha256": "7884e205585425a2b335886bc8c43b75986043c47c7be792a1de034aa1ad5b59",
+      "size": 126315,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_half_3_final_only_1.json": {
+      "sha256": "fb2ff5e80dc0bdfe655e78a189cf45dbf8ff20a36373d8b49abfaf08c33aa2fe",
+      "size": 6417,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_alpha_half_3_final_only_1.npz": {
+      "sha256": "7884e205585425a2b335886bc8c43b75986043c47c7be792a1de034aa1ad5b59",
+      "size": 126315,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_every_epoch_0.json": {
+      "sha256": "d18221a80f2bd737622dbe08fa93e577ce2b9f2771c530123dc98ac88a27d8c2",
+      "size": 5753,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_every_epoch_0.npz": {
+      "sha256": "5ec771bc2692dbcc065eefe00386f9bac1e973793aadf2f2ad0560a90fad28ce",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_every_epoch_1.json": {
+      "sha256": "b6d84fda646ff5be1ecab77e008971c4dd06160ed28b035388ed46b0f4c212e5",
+      "size": 5757,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_every_epoch_1.npz": {
+      "sha256": "5ec771bc2692dbcc065eefe00386f9bac1e973793aadf2f2ad0560a90fad28ce",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_final_only_0.json": {
+      "sha256": "075c5c86aff37837b872d3c290f0a11d42fbd2cc817f0c1394448a38e8f004a8",
+      "size": 5435,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_final_only_0.npz": {
+      "sha256": "5ec771bc2692dbcc065eefe00386f9bac1e973793aadf2f2ad0560a90fad28ce",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_final_only_1.json": {
+      "sha256": "acb2d27e07c2cfc781d744c94e57058b577ad5cc4e3498fcbabe10fbfae2f2c4",
+      "size": 5433,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_1_final_only_1.npz": {
+      "sha256": "5ec771bc2692dbcc065eefe00386f9bac1e973793aadf2f2ad0560a90fad28ce",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_every_epoch_0.json": {
+      "sha256": "156c58918b345d9299d9ff5978709895cfd3d997bc6f8a4f4b08f3d8b41623d8",
+      "size": 6311,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_every_epoch_0.npz": {
+      "sha256": "5abd5bd44065d6cf9bd9fcd509eb8a54d904eaa1aa6b825057028ea0e39046ad",
+      "size": 126324,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_every_epoch_1.json": {
+      "sha256": "e540d6c32c63162f597a60e8e6e5d174213884bf99e407389a735aa4f06af880",
+      "size": 6314,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_every_epoch_1.npz": {
+      "sha256": "5abd5bd44065d6cf9bd9fcd509eb8a54d904eaa1aa6b825057028ea0e39046ad",
+      "size": 126324,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_final_only_0.json": {
+      "sha256": "ce2f9a7a1b9cdae78c79ba23988fc6e5e036d2167701d580aa02b616bf91e646",
+      "size": 5923,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_final_only_0.npz": {
+      "sha256": "5abd5bd44065d6cf9bd9fcd509eb8a54d904eaa1aa6b825057028ea0e39046ad",
+      "size": 126324,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_final_only_1.json": {
+      "sha256": "67207a2d34f37986811ee2794871985a20baf70345af6f932f52fcd329d989c0",
+      "size": 5913,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_2_final_only_1.npz": {
+      "sha256": "5abd5bd44065d6cf9bd9fcd509eb8a54d904eaa1aa6b825057028ea0e39046ad",
+      "size": 126324,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_every_epoch_0.json": {
+      "sha256": "44d3ab2322302c2e36954fc4498c42239399ac0b00f87c9cc44d51bcd5bc92c8",
+      "size": 6874,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_every_epoch_0.npz": {
+      "sha256": "8aa853a4010e70ec5ed23bd598ebe6c070b740567ebf87ad1bcf1ecfb73addfe",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_every_epoch_1.json": {
+      "sha256": "8e553f6bf5ab4147374f70d43ed6858cfff777ec0d06fafa63f1224f3bb5210b",
+      "size": 6873,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_every_epoch_1.npz": {
+      "sha256": "8aa853a4010e70ec5ed23bd598ebe6c070b740567ebf87ad1bcf1ecfb73addfe",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_final_only_0.json": {
+      "sha256": "12ab8a2171f72bff5a2805e9a31d19ffbce2a7a4164854b35ec28efa9a89cf62",
+      "size": 6401,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_final_only_0.npz": {
+      "sha256": "8aa853a4010e70ec5ed23bd598ebe6c070b740567ebf87ad1bcf1ecfb73addfe",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_final_only_1.json": {
+      "sha256": "3ee9a5a1e2b48644c3e0ef25de34a5177637919c486c91bd816c5d1761c738ff",
+      "size": 6403,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_3_final_only_1.npz": {
+      "sha256": "8aa853a4010e70ec5ed23bd598ebe6c070b740567ebf87ad1bcf1ecfb73addfe",
+      "size": 126365,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_every_epoch_0.json": {
+      "sha256": "70e7dbe4f83f844b2d4ae71d2a4482695aec37bbc4094fb39a4ce8dcf74cc552",
+      "size": 7991,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_every_epoch_0.npz": {
+      "sha256": "2959c65d292c35d9c0ca146c4130d45dd931e5eb729c0028809b68d082ac8ddc",
+      "size": 126320,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_every_epoch_1.json": {
+      "sha256": "5bc1271c73d322e0fcd855edba5245337387f1d8209c1de8240a7d7e427227d8",
+      "size": 7984,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_every_epoch_1.npz": {
+      "sha256": "2959c65d292c35d9c0ca146c4130d45dd931e5eb729c0028809b68d082ac8ddc",
+      "size": 126320,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_final_only_0.json": {
+      "sha256": "4443811dd079241be3b24bb33ac5bb4e98d13d4ff1ec58d981319b62061f72f2",
+      "size": 7376,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_final_only_0.npz": {
+      "sha256": "2959c65d292c35d9c0ca146c4130d45dd931e5eb729c0028809b68d082ac8ddc",
+      "size": 126320,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_final_only_1.json": {
+      "sha256": "b07a7bb61fc8d35dbda064e5f224e879ead92b7e0e81f54ae7e211df57912baf",
+      "size": 7382,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_automatic_5_final_only_1.npz": {
+      "sha256": "2959c65d292c35d9c0ca146c4130d45dd931e5eb729c0028809b68d082ac8ddc",
+      "size": 126320,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_double_3_final_only_0.json": {
+      "sha256": "dc7c10e0ada609b36b730642103b286c6c6fe8948947b94f9d8437e3b7e36bae",
+      "size": 6398,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_double_3_final_only_0.npz": {
+      "sha256": "c0a5bd4152f8092f4c1355ee98f44d9b43d2fe179da9ebd96f59a489e9ba5dce",
+      "size": 126386,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_double_3_final_only_1.json": {
+      "sha256": "f41f8f78f1b90ec2d9c61d062aac6ef3f8786ce73ee230b89edf0973e382099c",
+      "size": 6397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_double_3_final_only_1.npz": {
+      "sha256": "c0a5bd4152f8092f4c1355ee98f44d9b43d2fe179da9ebd96f59a489e9ba5dce",
+      "size": 126386,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_half_3_final_only_0.json": {
+      "sha256": "c19f4120af561821eac8e3098e3686748eae85d1afc7d6b25d881319639398d8",
+      "size": 6396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_half_3_final_only_0.npz": {
+      "sha256": "961cf71a90c8010dab6629925ea6ea422f3c3c352639256dcb7cb6bef50fc156",
+      "size": 126288,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_half_3_final_only_1.json": {
+      "sha256": "210790a5423b188bdbb027d6607c7f001e6b2becbf7904cf05b04d56059e0e8f",
+      "size": 6403,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_batch_half_3_final_only_1.npz": {
+      "sha256": "961cf71a90c8010dab6629925ea6ea422f3c3c352639256dcb7cb6bef50fc156",
+      "size": 126288,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_every_epoch_0.json": {
+      "sha256": "f719d7bf4714df4d231038f4b545a207e01cdc8075f5f067635c5a428de9f082",
+      "size": 5700,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_every_epoch_0.npz": {
+      "sha256": "07bf8ac9b1afdf206410ca40becbc67c10f1c1f0237ce137443ecea0dbf2cb49",
+      "size": 126330,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_every_epoch_1.json": {
+      "sha256": "7d15fc8a61c33d651de5d26c4316c72863b55aa119f042f26ad60def42039635",
+      "size": 5701,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_every_epoch_1.npz": {
+      "sha256": "07bf8ac9b1afdf206410ca40becbc67c10f1c1f0237ce137443ecea0dbf2cb49",
+      "size": 126330,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_final_only_0.json": {
+      "sha256": "fcd594dc3afd6a574b4ff97611ac4ce3821fd34fa9b46934b25c286e96eb689c",
+      "size": 5378,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_final_only_0.npz": {
+      "sha256": "07bf8ac9b1afdf206410ca40becbc67c10f1c1f0237ce137443ecea0dbf2cb49",
+      "size": 126330,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_final_only_1.json": {
+      "sha256": "210e70d46b4e4e4dd3239399b2f77f471a856a13c4a2c8a3546afc74c3e0cf1d",
+      "size": 5375,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_1_final_only_1.npz": {
+      "sha256": "07bf8ac9b1afdf206410ca40becbc67c10f1c1f0237ce137443ecea0dbf2cb49",
+      "size": 126330,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_every_epoch_0.json": {
+      "sha256": "8063f76da32f8849ab7ab17721177a2c98aed65dbf04c272d1c906d14040ace0",
+      "size": 6257,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_every_epoch_0.npz": {
+      "sha256": "92eee67827d542fd9218c7dcafd25774de65ee018a23c8a2d02403222f27f77b",
+      "size": 126327,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_every_epoch_1.json": {
+      "sha256": "1489744e7d60230675d7cf406a40c7e299798e57753a2359bc1b3b4f919c1bae",
+      "size": 6262,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_every_epoch_1.npz": {
+      "sha256": "92eee67827d542fd9218c7dcafd25774de65ee018a23c8a2d02403222f27f77b",
+      "size": 126327,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_final_only_0.json": {
+      "sha256": "9e02d9343f259d9a5aa6074dc15749647c1e293774041df9af5ba95285183e5a",
+      "size": 5865,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_final_only_0.npz": {
+      "sha256": "92eee67827d542fd9218c7dcafd25774de65ee018a23c8a2d02403222f27f77b",
+      "size": 126327,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_final_only_1.json": {
+      "sha256": "f518b8670a365a0b8aa45f003afab3195fb17e4edfb57b47285f27b66c5e3c87",
+      "size": 5861,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_2_final_only_1.npz": {
+      "sha256": "92eee67827d542fd9218c7dcafd25774de65ee018a23c8a2d02403222f27f77b",
+      "size": 126327,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_every_epoch_0.json": {
+      "sha256": "d6f8d6ccd5984b8a436b0b7e0a5336ad7bab01ffb1eb5e8c7450e094baae907b",
+      "size": 6809,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_every_epoch_0.npz": {
+      "sha256": "0aed2e74a28c2ebcd81543f0b2b884e548f2a1f8708c8e3ebaad325b130e9031",
+      "size": 126323,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_every_epoch_1.json": {
+      "sha256": "121daa31ff4122b864b2c3a94d3112bedf6cca2978f8fbff87339daee5025841",
+      "size": 6812,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_every_epoch_1.npz": {
+      "sha256": "0aed2e74a28c2ebcd81543f0b2b884e548f2a1f8708c8e3ebaad325b130e9031",
+      "size": 126323,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_final_only_0.json": {
+      "sha256": "42f1ff16c60189c1e3353ee18a9bcbd9f04502db8be270d991e6f03b1d690d55",
+      "size": 6345,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_final_only_0.npz": {
+      "sha256": "0aed2e74a28c2ebcd81543f0b2b884e548f2a1f8708c8e3ebaad325b130e9031",
+      "size": 126323,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_final_only_1.json": {
+      "sha256": "99280b8152aa3f58280391e222f55b96af379689dc41af9f9b17f688dca02fc4",
+      "size": 6345,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_3_final_only_1.npz": {
+      "sha256": "0aed2e74a28c2ebcd81543f0b2b884e548f2a1f8708c8e3ebaad325b130e9031",
+      "size": 126323,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "e864aef4c5ba11b20c51bf16419c544ac360edc2d20c6cd649609b54c7fc7bcc",
+      "size": 7918,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "28d09b79ad5c933d2da87dccb10dd25516070ba5d3019f9928302328e7d66b0d",
+      "size": 126354,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_1.json": {
+      "sha256": "74073d0482893427814bafb9502ee13d670e142dca8b0d38b64da88b07d69e20",
+      "size": 7916,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_every_epoch_1.npz": {
+      "sha256": "28d09b79ad5c933d2da87dccb10dd25516070ba5d3019f9928302328e7d66b0d",
+      "size": 126354,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_final_only_0.json": {
+      "sha256": "309e129961acb22e4de16e91f74258c56c278d0541bcacc270d42bbe70c51ba2",
+      "size": 7300,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_final_only_0.npz": {
+      "sha256": "28d09b79ad5c933d2da87dccb10dd25516070ba5d3019f9928302328e7d66b0d",
+      "size": 126354,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_final_only_1.json": {
+      "sha256": "adb55682c4a27c89fb47466137c529a5f3a7de3abbbc10a3fb7343db7325bee3",
+      "size": 7313,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_0_float32_slow_ema_fixed_5_final_only_1.npz": {
+      "sha256": "28d09b79ad5c933d2da87dccb10dd25516070ba5d3019f9928302328e7d66b0d",
+      "size": 126354,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_float32_quality.png": {
+      "sha256": "5ca8d9e603f138bcf8b70c6818e8844d4cdcd2667a90a2af6993675a258465af",
+      "size": 144446,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_seed0_float32_calibration.json": {
+      "sha256": "9fdbfc8892a7c6e0908ed78bf4a6036a6cd1ca83f82241e00e32626323a5ad9c",
+      "size": 2791,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian1024_seed0_float32_calibration.npz": {
+      "sha256": "ac31f63653dc0ec530b6a8ca2596945732c805b77662382641d5f5668f60aeab",
+      "size": 248228,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_double_3_final_only_0.json": {
+      "sha256": "bb090a9054e7657e236bbe1447feeb8c30a6ce02f9f356b24de60a4e303fd7e7",
+      "size": 6347,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_double_3_final_only_0.npz": {
+      "sha256": "2e9d1689d884488ccac4abccb911995c14a436ff1c9746814ba4d2435f35d516",
+      "size": 71692,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_double_3_final_only_1.json": {
+      "sha256": "bc799ed989bfb78f481505037f850b557d75ca313b92828aeb646cd02a84842c",
+      "size": 6341,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_double_3_final_only_1.npz": {
+      "sha256": "2e9d1689d884488ccac4abccb911995c14a436ff1c9746814ba4d2435f35d516",
+      "size": 71692,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_half_3_final_only_0.json": {
+      "sha256": "0858e245213953def42dbc20c40ae2d073d172aa52836fc7c11f64a70a5e71ef",
+      "size": 6394,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_half_3_final_only_0.npz": {
+      "sha256": "b8b0a72ce988a0fabacd0165f6e5f80de090c0a0744b1cc80d35e84b2a8323eb",
+      "size": 71575,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_half_3_final_only_1.json": {
+      "sha256": "211de950fc03932c152af32b01001628dec900d310df5dd788070f4dfe732d96",
+      "size": 6392,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_alpha_half_3_final_only_1.npz": {
+      "sha256": "b8b0a72ce988a0fabacd0165f6e5f80de090c0a0744b1cc80d35e84b2a8323eb",
+      "size": 71575,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_every_epoch_0.json": {
+      "sha256": "019990c579c6938d207758b903d37e51b545af91e16859b07a1199ee0b879c57",
+      "size": 5730,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_every_epoch_0.npz": {
+      "sha256": "f0f66d82aee04637b9a4099727e7f8baabeab8a359e2921ab8e1fdc09a16dad4",
+      "size": 71470,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_every_epoch_1.json": {
+      "sha256": "51c199c00a1fdd15e4c55ed643c20623a558248767c61bdf4a40839aac3b189c",
+      "size": 5728,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_every_epoch_1.npz": {
+      "sha256": "f0f66d82aee04637b9a4099727e7f8baabeab8a359e2921ab8e1fdc09a16dad4",
+      "size": 71470,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_final_only_0.json": {
+      "sha256": "e637d2f6bf7aee6434c2099fd10334d44f8d425bda34bfb69cc737e78c84a7ef",
+      "size": 5397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_final_only_0.npz": {
+      "sha256": "f0f66d82aee04637b9a4099727e7f8baabeab8a359e2921ab8e1fdc09a16dad4",
+      "size": 71470,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_final_only_1.json": {
+      "sha256": "4e813ab047767a6be9990b24974b0b3579fcc1d8d352fc7496823fa580b474d6",
+      "size": 5403,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_1_final_only_1.npz": {
+      "sha256": "f0f66d82aee04637b9a4099727e7f8baabeab8a359e2921ab8e1fdc09a16dad4",
+      "size": 71470,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_every_epoch_0.json": {
+      "sha256": "67c91fac81f2715224948f3fda335bfe049c71dabc589b1c34e8bf6bce9e8ca9",
+      "size": 6288,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_every_epoch_0.npz": {
+      "sha256": "ab79b66fe2457acdb9618ce735e334afa6257534a32b38189b758afb575b2e99",
+      "size": 71609,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_every_epoch_1.json": {
+      "sha256": "b20a53b80a2af1397ae6ab2e0190d8d24bff1f49b56270770eef6579b4787b02",
+      "size": 6289,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_every_epoch_1.npz": {
+      "sha256": "ab79b66fe2457acdb9618ce735e334afa6257534a32b38189b758afb575b2e99",
+      "size": 71609,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_final_only_0.json": {
+      "sha256": "40c7f458babf584d1dfa86a6e41e94e0cad531f7a93b8802505fb0dc91e5f7ba",
+      "size": 5894,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_final_only_0.npz": {
+      "sha256": "ab79b66fe2457acdb9618ce735e334afa6257534a32b38189b758afb575b2e99",
+      "size": 71609,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_final_only_1.json": {
+      "sha256": "fffa26d1370e341c2ff1bf5c322ebaa517e9467eea00431388d58569b111a163",
+      "size": 5892,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_2_final_only_1.npz": {
+      "sha256": "ab79b66fe2457acdb9618ce735e334afa6257534a32b38189b758afb575b2e99",
+      "size": 71609,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_every_epoch_0.json": {
+      "sha256": "34ce9d3b733698456410125db282e8e678f882c8378100f4264c98cefa99dca0",
+      "size": 6853,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_every_epoch_0.npz": {
+      "sha256": "36ded50d0e7b1f9ded0db7fc3ca4262d4a517e78f26697dda44be5018ecd2fe3",
+      "size": 71748,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_every_epoch_1.json": {
+      "sha256": "3adc15808a76789744d4e50c20defe15ba74b27c27201f826a2a9a4c8d82e1a0",
+      "size": 6844,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_every_epoch_1.npz": {
+      "sha256": "36ded50d0e7b1f9ded0db7fc3ca4262d4a517e78f26697dda44be5018ecd2fe3",
+      "size": 71748,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_final_only_0.json": {
+      "sha256": "ea7c3206ab8168125ff0fde3214637a8549cc4299139056f6db4962bb5980601",
+      "size": 6380,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_final_only_0.npz": {
+      "sha256": "36ded50d0e7b1f9ded0db7fc3ca4262d4a517e78f26697dda44be5018ecd2fe3",
+      "size": 71748,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_final_only_1.json": {
+      "sha256": "1177b4e90bd4210765280060b25d650d03a6aef12cab8bfb74fdfcf662d0f1f0",
+      "size": 6384,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_3_final_only_1.npz": {
+      "sha256": "36ded50d0e7b1f9ded0db7fc3ca4262d4a517e78f26697dda44be5018ecd2fe3",
+      "size": 71748,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_every_epoch_0.json": {
+      "sha256": "a51af9b2a3a752242d2ab09fc49fe7b3ebbd21c395110862f5615931db729c88",
+      "size": 7964,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_every_epoch_0.npz": {
+      "sha256": "9fbd6bb9ca759af2bcd92adf2b51864bb1e82fd3b1c9d4336036968685b2029e",
+      "size": 71677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_every_epoch_1.json": {
+      "sha256": "08d9bb5b17bccb43f2f340cfe66e64df54e6c0400cf2befd7dd67b202a716948",
+      "size": 7968,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_every_epoch_1.npz": {
+      "sha256": "9fbd6bb9ca759af2bcd92adf2b51864bb1e82fd3b1c9d4336036968685b2029e",
+      "size": 71677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_final_only_0.json": {
+      "sha256": "cf840e3ccb190d0952b8ca63a0a73a359f880335185815b8797f964be2780bd4",
+      "size": 7357,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_final_only_0.npz": {
+      "sha256": "9fbd6bb9ca759af2bcd92adf2b51864bb1e82fd3b1c9d4336036968685b2029e",
+      "size": 71677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_final_only_1.json": {
+      "sha256": "ab64504a477f035344656113e8fe47bf2e195d4c7b8bac2d35a9c036a386d347",
+      "size": 7359,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_automatic_5_final_only_1.npz": {
+      "sha256": "9fbd6bb9ca759af2bcd92adf2b51864bb1e82fd3b1c9d4336036968685b2029e",
+      "size": 71677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_double_3_final_only_0.json": {
+      "sha256": "97afaed3be5b2d765948b500adbb0a19ee270e95eb55a4fa8d4a70f33e12e1df",
+      "size": 6382,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_double_3_final_only_0.npz": {
+      "sha256": "eeafeb34748832b798044fda30ac9f160f3575da1807861b1066ba674f3cf920",
+      "size": 71574,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_double_3_final_only_1.json": {
+      "sha256": "710ac04a53a3759b90139fcb4ab63580631292cd5b4b41faecfabd1c8e5bb44e",
+      "size": 6381,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_double_3_final_only_1.npz": {
+      "sha256": "eeafeb34748832b798044fda30ac9f160f3575da1807861b1066ba674f3cf920",
+      "size": 71574,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_half_3_final_only_0.json": {
+      "sha256": "d28a096b109b69221b1889f5e6a796d3c57a0fdd29bed14135bcb621c68e57d0",
+      "size": 6371,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_half_3_final_only_0.npz": {
+      "sha256": "a19d7494b89c5b364f1a797d52b88207b8e0ebba1cfebe24a9be5e8acbe92df0",
+      "size": 71703,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_half_3_final_only_1.json": {
+      "sha256": "48156d82f9db70f63c7064bc33b631dada66c66b9ed9d6a9ae1112d84972604e",
+      "size": 6375,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_batch_half_3_final_only_1.npz": {
+      "sha256": "a19d7494b89c5b364f1a797d52b88207b8e0ebba1cfebe24a9be5e8acbe92df0",
+      "size": 71703,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_every_epoch_0.json": {
+      "sha256": "b35090680c248f1d96dd15047cdbeec13db18ff9c09d2b6dd273697067792331",
+      "size": 5675,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_every_epoch_0.npz": {
+      "sha256": "97ca56e45395d9638f595d6ba36e759bade883f01c3aaab84e7b0d4e52be0440",
+      "size": 71487,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_every_epoch_1.json": {
+      "sha256": "8e1e5300bec4d7224405a52aa0b27860cd395a38d0461ab2b19dc523e29004f4",
+      "size": 5671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_every_epoch_1.npz": {
+      "sha256": "97ca56e45395d9638f595d6ba36e759bade883f01c3aaab84e7b0d4e52be0440",
+      "size": 71487,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_final_only_0.json": {
+      "sha256": "d4340feff0e86b0fb26f9aa572da255b163d5a507e30cee57629922152e1286f",
+      "size": 5349,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_final_only_0.npz": {
+      "sha256": "97ca56e45395d9638f595d6ba36e759bade883f01c3aaab84e7b0d4e52be0440",
+      "size": 71487,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_final_only_1.json": {
+      "sha256": "ab42769a86e909b3a02b4915d5cb9272136cc41b5d877900dd3f485d6cb88a5c",
+      "size": 5351,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_1_final_only_1.npz": {
+      "sha256": "97ca56e45395d9638f595d6ba36e759bade883f01c3aaab84e7b0d4e52be0440",
+      "size": 71487,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_every_epoch_0.json": {
+      "sha256": "6e5abf1b2100cd65dfbbfe1e62dd6ae5416a8836e50dc08f5111caef4c696d03",
+      "size": 6230,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_every_epoch_0.npz": {
+      "sha256": "52ddbbb28c61a40fd842be65e76d6d004e89a1790b85d22f61126846b2ec396c",
+      "size": 71603,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_every_epoch_1.json": {
+      "sha256": "217f41891cdc6cc7921fa037b61103a0d865f35622da44770304c1d9c0a2c070",
+      "size": 6234,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_every_epoch_1.npz": {
+      "sha256": "52ddbbb28c61a40fd842be65e76d6d004e89a1790b85d22f61126846b2ec396c",
+      "size": 71603,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_final_only_0.json": {
+      "sha256": "3bac3001ba11e3ea2286339a6498aba53341626f3854dde5c99d8eb332caa813",
+      "size": 5834,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_final_only_0.npz": {
+      "sha256": "52ddbbb28c61a40fd842be65e76d6d004e89a1790b85d22f61126846b2ec396c",
+      "size": 71603,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_final_only_1.json": {
+      "sha256": "3d7b2ef3634d7f525a76be969296024577fa5a41f47d469d9817821e703d05c6",
+      "size": 5834,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_2_final_only_1.npz": {
+      "sha256": "52ddbbb28c61a40fd842be65e76d6d004e89a1790b85d22f61126846b2ec396c",
+      "size": 71603,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_every_epoch_0.json": {
+      "sha256": "2ff884889bb4858bc295a9262de4695f6a9079e41b13388580923d9c5b2a2226",
+      "size": 6780,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_every_epoch_0.npz": {
+      "sha256": "c821714a001aba114ae56b5c549aace4256ed28de9cb5ac7757c3ccef7233151",
+      "size": 71638,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_every_epoch_1.json": {
+      "sha256": "07eaf1a9013c5382dddf6996f6dadd70b57ef143bd406276070e00e878f5320a",
+      "size": 6785,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_every_epoch_1.npz": {
+      "sha256": "c821714a001aba114ae56b5c549aace4256ed28de9cb5ac7757c3ccef7233151",
+      "size": 71638,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_final_only_0.json": {
+      "sha256": "61f3a7973b5b8bf1767aa38ff983173c4dd4975995fabb4cdb66837110ad33be",
+      "size": 6319,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_final_only_0.npz": {
+      "sha256": "c821714a001aba114ae56b5c549aace4256ed28de9cb5ac7757c3ccef7233151",
+      "size": 71638,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_final_only_1.json": {
+      "sha256": "01502b8e1a360fd35204ffe8b618f948bd3eff920e0f73c6e7baf2ba528f22bc",
+      "size": 6316,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_3_final_only_1.npz": {
+      "sha256": "c821714a001aba114ae56b5c549aace4256ed28de9cb5ac7757c3ccef7233151",
+      "size": 71638,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "67dbf61256e33e1c74571dd49bb43a1c5bb9e6bb0f8a54f32adba2f862bed2bc",
+      "size": 7897,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "5f2227cb7b7d5066ebfeb1292d98c2b6dd113bb74eafc88ccee9e38e118bf326",
+      "size": 71617,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_every_epoch_1.json": {
+      "sha256": "37409972bed3067c7ef24b6dc2b44b25025d1c77f32e480fadd54996cc24e416",
+      "size": 7901,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_every_epoch_1.npz": {
+      "sha256": "5f2227cb7b7d5066ebfeb1292d98c2b6dd113bb74eafc88ccee9e38e118bf326",
+      "size": 71617,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_final_only_0.json": {
+      "sha256": "64b7f614ce24c93871a4fdd61799b8d54373e4c2d7ae4d523153f08d43916d49",
+      "size": 7292,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_final_only_0.npz": {
+      "sha256": "5f2227cb7b7d5066ebfeb1292d98c2b6dd113bb74eafc88ccee9e38e118bf326",
+      "size": 71617,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_final_only_1.json": {
+      "sha256": "2e17669add854591ff7c0b156646f498632142b495dbe325d665322dd7649068",
+      "size": 7296,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_emeans_fixed_5_final_only_1.npz": {
+      "sha256": "5f2227cb7b7d5066ebfeb1292d98c2b6dd113bb74eafc88ccee9e38e118bf326",
+      "size": 71617,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_every_epoch_0.json": {
+      "sha256": "b906af6b43f7ae072bf9d80ca37e280b4f504423f5490a194a88d530b8ae3c06",
+      "size": 4787,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_every_epoch_0.npz": {
+      "sha256": "4da1c0077056beda0e84a0588bb2cf34b1418bc42d8e7040a7b8744129865964",
+      "size": 71562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_every_epoch_1.json": {
+      "sha256": "0168d73055657ce9f1056679ad7c840dc3dbe25d9140611307d45860a08659fe",
+      "size": 4790,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_every_epoch_1.npz": {
+      "sha256": "4da1c0077056beda0e84a0588bb2cf34b1418bc42d8e7040a7b8744129865964",
+      "size": 71562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_final_only_0.json": {
+      "sha256": "4ec4cf6ac09f02bd239070e64855b189276eff43b77bac60b5dac92a2eb568bf",
+      "size": 4468,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_final_only_0.npz": {
+      "sha256": "4da1c0077056beda0e84a0588bb2cf34b1418bc42d8e7040a7b8744129865964",
+      "size": 71562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_final_only_1.json": {
+      "sha256": "30df16eae8cc75f8d229326b8b828808b6e49f5639652eb435b1a5a1b50d7eb6",
+      "size": 4465,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_1_final_only_1.npz": {
+      "sha256": "4da1c0077056beda0e84a0588bb2cf34b1418bc42d8e7040a7b8744129865964",
+      "size": 71562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_every_epoch_0.json": {
+      "sha256": "712a28057de7f37af08d80294013e93f884a7738f8b2befa35963a642a8209df",
+      "size": 7492,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_every_epoch_0.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_every_epoch_1.json": {
+      "sha256": "4a9f79bb00e33c0e9c10422b50b41958d8b92319a58f50ecb40925b0fa63e679",
+      "size": 7498,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_every_epoch_1.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_final_only_0.json": {
+      "sha256": "c169d65eb7ba0da6bbc441a7531f891cec13e663f0d74ae651651f9a68cb5365",
+      "size": 6832,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_final_only_0.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_final_only_1.json": {
+      "sha256": "0d797b62fc927f149fdac1f5e8d7efdf2bda28bf1f2bedebdcd58063aaf65b47",
+      "size": 6833,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_25_final_only_1.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_every_epoch_0.json": {
+      "sha256": "53e954ac838ca1d32aef4cb9357ea58ff79f823fec8c1afa2c5feb236403e5c9",
+      "size": 5325,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_every_epoch_0.npz": {
+      "sha256": "7bb8e256c4c44821b45f5a04cdb1e250221c668124898bbe25dd898165c56784",
+      "size": 71426,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_every_epoch_1.json": {
+      "sha256": "cabd3cfcff74be1382c305b31bc7c9747d6305ef31bbc0d11c95f49255e5be84",
+      "size": 5331,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_every_epoch_1.npz": {
+      "sha256": "7bb8e256c4c44821b45f5a04cdb1e250221c668124898bbe25dd898165c56784",
+      "size": 71426,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_final_only_0.json": {
+      "sha256": "97cc29210932f5182def6a0027d313ff5da84fd529b1f49986b5a451eb5623a6",
+      "size": 4939,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_final_only_0.npz": {
+      "sha256": "7bb8e256c4c44821b45f5a04cdb1e250221c668124898bbe25dd898165c56784",
+      "size": 71426,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_final_only_1.json": {
+      "sha256": "994e30c131fc4acee62959fb751bc8794b126ec72abc0efcf1cefc177bb6be26",
+      "size": 4944,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_2_final_only_1.npz": {
+      "sha256": "7bb8e256c4c44821b45f5a04cdb1e250221c668124898bbe25dd898165c56784",
+      "size": 71426,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_every_epoch_0.json": {
+      "sha256": "b50b599c923b0dc8f52537d4c5c4d9fe7b68f4f680ef84348b2c3ed05879b8b9",
+      "size": 5881,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_every_epoch_0.npz": {
+      "sha256": "5ea835c7ff03e03d8ac3137323397e0f2f3de7a899d52308935b1f5808395420",
+      "size": 71414,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_every_epoch_1.json": {
+      "sha256": "460251136f257868339349fc587e53d3ed1850aca455837f04d9149d6481bd18",
+      "size": 5880,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_every_epoch_1.npz": {
+      "sha256": "5ea835c7ff03e03d8ac3137323397e0f2f3de7a899d52308935b1f5808395420",
+      "size": 71414,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_final_only_0.json": {
+      "sha256": "c9c6a872bfbed767b3b3ffeda7e6664c030d4c702d36d29629911abce099ac08",
+      "size": 5415,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_final_only_0.npz": {
+      "sha256": "5ea835c7ff03e03d8ac3137323397e0f2f3de7a899d52308935b1f5808395420",
+      "size": 71414,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_final_only_1.json": {
+      "sha256": "010319b00efd34defde0c2f1acb08829ad188cd9517f37fbaf51aa1f1ea73101",
+      "size": 5418,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_3_final_only_1.npz": {
+      "sha256": "5ea835c7ff03e03d8ac3137323397e0f2f3de7a899d52308935b1f5808395420",
+      "size": 71414,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_every_epoch_0.json": {
+      "sha256": "e92319bdffe85b65da491b71c520c02efdac848e1b4930acc944326b924ddf05",
+      "size": 6413,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_every_epoch_0.npz": {
+      "sha256": "79a7e1daebd98c571e9ba4db3ede99d0d2e933ede46772ac1da6e0ac44147c7a",
+      "size": 71397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_every_epoch_1.json": {
+      "sha256": "b2f5231fa094b5bfea4642700bddeb01e7ff4c36a9dc90b216c24916cdafda60",
+      "size": 6413,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_every_epoch_1.npz": {
+      "sha256": "79a7e1daebd98c571e9ba4db3ede99d0d2e933ede46772ac1da6e0ac44147c7a",
+      "size": 71397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_final_only_0.json": {
+      "sha256": "f7a12d5e88909884ee91bb9540debafdf4a04b7640024cbe662df1e31a653ae1",
+      "size": 5881,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_final_only_0.npz": {
+      "sha256": "79a7e1daebd98c571e9ba4db3ede99d0d2e933ede46772ac1da6e0ac44147c7a",
+      "size": 71397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_final_only_1.json": {
+      "sha256": "c5539df446939f0c75f56e3f0dd3bca02f5e6bdf78839bcf9a0ad8818b7a1261",
+      "size": 5886,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_4_final_only_1.npz": {
+      "sha256": "79a7e1daebd98c571e9ba4db3ede99d0d2e933ede46772ac1da6e0ac44147c7a",
+      "size": 71397,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_every_epoch_0.json": {
+      "sha256": "73c39071f59899949a088a7ba218d79b38b71229544aa4164c758c17ce01a335",
+      "size": 7496,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_every_epoch_0.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_every_epoch_1.json": {
+      "sha256": "504f833f0518e0c400de10e3ebf7ad46aaa345c32c90f0213a725468ef418b14",
+      "size": 7498,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_every_epoch_1.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_final_only_0.json": {
+      "sha256": "7b0d644ef60bd1df184b245821877d1216d2951e6bb80e0dd619224291818ed0",
+      "size": 6830,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_final_only_0.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_final_only_1.json": {
+      "sha256": "1c0a22df2a8efa75bcbb8dceb88532aec419b31f1504d80fccb8dffcd2ea53a3",
+      "size": 6832,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_lloyd_lloyd_8_final_only_1.npz": {
+      "sha256": "c4bdee5de6c1ca43c23f2f2c5923b09912293416a4f46ece92fcdf07c60f7f99",
+      "size": 71404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_double_3_final_only_0.json": {
+      "sha256": "ad4efd239d7db2bc3257c899eab9a0040e69f9fc32a1d105b98c3a6710aefa02",
+      "size": 6361,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_double_3_final_only_0.npz": {
+      "sha256": "08a143489ea17559a092f4ec533c9455ef7b1e59222b7c39ef541a32c8ea6e7b",
+      "size": 71707,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_double_3_final_only_1.json": {
+      "sha256": "7e02e54c9b838d9eb84b69ada37d68ab39b5bd5907a2012a080c25ae48920323",
+      "size": 6362,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_double_3_final_only_1.npz": {
+      "sha256": "08a143489ea17559a092f4ec533c9455ef7b1e59222b7c39ef541a32c8ea6e7b",
+      "size": 71707,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_half_3_final_only_0.json": {
+      "sha256": "e854066c576bb9fb949c3455be3a9286a3b2ce2d9b165958a38f380337e62eb6",
+      "size": 6425,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_half_3_final_only_0.npz": {
+      "sha256": "60c4d6984012af30d32a6956985d5ccbab1fc000a080a5c5b650d5e68f4851a5",
+      "size": 71648,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_half_3_final_only_1.json": {
+      "sha256": "40e5f5aac998553c60102c9302b8963d8373b8aa301f0901391bdc453a90874f",
+      "size": 6432,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_alpha_half_3_final_only_1.npz": {
+      "sha256": "60c4d6984012af30d32a6956985d5ccbab1fc000a080a5c5b650d5e68f4851a5",
+      "size": 71648,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_every_epoch_0.json": {
+      "sha256": "44a5318739915ecc41dfb78cc314c47f06c50182da6c600eaf6d91d9a95164e4",
+      "size": 5769,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_every_epoch_0.npz": {
+      "sha256": "5aab6175064e3aff96a24f4ccfb145e03bbcf08999609bc639711739236c2051",
+      "size": 71569,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_every_epoch_1.json": {
+      "sha256": "8b3b94fbc266c517050c2f628a7f526536af608b85303dd5892cb286b1f6860b",
+      "size": 5766,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_every_epoch_1.npz": {
+      "sha256": "5aab6175064e3aff96a24f4ccfb145e03bbcf08999609bc639711739236c2051",
+      "size": 71569,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_final_only_0.json": {
+      "sha256": "f00206b700cfee517ae9f99b2e146f115e1861f14f4fb789c4d0e1fabd7ae74d",
+      "size": 5443,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_final_only_0.npz": {
+      "sha256": "5aab6175064e3aff96a24f4ccfb145e03bbcf08999609bc639711739236c2051",
+      "size": 71569,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_final_only_1.json": {
+      "sha256": "35e1aea93c6c578fcc4f5f9a129710b78abf456a3de8942f77d2bbb58f610d85",
+      "size": 5441,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_1_final_only_1.npz": {
+      "sha256": "5aab6175064e3aff96a24f4ccfb145e03bbcf08999609bc639711739236c2051",
+      "size": 71569,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_every_epoch_0.json": {
+      "sha256": "7190771619d3f75a64c42838ce95cfde2bc496afedd647ff17a5f7bf95055f60",
+      "size": 6322,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_every_epoch_0.npz": {
+      "sha256": "b8997eac93695f4a68884c729daea6a57e17df809f09cc9caec5d6736dd7b8ea",
+      "size": 71688,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_every_epoch_1.json": {
+      "sha256": "46712a5018da2ed5c5f2f9e09c5699789cfd37fd12c0497a77eecfff7d2bb309",
+      "size": 6317,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_every_epoch_1.npz": {
+      "sha256": "b8997eac93695f4a68884c729daea6a57e17df809f09cc9caec5d6736dd7b8ea",
+      "size": 71688,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_final_only_0.json": {
+      "sha256": "92dd68af07cc137ee65b5258fac404c9e5c8304834a3076d4a08c138e73e91b5",
+      "size": 5927,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_final_only_0.npz": {
+      "sha256": "b8997eac93695f4a68884c729daea6a57e17df809f09cc9caec5d6736dd7b8ea",
+      "size": 71688,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_final_only_1.json": {
+      "sha256": "76e990355f3f94705abba84d5f9a3c8959512ff8f1d1de677a6a50f62e01b913",
+      "size": 5926,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_2_final_only_1.npz": {
+      "sha256": "b8997eac93695f4a68884c729daea6a57e17df809f09cc9caec5d6736dd7b8ea",
+      "size": 71688,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_every_epoch_0.json": {
+      "sha256": "e5636c841326dccaf7320639b4aa17101e52a21fb993511f12adc69f3ea84cef",
+      "size": 6883,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_every_epoch_0.npz": {
+      "sha256": "d16ff78078df62573b4832f373b602efe36c2bb5d7bc25654b6c6ba68c09c6c0",
+      "size": 71712,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_every_epoch_1.json": {
+      "sha256": "37e6f6a4a10a900cc7c0f6dd1b4607b1fb2151ab6e2c1dc25fac448fae4b1f78",
+      "size": 6889,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_every_epoch_1.npz": {
+      "sha256": "d16ff78078df62573b4832f373b602efe36c2bb5d7bc25654b6c6ba68c09c6c0",
+      "size": 71712,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_final_only_0.json": {
+      "sha256": "08fce012ad0a72cb6d0dc5500af558ca810537d9e3f8272a9630371ffaae630b",
+      "size": 6415,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_final_only_0.npz": {
+      "sha256": "d16ff78078df62573b4832f373b602efe36c2bb5d7bc25654b6c6ba68c09c6c0",
+      "size": 71712,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_final_only_1.json": {
+      "sha256": "7b6e571f8239cd5d2c4fc003f68961dfa13f0d5bf3c703925b941b08b201f74b",
+      "size": 6416,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_3_final_only_1.npz": {
+      "sha256": "d16ff78078df62573b4832f373b602efe36c2bb5d7bc25654b6c6ba68c09c6c0",
+      "size": 71712,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_every_epoch_0.json": {
+      "sha256": "78c8da6704471a8e982accfa90831ffa507232f177adc12606f4871490529d67",
+      "size": 7994,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_every_epoch_0.npz": {
+      "sha256": "578e1426a995143990fb4d9b944ad701c1882ce52ec5fcd4520e3a33e8e7a8ec",
+      "size": 71681,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_every_epoch_1.json": {
+      "sha256": "cf86f2c0fadbbafa4a33554219428d7e0af12345e67a74899cf4a1b4328bd4f0",
+      "size": 7991,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_every_epoch_1.npz": {
+      "sha256": "578e1426a995143990fb4d9b944ad701c1882ce52ec5fcd4520e3a33e8e7a8ec",
+      "size": 71681,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_final_only_0.json": {
+      "sha256": "72e81f846bdb6f8220d3f828e37387491abd6444bc750d13eaf2d86e6aceeebf",
+      "size": 7391,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_final_only_0.npz": {
+      "sha256": "578e1426a995143990fb4d9b944ad701c1882ce52ec5fcd4520e3a33e8e7a8ec",
+      "size": 71681,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_final_only_1.json": {
+      "sha256": "7ed242bc14cfb01a0ddfab2d88144b9b366893b1e0124acd08b2e60a2f227112",
+      "size": 7393,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_automatic_5_final_only_1.npz": {
+      "sha256": "578e1426a995143990fb4d9b944ad701c1882ce52ec5fcd4520e3a33e8e7a8ec",
+      "size": 71681,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_double_3_final_only_0.json": {
+      "sha256": "1a71917fd44e4cef6c61b5998107778d8ff01fe6287dee8039d6cf01fbf7a8a3",
+      "size": 6416,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_double_3_final_only_0.npz": {
+      "sha256": "29d115d8ca9434376647def8e62d20b3d66a8f35eb0603609cd3ca1f8739f407",
+      "size": 71601,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_double_3_final_only_1.json": {
+      "sha256": "1ed4a3084fbcb4ea51ac097269bdf73549774f62af84f784b71fc879e059ca3d",
+      "size": 6409,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_double_3_final_only_1.npz": {
+      "sha256": "29d115d8ca9434376647def8e62d20b3d66a8f35eb0603609cd3ca1f8739f407",
+      "size": 71601,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_half_3_final_only_0.json": {
+      "sha256": "8d577feed8ab546bfde185c155f1b5fe751fdcaa526e442010251be243eab44b",
+      "size": 6407,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_half_3_final_only_0.npz": {
+      "sha256": "66d8ba0879acc063374c16aa6f88d7bb88aec746ca8ddb70c35c25d3cb14109e",
+      "size": 71734,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_half_3_final_only_1.json": {
+      "sha256": "0e7eec032470e7c48fadb02de6254b6a406732df1fcb42c967c37ae33bfcc41b",
+      "size": 6406,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_batch_half_3_final_only_1.npz": {
+      "sha256": "66d8ba0879acc063374c16aa6f88d7bb88aec746ca8ddb70c35c25d3cb14109e",
+      "size": 71734,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_every_epoch_0.json": {
+      "sha256": "6512a4591284020f7a6b4d10bab67a546cca503b1bad52f858354ebe8f0fcd6b",
+      "size": 5707,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_every_epoch_0.npz": {
+      "sha256": "4562b096c5ab3f800389e5d500150c0a3587aef0e06d1f09a0ec38937a21b05d",
+      "size": 71515,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_every_epoch_1.json": {
+      "sha256": "89a7898a0dbdf583e00bf283b48b19a93054d60a65aaa298e6b326f494924cb2",
+      "size": 5708,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_every_epoch_1.npz": {
+      "sha256": "4562b096c5ab3f800389e5d500150c0a3587aef0e06d1f09a0ec38937a21b05d",
+      "size": 71515,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_final_only_0.json": {
+      "sha256": "bee59700cf76617c1ecc093c2bccc8cdf1723215e6c64852e251bb8c9a093241",
+      "size": 5384,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_final_only_0.npz": {
+      "sha256": "4562b096c5ab3f800389e5d500150c0a3587aef0e06d1f09a0ec38937a21b05d",
+      "size": 71515,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_final_only_1.json": {
+      "sha256": "959eee673aa116e87890458d9eef3f20f0c58e673e7f63ba1104de69f85ac857",
+      "size": 5385,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_1_final_only_1.npz": {
+      "sha256": "4562b096c5ab3f800389e5d500150c0a3587aef0e06d1f09a0ec38937a21b05d",
+      "size": 71515,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_every_epoch_0.json": {
+      "sha256": "ee3145f32ea1448bf4e625b502b9197162e7eb64856e61811d79dde323721e3c",
+      "size": 6263,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_every_epoch_0.npz": {
+      "sha256": "87141996af1fb1903b8325dcc215a53c3aca212519d239548992a1052c90d85c",
+      "size": 71582,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_every_epoch_1.json": {
+      "sha256": "8e2b31dcc88c19caa159e7f58f6fd784729de1feb234216cda222fce009b4513",
+      "size": 6265,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_every_epoch_1.npz": {
+      "sha256": "87141996af1fb1903b8325dcc215a53c3aca212519d239548992a1052c90d85c",
+      "size": 71582,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_final_only_0.json": {
+      "sha256": "ac02379293e0f3c93beed0e49fd3c7c59ad3aab5e77a7cd23dd56e4128df2194",
+      "size": 5868,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_final_only_0.npz": {
+      "sha256": "87141996af1fb1903b8325dcc215a53c3aca212519d239548992a1052c90d85c",
+      "size": 71582,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_final_only_1.json": {
+      "sha256": "efbaf870ee9e5f380f06dbfcf9b211badb4b90c03b133cf07b7c79516c184201",
+      "size": 5867,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_2_final_only_1.npz": {
+      "sha256": "87141996af1fb1903b8325dcc215a53c3aca212519d239548992a1052c90d85c",
+      "size": 71582,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_every_epoch_0.json": {
+      "sha256": "159d945447fdafd69d6b5bb91bb6d9b8e8f3782ec8a46d535a94626e400ce6d7",
+      "size": 6818,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_every_epoch_0.npz": {
+      "sha256": "3ca74871e23f89b3e113b97c2bf5a8d93cdad06ad7f4fa0a05981d5ab50cfb2c",
+      "size": 71608,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_every_epoch_1.json": {
+      "sha256": "9a98ff1bc302664b14a5119ee9d27aeb7c46692881550fd728da7e3d9a9d4747",
+      "size": 6820,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_every_epoch_1.npz": {
+      "sha256": "3ca74871e23f89b3e113b97c2bf5a8d93cdad06ad7f4fa0a05981d5ab50cfb2c",
+      "size": 71608,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_final_only_0.json": {
+      "sha256": "9164e87234549d37e6762ba84bc65539cdc7d7ed61dffdc908bff3533b306c52",
+      "size": 6355,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_final_only_0.npz": {
+      "sha256": "3ca74871e23f89b3e113b97c2bf5a8d93cdad06ad7f4fa0a05981d5ab50cfb2c",
+      "size": 71608,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_final_only_1.json": {
+      "sha256": "9422021a80cdf800c5ca83f37748972cb0fcb0f39983a78bdee2bd426b891c25",
+      "size": 6355,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_3_final_only_1.npz": {
+      "sha256": "3ca74871e23f89b3e113b97c2bf5a8d93cdad06ad7f4fa0a05981d5ab50cfb2c",
+      "size": 71608,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "b2702648f26ef40d3159f197101add009bd5a87c8babc5779018b3b5eadf008c",
+      "size": 7932,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+      "size": 71621,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_1.json": {
+      "sha256": "77dc06e75c18b3e6fa48d7fc9c9fb34ec581ea9207c53a796dc1dc6faa2975ab",
+      "size": 7938,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_every_epoch_1.npz": {
+      "sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+      "size": 71621,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_final_only_0.json": {
+      "sha256": "e1fd257f23749173b4190a5bb27c668e67b0efe0da4373a759de3fb4ff5526f9",
+      "size": 7335,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_final_only_0.npz": {
+      "sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+      "size": 71621,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_final_only_1.json": {
+      "sha256": "eb285c2155404fc65a1cc6d7744eab1e5611cdfdbed5a5422f1b28d7efb23729",
+      "size": 7334,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_0_float32_slow_ema_fixed_5_final_only_1.npz": {
+      "sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+      "size": 71621,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_float32_quality.png": {
+      "sha256": "109541eb186f87fa6143dce3dedbed318646715e47c0a61add0745564ac69c33",
+      "size": 150515,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_seed0_float32_calibration.json": {
+      "sha256": "a4a886528fdcb3a5ca4490c507b19553e27416abacf1a07b6ea83545fb75076d",
+      "size": 3240,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/gaussian256_seed0_float32_calibration.npz": {
+      "sha256": "e2679f2301ba0ba2ba92a221231753d4dd8df9a58a461fab98c474e964b20bad",
+      "size": 132446,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_double_3_final_only_0.json": {
+      "sha256": "9e28b49bfaf04521c526e1c790e3d6f216516810c9b041cb75b6e50742fbe4db",
+      "size": 6348,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_double_3_final_only_0.npz": {
+      "sha256": "24776f25a8e5e5fdc2f819bb6625a88f134cc8744e8370c236efffecd50ffe93",
+      "size": 44652,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_double_3_final_only_1.json": {
+      "sha256": "f4c5955d0ac33044c8466fac552bf293e741b24cc5c2b8c2046fb7d29c746c00",
+      "size": 6353,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_double_3_final_only_1.npz": {
+      "sha256": "24776f25a8e5e5fdc2f819bb6625a88f134cc8744e8370c236efffecd50ffe93",
+      "size": 44652,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_half_3_final_only_0.json": {
+      "sha256": "9402b44a50fcf6e72e50c4c7e7b1d177b243fe472fd485bd564052e49c5f8033",
+      "size": 6400,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_half_3_final_only_0.npz": {
+      "sha256": "8193e3c29478fc273f051ac51cfa08ec4af1060ec35a406904981aa8b8d3996c",
+      "size": 44568,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_half_3_final_only_1.json": {
+      "sha256": "59822f7d7b3b0abf5c9954901379a6744187216a946d1c9804007d85e63aac93",
+      "size": 6403,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_alpha_half_3_final_only_1.npz": {
+      "sha256": "8193e3c29478fc273f051ac51cfa08ec4af1060ec35a406904981aa8b8d3996c",
+      "size": 44568,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_every_epoch_0.json": {
+      "sha256": "308dd7b7aded9980e635e569feb65014d6d208a43f48b4baaca71cba171919b6",
+      "size": 5739,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_every_epoch_0.npz": {
+      "sha256": "eb2f288feef8f297d730c77ed73dfb4c0cf9e09a04cad18ad5ca0477e20211de",
+      "size": 44493,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_every_epoch_1.json": {
+      "sha256": "a16eb0331c9ab04278e74028b07b1939cd26bb6273e660b484fe025a015f8b4c",
+      "size": 5735,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_every_epoch_1.npz": {
+      "sha256": "eb2f288feef8f297d730c77ed73dfb4c0cf9e09a04cad18ad5ca0477e20211de",
+      "size": 44493,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_final_only_0.json": {
+      "sha256": "5a1cbce242bc9d7b672506e5671ce3824f68d9eddb58b7dbc5f3d8a974d96cd1",
+      "size": 5410,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_final_only_0.npz": {
+      "sha256": "eb2f288feef8f297d730c77ed73dfb4c0cf9e09a04cad18ad5ca0477e20211de",
+      "size": 44493,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_final_only_1.json": {
+      "sha256": "a171e41ac3f0bbeae7b674bd84353324b7e1ba849084fb18192c17f724009329",
+      "size": 5407,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_1_final_only_1.npz": {
+      "sha256": "eb2f288feef8f297d730c77ed73dfb4c0cf9e09a04cad18ad5ca0477e20211de",
+      "size": 44493,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_every_epoch_0.json": {
+      "sha256": "cd7e2e8cc0bd9c8a624e51ed11656b906cd08e711c29f876438d43020f5b146b",
+      "size": 6301,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_every_epoch_0.npz": {
+      "sha256": "f0639351432ad8693c06c52cee80757c340dcaa36570d7c4951e107bdf44dcce",
+      "size": 44572,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_every_epoch_1.json": {
+      "sha256": "46981db6e0ab5169cd10318649d3d88bf86e861dbd912e14dd1c7deabe0c82b9",
+      "size": 6296,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_every_epoch_1.npz": {
+      "sha256": "f0639351432ad8693c06c52cee80757c340dcaa36570d7c4951e107bdf44dcce",
+      "size": 44572,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_final_only_0.json": {
+      "sha256": "8311de4c1301899d7b9b636689088450f191254be607371f2e8e9b82e8db503d",
+      "size": 5900,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_final_only_0.npz": {
+      "sha256": "f0639351432ad8693c06c52cee80757c340dcaa36570d7c4951e107bdf44dcce",
+      "size": 44572,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_final_only_1.json": {
+      "sha256": "e6c9c6810cd2aa4d01c0aae5998b86e93c403f720e280c19373cbeb5c8036e05",
+      "size": 5896,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_2_final_only_1.npz": {
+      "sha256": "f0639351432ad8693c06c52cee80757c340dcaa36570d7c4951e107bdf44dcce",
+      "size": 44572,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_every_epoch_0.json": {
+      "sha256": "b9b3a28fbdcd2ea7146e86f18c60a58b9f91d4b51f63a7bca461e6491736ac62",
+      "size": 6857,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_every_epoch_0.npz": {
+      "sha256": "89b8f389eab2cc1c99d3688e9d36f59224aae967cf3cc2f655721760b5786b2b",
+      "size": 44281,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_every_epoch_1.json": {
+      "sha256": "779f588bab0406ccd7e2192713c78687c78503647c4f4e1e2037c216eeac6f25",
+      "size": 6858,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_every_epoch_1.npz": {
+      "sha256": "89b8f389eab2cc1c99d3688e9d36f59224aae967cf3cc2f655721760b5786b2b",
+      "size": 44281,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_final_only_0.json": {
+      "sha256": "ef24199ec647794522fcfc8e0cc9b3263a258fb028da9067823db54f4286d4bb",
+      "size": 6388,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_final_only_0.npz": {
+      "sha256": "89b8f389eab2cc1c99d3688e9d36f59224aae967cf3cc2f655721760b5786b2b",
+      "size": 44281,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_final_only_1.json": {
+      "sha256": "b3429a33614a438c4d3d93ef703f62451092c2f7e0d7d4528d617ab97d28a981",
+      "size": 6386,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_3_final_only_1.npz": {
+      "sha256": "89b8f389eab2cc1c99d3688e9d36f59224aae967cf3cc2f655721760b5786b2b",
+      "size": 44281,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_every_epoch_0.json": {
+      "sha256": "6522570572fba4ecd39706cb04c34e7342823efff5433ad77fa5e56a5cd2932b",
+      "size": 7978,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_every_epoch_0.npz": {
+      "sha256": "94617ad3f66fd0d8dd264ab0adb2ccc1855d7fc8f862a47067820720882c80bc",
+      "size": 44535,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_every_epoch_1.json": {
+      "sha256": "cdded789b41802ca0d51571bfa3c8519c7dbcce78ba552a6cf666872d83257f7",
+      "size": 7980,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_every_epoch_1.npz": {
+      "sha256": "94617ad3f66fd0d8dd264ab0adb2ccc1855d7fc8f862a47067820720882c80bc",
+      "size": 44535,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_final_only_0.json": {
+      "sha256": "68e9623419b55034d885fd02431bca12629e4d3c7820dcb7b56715327b8c4b75",
+      "size": 7366,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_final_only_0.npz": {
+      "sha256": "94617ad3f66fd0d8dd264ab0adb2ccc1855d7fc8f862a47067820720882c80bc",
+      "size": 44535,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_final_only_1.json": {
+      "sha256": "a2fff359435d5473d6b33c3a341622cfe92e74c8bc894593eb5f3ca510ed91f5",
+      "size": 7362,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_automatic_5_final_only_1.npz": {
+      "sha256": "94617ad3f66fd0d8dd264ab0adb2ccc1855d7fc8f862a47067820720882c80bc",
+      "size": 44535,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_double_3_final_only_0.json": {
+      "sha256": "961528e1e6eb7a0bb787e5514d3fccebb336c07fe648b3362492c85c4aa005ad",
+      "size": 6355,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_double_3_final_only_0.npz": {
+      "sha256": "7d897c52c9b310299b099a586a052f23f256c2268a61fa4df69e29e3a3fbdbe1",
+      "size": 44562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_double_3_final_only_1.json": {
+      "sha256": "51d08d71d532c40530758d1bd858d1b7f0d460f4060df672f191eb9f8102805c",
+      "size": 6356,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_double_3_final_only_1.npz": {
+      "sha256": "7d897c52c9b310299b099a586a052f23f256c2268a61fa4df69e29e3a3fbdbe1",
+      "size": 44562,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_half_3_final_only_0.json": {
+      "sha256": "5834b8350e7a4304a23da9669ecfc43419b636951644cc21f8f883958ecb1e56",
+      "size": 6379,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_half_3_final_only_0.npz": {
+      "sha256": "c2ea0076a04835f00a3c8b7b354d7097a6134b632b6920a43e25bfb9eedf1159",
+      "size": 44588,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_half_3_final_only_1.json": {
+      "sha256": "15b587e5a70d5c7233235fef202a8fd992ffcd27c0f85a19009b4f14169ab38c",
+      "size": 6379,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_batch_half_3_final_only_1.npz": {
+      "sha256": "c2ea0076a04835f00a3c8b7b354d7097a6134b632b6920a43e25bfb9eedf1159",
+      "size": 44588,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_every_epoch_0.json": {
+      "sha256": "4cf120f1b0302a978d3984d6d1f85c172b1a2465f61362b78975c1c011b2ec0a",
+      "size": 5676,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_every_epoch_0.npz": {
+      "sha256": "1d3489f1aea0c1cb1ee2e39ea6f94b5adecd1e10d6474fc1e81cb4bb1436235a",
+      "size": 44596,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_every_epoch_1.json": {
+      "sha256": "8f4645afe67f4245f03278afe35940bba61024b0a6157efc47d1561e82bbc2f1",
+      "size": 5675,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_every_epoch_1.npz": {
+      "sha256": "1d3489f1aea0c1cb1ee2e39ea6f94b5adecd1e10d6474fc1e81cb4bb1436235a",
+      "size": 44596,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_final_only_0.json": {
+      "sha256": "d9db6391b6a3b851124d321ff460cf59cedbb79f1d69306982a4bfd9aaf31ad0",
+      "size": 5348,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_final_only_0.npz": {
+      "sha256": "1d3489f1aea0c1cb1ee2e39ea6f94b5adecd1e10d6474fc1e81cb4bb1436235a",
+      "size": 44596,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_final_only_1.json": {
+      "sha256": "45c4948b55f6f0fb87c31cae6ac4cc1d95b2bf39b783bb443cfb02b736e2ac2b",
+      "size": 5351,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_1_final_only_1.npz": {
+      "sha256": "1d3489f1aea0c1cb1ee2e39ea6f94b5adecd1e10d6474fc1e81cb4bb1436235a",
+      "size": 44596,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_every_epoch_0.json": {
+      "sha256": "e945f297c621951c8f6280251df5b4b91857fd0cde5c6a7c5914b223bdf94b0f",
+      "size": 6241,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_every_epoch_0.npz": {
+      "sha256": "ed6abbcce2549f8dc32d49c44c956c3b3c72048894b2fea95b7477b3a489531d",
+      "size": 44466,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_every_epoch_1.json": {
+      "sha256": "4f4e4105f83a0da257883dd824b4c88fbbfb1932c2810df2a4d4d72bf055a9dc",
+      "size": 6237,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_every_epoch_1.npz": {
+      "sha256": "ed6abbcce2549f8dc32d49c44c956c3b3c72048894b2fea95b7477b3a489531d",
+      "size": 44466,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_final_only_0.json": {
+      "sha256": "65c620f0fdbfe0cc0a28d0815294722ae9987634e91987f51712ff10dae66654",
+      "size": 5836,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_final_only_0.npz": {
+      "sha256": "ed6abbcce2549f8dc32d49c44c956c3b3c72048894b2fea95b7477b3a489531d",
+      "size": 44466,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_final_only_1.json": {
+      "sha256": "0cb38a9af4e0ba7f9c35f16fd45d298cf4df2f1d3857276190c5b795fcc1e1a0",
+      "size": 5837,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_2_final_only_1.npz": {
+      "sha256": "ed6abbcce2549f8dc32d49c44c956c3b3c72048894b2fea95b7477b3a489531d",
+      "size": 44466,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_every_epoch_0.json": {
+      "sha256": "f3395b1d14cffdbf039fa26d830755564e822f45cf97dc520ea32ef51594f531",
+      "size": 6798,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_every_epoch_0.npz": {
+      "sha256": "17646af14fcfda21538a55f7afb85accb5ed9c2961b36b980f9c0f8205099763",
+      "size": 44524,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_every_epoch_1.json": {
+      "sha256": "dfa576003265482e5ad9257b19b6d1645046272d5958a4fdbf1ec86cbca4d3be",
+      "size": 6797,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_every_epoch_1.npz": {
+      "sha256": "17646af14fcfda21538a55f7afb85accb5ed9c2961b36b980f9c0f8205099763",
+      "size": 44524,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_final_only_0.json": {
+      "sha256": "a20762685552181344f28096619d934457a645e99ec841a93bc5af5b12c0a149",
+      "size": 6329,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_final_only_0.npz": {
+      "sha256": "17646af14fcfda21538a55f7afb85accb5ed9c2961b36b980f9c0f8205099763",
+      "size": 44524,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_final_only_1.json": {
+      "sha256": "88ca9a924f35a5804fb899f52c97740da2e53a8d36646093930f8df165d6eee7",
+      "size": 6327,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_3_final_only_1.npz": {
+      "sha256": "17646af14fcfda21538a55f7afb85accb5ed9c2961b36b980f9c0f8205099763",
+      "size": 44524,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_every_epoch_0.json": {
+      "sha256": "b7dab4567b5697e7db9963004231f2e90f5748c265d1b31a32df897575e88cfd",
+      "size": 7921,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_every_epoch_0.npz": {
+      "sha256": "4bb42ddf9d7f1ad0a8e3e477f4d43b5af96854535b898d43d4d58b4ea9494aa4",
+      "size": 44544,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_every_epoch_1.json": {
+      "sha256": "5d677eda4a1e62f98e516566bd99549542a1329f05859f751b3e3686554e1375",
+      "size": 7915,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_every_epoch_1.npz": {
+      "sha256": "4bb42ddf9d7f1ad0a8e3e477f4d43b5af96854535b898d43d4d58b4ea9494aa4",
+      "size": 44544,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_final_only_0.json": {
+      "sha256": "fb795a907c874d90381b88aff6b65498fd10a0ebbd1ee1a9dfd4fe1c92fb4dc8",
+      "size": 7308,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_final_only_0.npz": {
+      "sha256": "4bb42ddf9d7f1ad0a8e3e477f4d43b5af96854535b898d43d4d58b4ea9494aa4",
+      "size": 44544,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_final_only_1.json": {
+      "sha256": "1f1f30ca1a1b30ae64c7e28e46b8ffdcd493d8c6d37d45f74c20b84c168baeff",
+      "size": 7301,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_emeans_fixed_5_final_only_1.npz": {
+      "sha256": "4bb42ddf9d7f1ad0a8e3e477f4d43b5af96854535b898d43d4d58b4ea9494aa4",
+      "size": 44544,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_every_epoch_0.json": {
+      "sha256": "c47129ac498e8a76d4348fb23fbec596b557bf46ce6faa5d7c9102c486ee0320",
+      "size": 4794,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_every_epoch_0.npz": {
+      "sha256": "e8811a509467ed356f3b5cc7d03a82bef7a43bb1558bc37daef579d4a25fcf8a",
+      "size": 41721,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_every_epoch_1.json": {
+      "sha256": "83965d91c9c7f5cad64a66f4f4b9113799e047ad5d9740ae9f523688e130c10e",
+      "size": 4800,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_every_epoch_1.npz": {
+      "sha256": "e8811a509467ed356f3b5cc7d03a82bef7a43bb1558bc37daef579d4a25fcf8a",
+      "size": 41721,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_final_only_0.json": {
+      "sha256": "20f18c26eca3c4ace03f99e341033b145576a2bd55d96a69fd5afd830c18ccf9",
+      "size": 4469,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_final_only_0.npz": {
+      "sha256": "e8811a509467ed356f3b5cc7d03a82bef7a43bb1558bc37daef579d4a25fcf8a",
+      "size": 41721,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_final_only_1.json": {
+      "sha256": "67bed40a89ce3bf90a228b98b659f78d23f57f963265c76b6b41df634198596d",
+      "size": 4472,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_1_final_only_1.npz": {
+      "sha256": "e8811a509467ed356f3b5cc7d03a82bef7a43bb1558bc37daef579d4a25fcf8a",
+      "size": 41721,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_every_epoch_0.json": {
+      "sha256": "f2b1c2d9b62aa994aa6549c4b3cee4bb7065d8b2ff70119736aeda81c5dd19bf",
+      "size": 17877,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_every_epoch_0.npz": {
+      "sha256": "45a5dd0a9ad6ff9e3d0e49c7d6152a058c55a4dc326a8cd34dea92a2eafb9a52",
+      "size": 43041,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_every_epoch_1.json": {
+      "sha256": "b80c807f8c4d1179be4967899b0c95b72ec7f66667553da1b5a221450ec4c0f6",
+      "size": 17876,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_every_epoch_1.npz": {
+      "sha256": "45a5dd0a9ad6ff9e3d0e49c7d6152a058c55a4dc326a8cd34dea92a2eafb9a52",
+      "size": 43041,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_final_only_0.json": {
+      "sha256": "677f50a2fbbaaf60c378907e5efe49ba631aaeb54558a01663cceb287edc30f1",
+      "size": 15888,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_final_only_0.npz": {
+      "sha256": "45a5dd0a9ad6ff9e3d0e49c7d6152a058c55a4dc326a8cd34dea92a2eafb9a52",
+      "size": 43041,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_final_only_1.json": {
+      "sha256": "be37c8ba7dd37f248a555f8b627d31187d6bdffa105d63d5b7dc1fd967c62ee2",
+      "size": 15880,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_25_final_only_1.npz": {
+      "sha256": "45a5dd0a9ad6ff9e3d0e49c7d6152a058c55a4dc326a8cd34dea92a2eafb9a52",
+      "size": 43041,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_every_epoch_0.json": {
+      "sha256": "3a918cb26fdf7b263cf6a20a1b1c09c9ded1958783f467d9846093e019e04ed0",
+      "size": 5339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_every_epoch_0.npz": {
+      "sha256": "85dce39e3bfa7fb0b34583bfe94a2128a4ebbf750ba1464526aba5e5bf5eff72",
+      "size": 42404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_every_epoch_1.json": {
+      "sha256": "4bc9b27d6ef9f3a92acd6744b6c361c7e8fc02c57e78173da0bdf2c6484562c6",
+      "size": 5341,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_every_epoch_1.npz": {
+      "sha256": "85dce39e3bfa7fb0b34583bfe94a2128a4ebbf750ba1464526aba5e5bf5eff72",
+      "size": 42404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_final_only_0.json": {
+      "sha256": "0c3222c8640942769aaded931f458c5f82a0ca36147109a051dd3f28a48ed98b",
+      "size": 4944,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_final_only_0.npz": {
+      "sha256": "85dce39e3bfa7fb0b34583bfe94a2128a4ebbf750ba1464526aba5e5bf5eff72",
+      "size": 42404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_final_only_1.json": {
+      "sha256": "311171311cdbbc8285ff93b89c6ff72d5a897a0098a3459b4b47c034c67aa627",
+      "size": 4944,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_2_final_only_1.npz": {
+      "sha256": "85dce39e3bfa7fb0b34583bfe94a2128a4ebbf750ba1464526aba5e5bf5eff72",
+      "size": 42404,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_every_epoch_0.json": {
+      "sha256": "f6bc8e3c724596dada7e39be8a906ec66885b54ea1b011ef0589f8ddf0936387",
+      "size": 5876,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_every_epoch_0.npz": {
+      "sha256": "34adfc3f9cccad234b63e0d73136c3a8845f035e8f21672f9fd64d685f797275",
+      "size": 42677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_every_epoch_1.json": {
+      "sha256": "73a88b59441cd5aa9420c905b702c4936500d70cdfcb805d4bb6afdd5066902e",
+      "size": 5884,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_every_epoch_1.npz": {
+      "sha256": "34adfc3f9cccad234b63e0d73136c3a8845f035e8f21672f9fd64d685f797275",
+      "size": 42677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_final_only_0.json": {
+      "sha256": "f46501b8078ac50e127a4df581d03778a65d44f51ccb311cd2ce6f28f92ed6a3",
+      "size": 5413,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_final_only_0.npz": {
+      "sha256": "34adfc3f9cccad234b63e0d73136c3a8845f035e8f21672f9fd64d685f797275",
+      "size": 42677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_final_only_1.json": {
+      "sha256": "e5d3e230fc7d13e742d18829b72773c69ba13f255ea6ef346eef075b24b76e55",
+      "size": 5415,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_3_final_only_1.npz": {
+      "sha256": "34adfc3f9cccad234b63e0d73136c3a8845f035e8f21672f9fd64d685f797275",
+      "size": 42677,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_every_epoch_0.json": {
+      "sha256": "14d8b564c58074bd78cad2cce334f70994fa2b76b667fed3369c7ad3250fc958",
+      "size": 6430,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_every_epoch_0.npz": {
+      "sha256": "d260d6b3cee4fa8178b53bf16db45dd8bb429155446fd64252ec0ee193d0caba",
+      "size": 42813,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_every_epoch_1.json": {
+      "sha256": "6388e06a2c5512b14f4fd7e33205108893e7aada7835b059ca2f497041ba563c",
+      "size": 6431,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_every_epoch_1.npz": {
+      "sha256": "d260d6b3cee4fa8178b53bf16db45dd8bb429155446fd64252ec0ee193d0caba",
+      "size": 42813,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_final_only_0.json": {
+      "sha256": "35d75432bed3bdc94c1ec7fe85aeaf29006137ece7ff5fe1c0ecf9053b6c6050",
+      "size": 5888,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_final_only_0.npz": {
+      "sha256": "d260d6b3cee4fa8178b53bf16db45dd8bb429155446fd64252ec0ee193d0caba",
+      "size": 42813,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_final_only_1.json": {
+      "sha256": "0fb432e8ef3f5ddadba02414e09e38ce47d19d67254beaac44b44e271c58eb83",
+      "size": 5885,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_4_final_only_1.npz": {
+      "sha256": "d260d6b3cee4fa8178b53bf16db45dd8bb429155446fd64252ec0ee193d0caba",
+      "size": 42813,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_every_epoch_0.json": {
+      "sha256": "5e00401d7cef482d010e3ba5a5bb4627f84688bdb0965e7ed5817de98c017bd3",
+      "size": 8596,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_every_epoch_0.npz": {
+      "sha256": "1cafcd2518cac8dc8768477534e686b74811c860c4e3d615efbaafd4119c85c1",
+      "size": 42990,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_every_epoch_1.json": {
+      "sha256": "3e1616bb723b0ea39370b464a24dcd377b645380ba7dc77d42bdead755b37c29",
+      "size": 8599,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_every_epoch_1.npz": {
+      "sha256": "1cafcd2518cac8dc8768477534e686b74811c860c4e3d615efbaafd4119c85c1",
+      "size": 42990,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_final_only_0.json": {
+      "sha256": "78b2423f5610f11a33cf6d5d6a89a903b0ba641db413818a9c9d89e9d14a30d9",
+      "size": 7777,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_final_only_0.npz": {
+      "sha256": "1cafcd2518cac8dc8768477534e686b74811c860c4e3d615efbaafd4119c85c1",
+      "size": 42990,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_final_only_1.json": {
+      "sha256": "26f53c5af8659556731d54019e29a9c30851e875cd6731759dfc753d66732965",
+      "size": 7778,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_lloyd_lloyd_8_final_only_1.npz": {
+      "sha256": "1cafcd2518cac8dc8768477534e686b74811c860c4e3d615efbaafd4119c85c1",
+      "size": 42990,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_double_3_final_only_0.json": {
+      "sha256": "aa409d58c2c7bf949c0b5b5cff969b7d1c460cce3c89527aaa4b55cf132f6b50",
+      "size": 6373,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_double_3_final_only_0.npz": {
+      "sha256": "d7ffc2913367551d41705e7aca2d7a2d214eb4a363ba2ea077c961b9062b02f4",
+      "size": 44750,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_double_3_final_only_1.json": {
+      "sha256": "bcbfaea11a67c1ed8937b44d198ce7d9aa9793682a0ee5efa3e277c5c1877c8e",
+      "size": 6370,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_double_3_final_only_1.npz": {
+      "sha256": "d7ffc2913367551d41705e7aca2d7a2d214eb4a363ba2ea077c961b9062b02f4",
+      "size": 44750,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_half_3_final_only_0.json": {
+      "sha256": "099a49d0552dbc0db0df5b13ab19012d83f753b08153d1ad42db2fd1deaa7f4f",
+      "size": 6433,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_half_3_final_only_0.npz": {
+      "sha256": "5caeb5e79998cbbaabf8f04352a6b1d6d8bdd34c5c2c808706a41e20b8cd5c21",
+      "size": 44651,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_half_3_final_only_1.json": {
+      "sha256": "192165be351c81705795510f8f98988d2f30892d3f787d0281e95ee72ebfaa5e",
+      "size": 6434,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_alpha_half_3_final_only_1.npz": {
+      "sha256": "5caeb5e79998cbbaabf8f04352a6b1d6d8bdd34c5c2c808706a41e20b8cd5c21",
+      "size": 44651,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_every_epoch_0.json": {
+      "sha256": "40d1e06c81227b28b09f551d3b73e218f510efaf2c5b0f71674c10c87c497b30",
+      "size": 5768,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_every_epoch_0.npz": {
+      "sha256": "e197a6b7644ba93b64b5accc0622e57fcc659e87e400e19bb642f3db6b613e07",
+      "size": 44481,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_every_epoch_1.json": {
+      "sha256": "f0d1630a9d01a5a71055f774032afd1a89bc8dc7ce85e2dedc4b5f03b43b04da",
+      "size": 5765,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_every_epoch_1.npz": {
+      "sha256": "e197a6b7644ba93b64b5accc0622e57fcc659e87e400e19bb642f3db6b613e07",
+      "size": 44481,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_final_only_0.json": {
+      "sha256": "08b180cbbe04a19e99d049d3aa02c1d11e1e38959fd999aff80394573088cfb7",
+      "size": 5446,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_final_only_0.npz": {
+      "sha256": "e197a6b7644ba93b64b5accc0622e57fcc659e87e400e19bb642f3db6b613e07",
+      "size": 44481,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_final_only_1.json": {
+      "sha256": "460f4892cb5d78ad383164e94617e6e3c77f45c3b8b81df3b93ba0b8a89c7a82",
+      "size": 5443,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_1_final_only_1.npz": {
+      "sha256": "e197a6b7644ba93b64b5accc0622e57fcc659e87e400e19bb642f3db6b613e07",
+      "size": 44481,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_every_epoch_0.json": {
+      "sha256": "2b81bafcb59aab6186d7d34dc60f0d01975fd26e72411baafab104e5acb17114",
+      "size": 6331,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_every_epoch_0.npz": {
+      "sha256": "516076364b8a2be5d33e99b07cc88a727757690a05d03bbe045c1ff5ad42d50e",
+      "size": 44715,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_every_epoch_1.json": {
+      "sha256": "1be036fd3c4d751de71d6d88d9d92e710097819cb4671ac1b38a9fcd9c5b39ec",
+      "size": 6333,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_every_epoch_1.npz": {
+      "sha256": "516076364b8a2be5d33e99b07cc88a727757690a05d03bbe045c1ff5ad42d50e",
+      "size": 44715,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_final_only_0.json": {
+      "sha256": "79bb6b66f9650e85b3f643547e597b13848c397ee05a418ba11183bf4b3d7999",
+      "size": 5932,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_final_only_0.npz": {
+      "sha256": "516076364b8a2be5d33e99b07cc88a727757690a05d03bbe045c1ff5ad42d50e",
+      "size": 44715,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_final_only_1.json": {
+      "sha256": "bf5c9e904289cc793a08f52b27dcc63a147bfede14e5c046bc2d62c633c4f690",
+      "size": 5930,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_2_final_only_1.npz": {
+      "sha256": "516076364b8a2be5d33e99b07cc88a727757690a05d03bbe045c1ff5ad42d50e",
+      "size": 44715,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_every_epoch_0.json": {
+      "sha256": "6a95cf9d09dba7c6a9d0f6c58abc0868bcd704a1333c1b3f95747f146b3dccb6",
+      "size": 6895,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_every_epoch_0.npz": {
+      "sha256": "97dd9ca6446e18a5afc1a55c632fd95c38da570367c6e2c8759df93f5c26e3ae",
+      "size": 44533,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_every_epoch_1.json": {
+      "sha256": "23fdd503ed11436a82a7d54ef09ce901e33e9574ba419eb1aa2405a1e3d3f460",
+      "size": 6896,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_every_epoch_1.npz": {
+      "sha256": "97dd9ca6446e18a5afc1a55c632fd95c38da570367c6e2c8759df93f5c26e3ae",
+      "size": 44533,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_final_only_0.json": {
+      "sha256": "a9dd67f572b8cdf4115882e82fcd50286af440234ee4a8b88ffd09dabfaa4cf0",
+      "size": 6433,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_final_only_0.npz": {
+      "sha256": "97dd9ca6446e18a5afc1a55c632fd95c38da570367c6e2c8759df93f5c26e3ae",
+      "size": 44533,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_final_only_1.json": {
+      "sha256": "8bb67d4d4da2f31757c2a59bc14568639aad9e8d02ec773a34587e2dd881de5c",
+      "size": 6425,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_3_final_only_1.npz": {
+      "sha256": "97dd9ca6446e18a5afc1a55c632fd95c38da570367c6e2c8759df93f5c26e3ae",
+      "size": 44533,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_every_epoch_0.json": {
+      "sha256": "2eabf2af86e615437158155822785a97a6a3f38cf7a09a792ae94f3549d7aa77",
+      "size": 8013,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_every_epoch_0.npz": {
+      "sha256": "275cd71e162d2c5e6817968414c510edd72d8299d9492093fa9c3efa7d88ead7",
+      "size": 44671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_every_epoch_1.json": {
+      "sha256": "c3fea9fa6569d46692008bb7c7002cedf8498afca54669061ba124aa6a1f9ed7",
+      "size": 8014,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_every_epoch_1.npz": {
+      "sha256": "275cd71e162d2c5e6817968414c510edd72d8299d9492093fa9c3efa7d88ead7",
+      "size": 44671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_final_only_0.json": {
+      "sha256": "d9d9ff339eb7e15a961099474725f2ebff9b8c769e59400585d8e0f430e4de31",
+      "size": 7396,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_final_only_0.npz": {
+      "sha256": "275cd71e162d2c5e6817968414c510edd72d8299d9492093fa9c3efa7d88ead7",
+      "size": 44671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_final_only_1.json": {
+      "sha256": "45a1c1bf377128fe73efed72446116d90bcb28d21fb297bc02ef0e1eede6d3fd",
+      "size": 7400,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_automatic_5_final_only_1.npz": {
+      "sha256": "275cd71e162d2c5e6817968414c510edd72d8299d9492093fa9c3efa7d88ead7",
+      "size": 44671,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_double_3_final_only_0.json": {
+      "sha256": "33a950e6c5a3323c599584a368ac63ad4e84482c9f0c4458b8620a4022bd8027",
+      "size": 6373,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_double_3_final_only_0.npz": {
+      "sha256": "2345361a705fd2f557c7119c1acc0a5863d564baf5138b525afd1a212a5be3e5",
+      "size": 44798,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_double_3_final_only_1.json": {
+      "sha256": "1539a07c65e9401cb0716aa9c137b10718fcfb42ea5c501d9ae660740423cfe1",
+      "size": 6374,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_double_3_final_only_1.npz": {
+      "sha256": "2345361a705fd2f557c7119c1acc0a5863d564baf5138b525afd1a212a5be3e5",
+      "size": 44798,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_half_3_final_only_0.json": {
+      "sha256": "0da607923f21072eb1b902709c186c50193510fd16df507061cee2d487570ef1",
+      "size": 6411,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_half_3_final_only_0.npz": {
+      "sha256": "b58f1e4016c8e84ce23df22616a7d064eaaa8bf0b0286684b00b166e6d26cbf1",
+      "size": 44691,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_half_3_final_only_1.json": {
+      "sha256": "86bb0cc0228abc910d421dab28f1458f04d47da192ae53be9e93490357509771",
+      "size": 6410,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_batch_half_3_final_only_1.npz": {
+      "sha256": "b58f1e4016c8e84ce23df22616a7d064eaaa8bf0b0286684b00b166e6d26cbf1",
+      "size": 44691,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_every_epoch_0.json": {
+      "sha256": "7f735423ef680b73bcb43daf50e4bce52f294c8af515dffcb1430b0e87ea9bd7",
+      "size": 5710,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_every_epoch_0.npz": {
+      "sha256": "908959121d26521e75913e334383445eb231c9590d1af0ff939be13bdf3c069b",
+      "size": 44586,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_every_epoch_1.json": {
+      "sha256": "7cee748203e4d5e619185e7b8d7946a3941e2a0bfe9a79368a570c8634be1882",
+      "size": 5712,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_every_epoch_1.npz": {
+      "sha256": "908959121d26521e75913e334383445eb231c9590d1af0ff939be13bdf3c069b",
+      "size": 44586,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_final_only_0.json": {
+      "sha256": "85938dc677f4b6c4a5895e9279f82d2313c8a016c37a11adc10a7e488b5b9670",
+      "size": 5382,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_final_only_0.npz": {
+      "sha256": "908959121d26521e75913e334383445eb231c9590d1af0ff939be13bdf3c069b",
+      "size": 44586,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_final_only_1.json": {
+      "sha256": "ca5b5d70a4198c79caead1d76dba0a45ff8fd0c163415fd4e96c1fe16d9ece09",
+      "size": 5384,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_1_final_only_1.npz": {
+      "sha256": "908959121d26521e75913e334383445eb231c9590d1af0ff939be13bdf3c069b",
+      "size": 44586,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_every_epoch_0.json": {
+      "sha256": "7dd0181d9ce34d429bc2bec17c7048d87ed34b3795b13c698faa442d28f8a720",
+      "size": 6277,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_every_epoch_0.npz": {
+      "sha256": "a807ea133c7abb1bf80e91e421f1e470a7313371a88e0ec512171a986377a14b",
+      "size": 44668,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_every_epoch_1.json": {
+      "sha256": "00e109e9c7c7fc23416ab495b36082ea1e26d066a05eefc113d71f895669f421",
+      "size": 6273,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_every_epoch_1.npz": {
+      "sha256": "a807ea133c7abb1bf80e91e421f1e470a7313371a88e0ec512171a986377a14b",
+      "size": 44668,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_final_only_0.json": {
+      "sha256": "e725122566ad4ca73838a88990cbcef996b464dbcd5ca62aadc5464821f08194",
+      "size": 5876,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_final_only_0.npz": {
+      "sha256": "a807ea133c7abb1bf80e91e421f1e470a7313371a88e0ec512171a986377a14b",
+      "size": 44668,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_final_only_1.json": {
+      "sha256": "e49140e63087251946f257a19e3f59a19276ff7ac7ffcd04555e4ea3f119c8b3",
+      "size": 5878,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_2_final_only_1.npz": {
+      "sha256": "a807ea133c7abb1bf80e91e421f1e470a7313371a88e0ec512171a986377a14b",
+      "size": 44668,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_every_epoch_0.json": {
+      "sha256": "96cebc6c3e7b0be479a94dc5d82ab87f56f7f938204bf470cbae7527ade57a54",
+      "size": 6830,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_every_epoch_0.npz": {
+      "sha256": "48a80f8757f98eba7e8e3332337880693f29a1d1554e70a7bb4b311d02259e9e",
+      "size": 44623,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_every_epoch_1.json": {
+      "sha256": "5b54f6cc34bfe745e91aee3e39e78e8a1ced245b6328d94b9a3bad270516a1c9",
+      "size": 6828,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_every_epoch_1.npz": {
+      "sha256": "48a80f8757f98eba7e8e3332337880693f29a1d1554e70a7bb4b311d02259e9e",
+      "size": 44623,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_final_only_0.json": {
+      "sha256": "6a012bd68c073f2eaca0b89136e868d25b0df86134ab133302ad0bc0188bae38",
+      "size": 6362,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_final_only_0.npz": {
+      "sha256": "48a80f8757f98eba7e8e3332337880693f29a1d1554e70a7bb4b311d02259e9e",
+      "size": 44623,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_final_only_1.json": {
+      "sha256": "b149ecf8ec89c8a0884ee014d1390681cf9e8e21b9d1510bc360764f42622b75",
+      "size": 6361,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_3_final_only_1.npz": {
+      "sha256": "48a80f8757f98eba7e8e3332337880693f29a1d1554e70a7bb4b311d02259e9e",
+      "size": 44623,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_every_epoch_0.json": {
+      "sha256": "8498f639c30a35415e0cc57bb81c52dd271d0e823fe01adbd1faef104406629e",
+      "size": 7956,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_every_epoch_0.npz": {
+      "sha256": "76a68873bbcfdc0ebc255c4a573a04f3d538c93138430954775e6df649548aac",
+      "size": 44694,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_every_epoch_1.json": {
+      "sha256": "be0b81dba41e8d0110b05ead97577eeb94afed7074aac3351c0b315fa1dba0d4",
+      "size": 7943,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_every_epoch_1.npz": {
+      "sha256": "76a68873bbcfdc0ebc255c4a573a04f3d538c93138430954775e6df649548aac",
+      "size": 44694,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_final_only_0.json": {
+      "sha256": "232cffb55b35efbd300bad50a993886e23b19f134a08bbd6ea5d1cbd4950a528",
+      "size": 7339,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_final_only_0.npz": {
+      "sha256": "76a68873bbcfdc0ebc255c4a573a04f3d538c93138430954775e6df649548aac",
+      "size": 44694,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_final_only_1.json": {
+      "sha256": "59211d3c3d96a6beef85171d1546e50ac9eda921c9d121c6583d9e8832225c98",
+      "size": 7334,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_0_float32_slow_ema_fixed_5_final_only_1.npz": {
+      "sha256": "76a68873bbcfdc0ebc255c4a573a04f3d538c93138430954775e6df649548aac",
+      "size": 44694,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_float32_quality.png": {
+      "sha256": "222fd0aff96d3c11680cf5b1615bdaa7e4b45d56bac7a34b0fca9c0bcda11316",
+      "size": 152975,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_seed0_float32_calibration.json": {
+      "sha256": "2936c5b46b74b68cf1df40aa4c4d4b320cab18df1c767b1db4fb83f45c9d5a11",
+      "size": 7541,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/glove100_seed0_float32_calibration.npz": {
+      "sha256": "cd839d136a09f30d8108ced9b9f4e750243a39e215098268f8604a6fe6491c04",
+      "size": 66886,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/manifest.json": {
+      "sha256": "a2ed7fe608d6db13338cdc58f40396b4dc7918832f7e44fa0ae2babc58f02a0f",
+      "size": 64977,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/metrics.csv": {
+      "sha256": "3ac1e2182e309e79d33336f26203243056016f8e89fa674f307beff9a6f49a4c",
+      "size": 39782,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/planned_jobs.json": {
+      "sha256": "587758f2ee372c871067027bf7f840043d23d5a3783133513fa24178afd8041a",
+      "size": 399099,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/source.zip": {
+      "sha256": "f76aeaee1c562af9ba08b218d25da145ad4ed985b442888aa2f9a1db139a1b8e",
+      "size": 136829,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/summary.json": {
+      "sha256": "911ea6695f243a099abc1dc9b8c0ffa0f213841118859e145ba07653567e1b77",
+      "size": 775750,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/validation_report.json": {
+      "sha256": "c58d09176fbffef454c30d0c016b2eaffa332d601788e29b76d3d654c015d3c7",
+      "size": 1037,
+      "extracted": true
+    },
+    "phase4-pilot-001/quality/validation_suite.xml": {
+      "sha256": "52497ada69965a888fcd4106e42e1459cd1f60ee57d472627f3e318f593b6864",
+      "size": 23949,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/__pycache__/base.cpython-311.pyc": {
+      "sha256": "5ba52ac565158a2cd43d66bad8d15bda963c192feaacc9a06ecbf67989b5b625",
+      "size": 22165,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/__pycache__/e_means.cpython-311.pyc": {
+      "sha256": "1ac6070040091e0bcc9762cf818d0998944fac183f0983ef789520126507fc88",
+      "size": 34113,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/__pycache__/e_means_torch.cpython-311.pyc": {
+      "sha256": "25d5463b30a46f2724c5858a569e48b50c4bb575382dd8a8e34a0018f05e76c4",
+      "size": 54432,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/__pycache__/torch_backend.cpython-311.pyc": {
+      "sha256": "56c4b6163d586d5942950a862427e7d7a3c6cefae7db9fb9e596f3098d8212b6",
+      "size": 27087,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/base.py": {
+      "sha256": "bcffd7829ebfc25e1354308770b49e6f99d8566ba5e474a41a22e9ec414b17cd",
+      "size": 18356,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/e_means.py": {
+      "sha256": "b1710504fdbef21efdd33d8489a56f8e7fc6056182afbed3f355985302c2e77c",
+      "size": 26204,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/e_means_torch.py": {
+      "sha256": "cddc5ed1f1121c96406055fe6f50e93c049d0e09be27dc07dbe03e5c8e7ef4d3",
+      "size": 45335,
+      "extracted": true
+    },
+    "phase4-pilot-001/reference/torch_backend.py": {
+      "sha256": "eb7dc8a41fc098604e86d0dcaa28106df5eed79670d278fe5bfbd573a605355c",
+      "size": 18830,
+      "extracted": true
+    },
+    "phase4-pilot-001/run.log": {
+      "sha256": "4f63793e17e397f73b4afce7e6f7dddc840f9eab900039f237c8d2f692eab766",
+      "size": 631,
+      "extracted": true
+    },
+    "phase4-pilot-001/validation/pytest.log": {
+      "sha256": "fadb2db087a113968b1f263cb575584fae3ddff74f0011cd71a5b71789100709",
+      "size": 17654,
+      "extracted": true
+    },
+    "phase4-pilot-001/validation/report.json": {
+      "sha256": "c58d09176fbffef454c30d0c016b2eaffa332d601788e29b76d3d654c015d3c7",
+      "size": 1037,
+      "extracted": true
+    },
+    "phase4-pilot-001/validation/suite.xml": {
+      "sha256": "52497ada69965a888fcd4106e42e1459cd1f60ee57d472627f3e318f593b6864",
+      "size": 23949,
+      "extracted": true
+    }
+  }
+}

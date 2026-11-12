@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "e-means-research"
 version = "0.1.0"
-description = "Independent, paper-mapped NumPy e-means and Lloyd clustering"
-readme = {text = "Independent NumPy/PyTorch Lloyd and e-means research implementation. Paper: https://arxiv.org/abs/2611.09501. CUDA tooling is prepared; NVIDIA validation is required before GPU claims.", content-type = "text/plain"}
+description = "Independent NumPy/PyTorch e-means reproduction with audited CPU and A40 experiments"
+readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24,<3"]
 

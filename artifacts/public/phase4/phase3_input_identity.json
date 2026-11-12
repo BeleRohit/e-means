@@ -1,0 +1,17 @@
+[
+  {
+    "workload": "gaussian256",
+    "exact_phase3_input_hash": true,
+    "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc"
+  },
+  {
+    "workload": "gaussian1024",
+    "exact_phase3_input_hash": true,
+    "data_and_init_sha256": "e1a1c41eee7c21322b11d9ea730ecb21822363cf62f09b3997628278d8edd20d"
+  },
+  {
+    "workload": "glove100",
+    "exact_phase3_input_hash": true,
+    "data_and_init_sha256": "9a48a7863f787f4e891a1db28511bb889fc901d2592b9da6228fa245f6c5cf7a"
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "artifact_sha256": "7b007bed1b5d058c9b879f155ec169159ec6ae62a181401d6b45ae1c22529550",
+  "baseline_allocated_bytes": 331776,
+  "baseline_reserved_bytes": 2097152,
+  "config": {
+    "alpha0": 0.2,
+    "alpha_min_factor": 0.1,
+    "assignment_chunk_size": 256,
+    "batch_size": 64,
+    "centroid_chunk_size": 64,
+    "drop_last": false,
+    "dtype": "float32",
+    "epochs": 3,
+    "finalize": "last_epoch_mean",
+    "initial_mass": 1e-10,
+    "n_clusters": 8,
+    "revival_interval": 5,
+    "revival_threshold": 0.1,
+    "seed": 0,
+    "slow_ema_factor": null,
+    "slow_half_life": null,
+    "split_epsilon": 0.0078125
+  },
+  "convergence": [
+    {
+      "epoch": 0,
+      "stage": "main_state",
+      "test_mse": 377.2236485481262,
+      "train_mse": 365.5091717839241,
+      "wall_seconds": 0.024334067944437265
+    },
+    {
+      "epoch": 1,
+      "stage": "main_state",
+      "test_mse": 148.98936450481415,
+      "train_mse": 142.59648387134075,
+      "wall_seconds": 0.09870696102734655
+    },
+    {
+      "epoch": 2,
+      "stage": "main_state",
+      "test_mse": 147.9229045510292,
+      "train_mse": 141.5321572124958,
+      "wall_seconds": 0.1708005729597062
+    },
+    {
+      "epoch": 3,
+      "stage": "main_state",
+      "test_mse": 147.9141035079956,
+      "train_mse": 141.48373812437057,
+      "wall_seconds": 0.24398362694773823
+    },
+    {
+      "epoch": 3,
+      "stage": "final_readout",
+      "test_mse": 147.7523409128189,
+      "train_mse": 141.39843919873238,
+      "wall_seconds": 0.2600836289348081
+    }
+  ],
+  "cuda_event_elapsed_seconds": 0.26007192993164063,
+  "data_and_init_sha256": "bdc6329edc10c441145ffe9302ccf1b54d978d81a79d124ba3c5ae3a332a4f5d",
+  "dtype": "float32",
+  "evaluation_seconds": 0.0696972511941567,
+  "finalization_seconds": 0.00039205700159072876,
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-d52f286c-e74d-721a-5f53-25f44524af12, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "d52f286c-e74d-721a-5f53-25f44524af12"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "evaluation_seconds": 0.022480710060335696,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 377.2236485481262,
+      "train_mse": 365.5091717839241,
+      "training_seconds": 0,
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "evaluation_seconds": 0.03831216413527727,
+      "moving_mse": 187.1580252200365,
+      "revivals": 1,
+      "test_mse": 148.98936450481415,
+      "train_mse": 142.59648387134075,
+      "training_seconds": 0.0584720210172236,
+      "updates": 8
+    },
+    {
+      "epoch": 2,
+      "evaluation_seconds": 0.05397914117202163,
+      "moving_mse": 143.87377694249153,
+      "revivals": 1,
+      "test_mse": 147.9229045510292,
+      "train_mse": 141.5321572124958,
+      "training_seconds": 0.11486722494009882,
+      "updates": 16
+    },
+    {
+      "epoch": 3,
+      "evaluation_seconds": 0.0696972511941567,
+      "moving_mse": 142.22505666315556,
+      "revivals": 1,
+      "test_mse": 147.9141035079956,
+      "train_mse": 141.48373812437057,
+      "training_seconds": 0.17229543288704008,
+      "updates": 24
+    }
+  ],
+  "incremental_peak_allocated_bytes": 526848,
+  "initial_host_to_device_seconds": 0.0008539250120520592,
+  "method": "emeans",
+  "peak_allocated_bytes": 858624,
+  "peak_reserved_bytes": 2097152,
+  "recipe": {
+    "alpha0": 0.2,
+    "alpha_source": "explicit",
+    "batch_size": 64,
+    "batch_source": "explicit",
+    "drop_last": false,
+    "steps_per_epoch": 8,
+    "total_steps": 24
+  },
+  "repeat": 0,
+  "resident_fit_wall_seconds": 0.26015081093646586,
+  "returned_test_time_to_target": {
+    "censored_at_seconds": 0.2600836289348081,
+    "reached": false,
+    "seconds": null,
+    "target": 131.59514156103134
+  },
+  "returned_train_time_to_target": {
+    "censored_at_seconds": 0.2600836289348081,
+    "reached": false,
+    "seconds": null,
+    "target": 126.18844619946181
+  },
+  "seed": 0,
+  "source_sha256": "42baee29f1e331c4f2ea9acc69ef44cae97479ccfdd80a5d28c146f870589ec5",
+  "status": "gpu_measured",
+  "target_observation_scope": "monitored main state or final readout; stage explicitly tagged",
+  "test_mse": 147.7523409128189,
+  "test_time_to_target": {
+    "censored_at_seconds": 0.2600836289348081,
+    "reached": false,
+    "seconds": null,
+    "target": 131.59514156103134
+  },
+  "train_mse": 141.39843919873238,
+  "train_time_to_target": {
+    "censored_at_seconds": 0.2600836289348081,
+    "reached": false,
+    "seconds": null,
+    "target": 126.18844619946181
+  },
+  "training_loop_seconds": 0.17229543288704008,
+  "training_vectors_per_loop_second": 8914.919996788474,
+  "training_vectors_per_resident_fit_second": 5904.267584140349,
+  "training_vectors_seen": 1536,
+  "workload": "gaussian128_smoke"
+}

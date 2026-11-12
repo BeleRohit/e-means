@@ -1,0 +1,14 @@
+{
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "numpy": "2.5.4",
+    "torch": "2.15.0",
+    "pytest": "9.2.0",
+    "faiss-cpu": "1.16.0",
+    "matplotlib": "3.11.2"
+  },
+  "cuda_available": false,
+  "validation_device": "cpu",
+  "notes": "CUDA availability checked with torch.cuda.is_available(); no MPS benchmarks or GPU performance measurements performed."
+}

@@ -1,0 +1,190 @@
+{
+  "caveat": "single-host CPU arithmetic/assignment comparison with revival disabled; not official GPU speedup evidence",
+  "gpu_verified": false,
+  "parity": [
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 0,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 0,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 1,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 1,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 2,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 2,
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 0,
+      "workload": "glove100_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 0,
+      "workload": "glove100_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 1,
+      "workload": "glove100_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 1,
+      "workload": "glove100_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 0,
+      "seed": 2,
+      "workload": "glove100_smoke"
+    },
+    {
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0,
+      "repeat": 1,
+      "seed": 2,
+      "workload": "glove100_smoke"
+    }
+  ],
+  "status": "cpu_measured",
+  "summary": [
+    {
+      "method": "authors_faiss_cpu",
+      "solver_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.006508421851322055,
+        "std": 0.00016106638153912329
+      },
+      "test_mse": {
+        "independent_seeds": 3,
+        "mean": 154.41905426830215,
+        "std": 10.233170488563502
+      },
+      "total_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.00955828616861254,
+        "std": 0.0005078606340443449
+      },
+      "train_mse": {
+        "independent_seeds": 3,
+        "mean": 147.0003042202653,
+        "std": 9.036799122771315
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "method": "numpy_primitives",
+      "solver_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.017185340984724462,
+        "std": 0.0012843214340768822
+      },
+      "test_mse": {
+        "independent_seeds": 3,
+        "mean": 154.41905426830215,
+        "std": 10.233170488563502
+      },
+      "total_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.02007030330908795,
+        "std": 0.001505220608727361
+      },
+      "train_mse": {
+        "independent_seeds": 3,
+        "mean": 147.0003042202653,
+        "std": 9.036799122771315
+      },
+      "workload": "gaussian128_smoke"
+    },
+    {
+      "method": "authors_faiss_cpu",
+      "solver_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.006453057168982923,
+        "std": 0.0011775967873031486
+      },
+      "test_mse": {
+        "independent_seeds": 3,
+        "mean": 28.245774773003475,
+        "std": 0.3443425862595423
+      },
+      "total_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.008700155982902894,
+        "std": 0.001351359900549277
+      },
+      "train_mse": {
+        "independent_seeds": 3,
+        "mean": 28.237019562553844,
+        "std": 0.5067343454978543
+      },
+      "workload": "glove100_smoke"
+    },
+    {
+      "method": "numpy_primitives",
+      "solver_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.015337314825349798,
+        "std": 0.0022052082278922005
+      },
+      "test_mse": {
+        "independent_seeds": 3,
+        "mean": 28.245774773003475,
+        "std": 0.3443425862595423
+      },
+      "total_wall_seconds": {
+        "independent_seeds": 3,
+        "mean": 0.01757935849794497,
+        "std": 0.0020113203768408507
+      },
+      "train_mse": {
+        "independent_seeds": 3,
+        "mean": 28.237019562553844,
+        "std": 0.5067343454978543
+      },
+      "workload": "glove100_smoke"
+    }
+  ],
+  "verified_fits": 24
+}

@@ -1,42 +1,44 @@
+# Local environments and generated caches.
 .venv/
 __pycache__/
 .pytest_cache/
 *.egg-info/
 build/
 dist/
-.paper2code_work/
-results/
-data/*.npz
-data/*.zip
 .mplconfig/
+.paper2code_work/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
 
-# Keep research notes locally; publish code and essential reproducibility inputs.
-*.md
-*.MD
-!/README.md
-notebooks/
-docs/*
-!docs/sources.json
-data/*
-!data/glove100_source.json
-
-# Local tooling, credentials, generated packages and editor files.
+# Private account/controller metadata, raw evidence exports and local bundles.
+results/
+archives/
 .agents/
 .codex/
 .aws/
 .env
 .env.*
 !.env.example
-.DS_Store
-.idea/
-.vscode/
-*.log
 *.pem
 *.key
-*.hdf5
-*.bin
+*.log
 *.tar.gz
 *.tar.gz.sha256
 *.zip
-.coverage
-htmlcov/
+
+# Reacquire datasets with the pinned fetchers; publish provenance only.
+data/*
+!data/README.md
+!data/glove100_source.json
+!data/optdigits.json
+!data/pendigits.json
+*.hdf5
+*.bin
+
+# Public evidence is explicitly curated under artifacts/public/ and docs/figures/.
+
+# Small independent historical source snapshots are essential audit inputs.
+!artifacts/public/runs/**/source.zip

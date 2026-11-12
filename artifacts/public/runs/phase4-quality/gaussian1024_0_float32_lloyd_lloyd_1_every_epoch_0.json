@@ -1,0 +1,161 @@
+{
+  "actual_epochs": 1,
+  "artifact_sha256": "0a7638b730bfaedf9a9566a39ef326bfba36d39107149e7bf6d677492c7cc9b7",
+  "baseline_allocated_bytes": 21102592,
+  "baseline_reserved_bytes": 69206016,
+  "budget": 1,
+  "config": {
+    "assignment_chunk_size": 1024,
+    "centroid_chunk_size": 64,
+    "dtype": "float32",
+    "max_iter": 1,
+    "n_clusters": 32,
+    "seed": 0,
+    "tol": 0.0
+  },
+  "cuda_event_seconds": 0.6755816040039062,
+  "data_and_init_sha256": "e1a1c41eee7c21322b11d9ea730ecb21822363cf62f09b3997628278d8edd20d",
+  "diagnostic": {
+    "diagnostic_wall_seconds": 0.6736634190892801,
+    "distance_pairs": {
+      "evaluation": 327680,
+      "final_test": 32768,
+      "publish": 131072,
+      "training": 131072
+    },
+    "points": [
+      {
+        "all_distance_pairs": 163840,
+        "epoch": 0,
+        "stage": "main_state",
+        "test_mse": 2491.620071530342,
+        "train_mse": 2462.728525906801,
+        "training_distance_pairs": 0,
+        "wall_seconds": 0.1797098689712584
+      },
+      {
+        "all_distance_pairs": 458752,
+        "epoch": 1,
+        "stage": "main_state",
+        "test_mse": 1297.68246114254,
+        "train_mse": 1286.321971565485,
+        "training_distance_pairs": 131072,
+        "wall_seconds": 0.4973887699889019
+      },
+      {
+        "all_distance_pairs": 622592,
+        "epoch": 1,
+        "stage": "returned",
+        "test_mse": 1297.68246114254,
+        "train_mse": 1286.321971565485,
+        "training_distance_pairs": 131072,
+        "wall_seconds": 0.6733481510309502
+      }
+    ],
+    "profiling_enabled": false,
+    "purpose": "diagnostic only; primary latency is the separate unprofiled fit",
+    "ranges": {
+      "assignment/evaluation": {
+        "calls": 4,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.3551951681729406
+      },
+      "assignment/final_test": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.03615042008459568
+      },
+      "assignment/publish": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.1395192820345983
+      },
+      "assignment/training": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.1397560479817912
+      },
+      "evaluation": {
+        "calls": 2,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.35567261499818414
+      },
+      "publish": {
+        "calls": 1,
+        "cuda_stream_span_seconds": null,
+        "host_inclusive_seconds": 0.13966460805386305
+      }
+    },
+    "replay_outputs_exact": true,
+    "timing_caveat": "inclusive nested ranges overlap; CUDA stream spans contain submission gaps; do not sum or call kernel time"
+  },
+  "dtype": "float32",
+  "evaluation": "every_epoch",
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-7c01fb29-ab82-970f-1796-7c6cc8bb284d, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "7c01fb29-ab82-970f-1796-7c6cc8bb284d"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "evaluation_seconds": 0.17607383499853313,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 2491.620071530342,
+      "train_mse": 2462.728525906801,
+      "training_seconds": 0,
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "evaluation_seconds": 0.35447401902638376,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 1297.68246114254,
+      "train_mse": 1286.321971565485,
+      "training_seconds": 0.1410706709139049,
+      "updates": 1
+    }
+  ],
+  "integrated_finalizer_wall_seconds": null,
+  "method": "lloyd",
+  "peak_allocated_bytes": 50774528,
+  "peak_reserved_bytes": 69206016,
+  "recipe": null,
+  "recipe_resolution": null,
+  "repeat": 0,
+  "seed": 0,
+  "source_sha256": "df38023f14ce1594f5706ebc8e6b99e71b7906163bdc09d948d821d108466093",
+  "status": "gpu_measured",
+  "targets": {
+    "0.99": {
+      "test_mse": 1184.0219620746375,
+      "train_mse": 1159.725446781814
+    },
+    "1.001": {
+      "test_mse": 1197.1777616532443,
+      "train_mse": 1172.6112850793897
+    }
+  },
+  "test_mse": 1297.68246114254,
+  "timing": "unprofiled synchronized resident fit plus returned train/test evaluation; H2D excluded",
+  "train_mse": 1286.321971565485,
+  "variant": "lloyd",
+  "wall_seconds": 0.6757712379330769,
+  "workload": "gaussian1024"
+}

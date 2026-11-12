@@ -1,0 +1,63 @@
+{
+  "common": {
+    "assignment_chunk_size": 1024,
+    "centroid_chunk_size": 64
+  },
+  "dtypes": [
+    "float32",
+    "float64"
+  ],
+  "e_means": {
+    "alpha0": 0.2,
+    "batch_size": 256,
+    "drop_last": false,
+    "epochs": 5
+  },
+  "lloyd": {
+    "max_iter": 25,
+    "tol": 0.0
+  },
+  "repeats": 3,
+  "schema_version": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "slow_ema": {
+    "slow_ema_factor": 0.25
+  },
+  "target_relative_slack": 0.001,
+  "warmups": 1,
+  "workloads": [
+    {
+      "center_scale": 1.0,
+      "data_seed": 2718,
+      "kind": "synthetic",
+      "n_clusters": 64,
+      "n_features": 256,
+      "n_test": 2048,
+      "n_train": 8192,
+      "name": "gaussian256",
+      "noise_scale": 1.0
+    },
+    {
+      "center_scale": 1.0,
+      "data_seed": 31415,
+      "kind": "synthetic",
+      "n_clusters": 32,
+      "n_features": 1024,
+      "n_test": 1024,
+      "n_train": 4096,
+      "name": "gaussian1024",
+      "noise_scale": 1.0
+    },
+    {
+      "array_sha256": "a85b3b6fa7a7616130acc82d3a4ab7709bd086765d4df91f7970093875f1e404",
+      "kind": "embedding",
+      "n_clusters": 64,
+      "name": "glove100",
+      "path": "data/glove100_subset.npz"
+    }
+  ]
+}

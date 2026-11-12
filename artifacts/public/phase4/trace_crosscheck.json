@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "profiles": 9,
+  "kernel_launch_counts_match_independent_operator_tables": true,
+  "all_kernel_runtime_correlations_found": true,
+  "attribution_counts_complete": true,
+  "note": "Attribution remains diagnostic; no unprofiled utilization inferred."
+}

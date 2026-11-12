@@ -1,0 +1,13 @@
+{
+  "runs": [
+    "glove100_seed1_float32_emeans_repeat0.json",
+    "glove100_seed1_float32_slow_ema_repeat0.json",
+    "glove100_seed1_float32_lloyd_repeat0.json",
+    "glove100_seed1_float32_slow_ema_repeat1.json",
+    "glove100_seed1_float32_lloyd_repeat1.json",
+    "glove100_seed1_float32_emeans_repeat1.json",
+    "glove100_seed1_float32_lloyd_repeat2.json",
+    "glove100_seed1_float32_emeans_repeat2.json",
+    "glove100_seed1_float32_slow_ema_repeat2.json"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "artifact_sha256": "71eb051e4dc5801270724c8edfd8eb1c43094752a6917c5232c42a13665c9e67",
+  "baseline_allocated_bytes": 10551296,
+  "baseline_reserved_bytes": 46137344,
+  "config": {
+    "alpha0": 0.2,
+    "alpha_min_factor": 0.1,
+    "assignment_chunk_size": 1024,
+    "batch_size": 256,
+    "centroid_chunk_size": 64,
+    "drop_last": false,
+    "dtype": "float32",
+    "epochs": 5,
+    "finalize": "slow_ema",
+    "initial_mass": 1e-10,
+    "n_clusters": 64,
+    "revival_interval": 5,
+    "revival_threshold": 0.1,
+    "seed": 0,
+    "slow_ema_factor": 0.25,
+    "slow_half_life": null,
+    "split_epsilon": 0.0078125
+  },
+  "convergence": [
+    {
+      "epoch": 0,
+      "stage": "main_state",
+      "test_mse": 635.1066187918186,
+      "train_mse": 629.8821862451732,
+      "wall_seconds": 0.11842986498959363
+    },
+    {
+      "epoch": 1,
+      "stage": "main_state",
+      "test_mse": 291.48860788345337,
+      "train_mse": 285.42323910072446,
+      "wall_seconds": 0.6922950469888747
+    },
+    {
+      "epoch": 2,
+      "stage": "main_state",
+      "test_mse": 289.89206648617983,
+      "train_mse": 283.7115096542984,
+      "wall_seconds": 1.2516081870999187
+    },
+    {
+      "epoch": 3,
+      "stage": "main_state",
+      "test_mse": 280.7900684028864,
+      "train_mse": 274.4602337349206,
+      "wall_seconds": 1.825092019047588
+    },
+    {
+      "epoch": 4,
+      "stage": "main_state",
+      "test_mse": 279.61714789271355,
+      "train_mse": 273.18143537826836,
+      "wall_seconds": 2.415758416056633
+    },
+    {
+      "epoch": 5,
+      "stage": "main_state",
+      "test_mse": 279.4831179380417,
+      "train_mse": 273.0445910077542,
+      "wall_seconds": 2.992317656055093
+    },
+    {
+      "epoch": 5,
+      "stage": "final_readout",
+      "test_mse": 280.46741165965796,
+      "train_mse": 274.25896834023297,
+      "wall_seconds": 3.1023581770714372
+    }
+  ],
+  "cuda_event_elapsed_seconds": 3.102373291015625,
+  "data_and_init_sha256": "e41f95001da842b333805e5a4ae1272834fce249695d65f9c909573586eb9fbc",
+  "dtype": "float32",
+  "evaluation_seconds": 0.6549091320484877,
+  "finalization_seconds": 0.0006511190440505743,
+  "hardware": {
+    "capability": [
+      8,
+      6
+    ],
+    "cuda_runtime": "12.4",
+    "cuda_visible_devices": "0",
+    "cudnn": 90100,
+    "deterministic": true,
+    "name": "NVIDIA A40",
+    "numpy": "1.26.4",
+    "nvidia_smi": "0, GPU-d52f286c-e74d-721a-5f53-25f44524af12, NVIDIA A40, 595.91.07, 46068 MiB",
+    "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.35",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "tf32": false,
+    "torch": "2.5.1+cu124",
+    "total_memory": 47699722240,
+    "uuid": "d52f286c-e74d-721a-5f53-25f44524af12"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "evaluation_seconds": 0.11590907408390194,
+      "moving_mse": null,
+      "revivals": 0,
+      "test_mse": 635.1066187918186,
+      "train_mse": 629.8821862451732,
+      "training_seconds": 0,
+      "updates": 0
+    },
+    {
+      "epoch": 1,
+      "evaluation_seconds": 0.2227062351303175,
+      "moving_mse": 316.1662366259843,
+      "revivals": 22,
+      "test_mse": 291.48860788345337,
+      "train_mse": 285.42323910072446,
+      "training_seconds": 0.4669804769800976,
+      "updates": 32
+    },
+    {
+      "epoch": 2,
+      "evaluation_seconds": 0.3304978901287541,
+      "moving_mse": 288.46381925046444,
+      "revivals": 26,
+      "test_mse": 289.89206648617983,
+      "train_mse": 283.7115096542984,
+      "training_seconds": 0.9184556289110333,
+      "updates": 64
+    },
+    {
+      "epoch": 3,
+      "evaluation_seconds": 0.43775784608442336,
+      "moving_mse": 282.8984761442989,
+      "revivals": 32,
+      "test_mse": 280.7900684028864,
+      "train_mse": 274.4602337349206,
+      "training_seconds": 1.3846379210008308,
+      "updates": 96
+    },
+    {
+      "epoch": 4,
+      "evaluation_seconds": 0.5473427950637415,
+      "moving_mse": 276.6250512767583,
+      "revivals": 32,
+      "test_mse": 279.61714789271355,
+      "train_mse": 273.18143537826836,
+      "training_seconds": 1.8656780649907887,
+      "updates": 128
+    },
+    {
+      "epoch": 5,
+      "evaluation_seconds": 0.6549091320484877,
+      "moving_mse": 274.7396650519222,
+      "revivals": 32,
+      "test_mse": 279.4831179380417,
+      "train_mse": 273.0445910077542,
+      "training_seconds": 2.3346292569767684,
+      "updates": 160
+    }
+  ],
+  "incremental_peak_allocated_bytes": 15602688,
+  "initial_host_to_device_seconds": 0.0019492950523272157,
+  "method": "slow_ema",
+  "peak_allocated_bytes": 26153984,
+  "peak_reserved_bytes": 46137344,
+  "recipe": {
+    "alpha0": 0.2,
+    "alpha_source": "explicit",
+    "batch_size": 256,
+    "batch_source": "explicit",
+    "drop_last": false,
+    "slow_alpha": 0.005000000000000001,
+    "steps_per_epoch": 32,
+    "total_steps": 160
+  },
+  "repeat": 2,
+  "resident_fit_wall_seconds": 3.1024977940833196,
+  "returned_test_time_to_target": {
+    "epoch": 5,
+    "reached": true,
+    "seconds": 3.1023581770714372,
+    "stage": "final_readout",
+    "target": 296.20686795069275
+  },
+  "returned_train_time_to_target": {
+    "epoch": 5,
+    "reached": true,
+    "seconds": 3.1023581770714372,
+    "stage": "final_readout",
+    "target": 293.22234226582566
+  },
+  "seed": 0,
+  "source_sha256": "42baee29f1e331c4f2ea9acc69ef44cae97479ccfdd80a5d28c146f870589ec5",
+  "status": "gpu_measured",
+  "target_observation_scope": "monitored main state or final readout; stage explicitly tagged",
+  "test_mse": 280.46741165965796,
+  "test_time_to_target": {
+    "epoch": 1,
+    "reached": true,
+    "seconds": 0.6922950469888747,
+    "stage": "main_state",
+    "target": 296.20686795069275
+  },
+  "train_mse": 274.25896834023297,
+  "train_time_to_target": {
+    "epoch": 1,
+    "reached": true,
+    "seconds": 0.6922950469888747,
+    "stage": "main_state",
+    "target": 293.22234226582566
+  },
+  "training_loop_seconds": 2.3346292569767684,
+  "training_vectors_per_loop_second": 17544.54154876874,
+  "training_vectors_per_resident_fit_second": 13202.26563194133,
+  "training_vectors_seen": 40960,
+  "workload": "gaussian256"
+}

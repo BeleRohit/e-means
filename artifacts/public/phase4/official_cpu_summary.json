@@ -1,0 +1,190 @@
+{
+  "status": "cpu_measured",
+  "gpu_verified": false,
+  "verified_fits": 24,
+  "parity": [
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 0,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 0,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 1,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 1,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 2,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "seed": 2,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 0,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 0,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 1,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 1,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 2,
+      "repeat": 0,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    },
+    {
+      "workload": "glove100_smoke",
+      "seed": 2,
+      "repeat": 1,
+      "exact_centers": true,
+      "max_abs_center_difference": 0.0
+    }
+  ],
+  "summary": [
+    {
+      "workload": "gaussian128_smoke",
+      "method": "authors_faiss_cpu",
+      "solver_wall_seconds": {
+        "mean": 0.006508421851322055,
+        "std": 0.00016106638153912329,
+        "independent_seeds": 3
+      },
+      "total_wall_seconds": {
+        "mean": 0.00955828616861254,
+        "std": 0.0005078606340443449,
+        "independent_seeds": 3
+      },
+      "train_mse": {
+        "mean": 147.0003042202653,
+        "std": 9.036799122771315,
+        "independent_seeds": 3
+      },
+      "test_mse": {
+        "mean": 154.41905426830215,
+        "std": 10.233170488563502,
+        "independent_seeds": 3
+      }
+    },
+    {
+      "workload": "gaussian128_smoke",
+      "method": "numpy_primitives",
+      "solver_wall_seconds": {
+        "mean": 0.017185340984724462,
+        "std": 0.0012843214340768822,
+        "independent_seeds": 3
+      },
+      "total_wall_seconds": {
+        "mean": 0.02007030330908795,
+        "std": 0.001505220608727361,
+        "independent_seeds": 3
+      },
+      "train_mse": {
+        "mean": 147.0003042202653,
+        "std": 9.036799122771315,
+        "independent_seeds": 3
+      },
+      "test_mse": {
+        "mean": 154.41905426830215,
+        "std": 10.233170488563502,
+        "independent_seeds": 3
+      }
+    },
+    {
+      "workload": "glove100_smoke",
+      "method": "authors_faiss_cpu",
+      "solver_wall_seconds": {
+        "mean": 0.006453057168982923,
+        "std": 0.0011775967873031486,
+        "independent_seeds": 3
+      },
+      "total_wall_seconds": {
+        "mean": 0.008700155982902894,
+        "std": 0.001351359900549277,
+        "independent_seeds": 3
+      },
+      "train_mse": {
+        "mean": 28.237019562553844,
+        "std": 0.5067343454978543,
+        "independent_seeds": 3
+      },
+      "test_mse": {
+        "mean": 28.245774773003475,
+        "std": 0.3443425862595423,
+        "independent_seeds": 3
+      }
+    },
+    {
+      "workload": "glove100_smoke",
+      "method": "numpy_primitives",
+      "solver_wall_seconds": {
+        "mean": 0.015337314825349798,
+        "std": 0.0022052082278922005,
+        "independent_seeds": 3
+      },
+      "total_wall_seconds": {
+        "mean": 0.01757935849794497,
+        "std": 0.0020113203768408507,
+        "independent_seeds": 3
+      },
+      "train_mse": {
+        "mean": 28.237019562553844,
+        "std": 0.5067343454978543,
+        "independent_seeds": 3
+      },
+      "test_mse": {
+        "mean": 28.245774773003475,
+        "std": 0.3443425862595423,
+        "independent_seeds": 3
+      }
+    }
+  ],
+  "caveat": "single-host CPU arithmetic/assignment comparison with revival disabled; not official GPU speedup evidence"
+}
